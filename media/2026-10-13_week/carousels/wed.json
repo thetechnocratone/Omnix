@@ -1,0 +1,6 @@
+{"name": "wed_verify", "slides": [
+ {"kicker": "POV", "title": ["Your AI agent just", "paid a robot to", "fetch your coffee."], "body": "Cool. But who verifies that it actually happened?", "tag": "Swipe →"},
+ {"kicker": "ONE SHARED LEDGER", "title": ["People. Apps.", "AI agents."], "body": "OmniChain is being built so all of them can move value, and every action can be verified on-chain.", "tag": "OmniChain"},
+ {"kicker": "NISHQ", "title": ["The planned native", "utility asset"], "list": ["Transaction fees", "Staking", "Governance", "Agent services", "Robot services"], "note": "Nishq is a utility asset. Nothing here is financial advice.", "tag": "OmniChain"},
+ {"kicker": "WHITEPAPER · DRAFT v0.1", "title": ["The whitepaper's out.", "The build is on."], "body": "Read it and tell us where it breaks: theomnix.org/omnichain", "tag": "Link in bio"}
+]}
