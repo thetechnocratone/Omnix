@@ -6,6 +6,9 @@ Formats (pick by topic):
   chat      - DM-style satire between two parties, typing dots, popping bubbles.                    (humour, any topic)
   lineart   - A lotus/yantra pattern draws itself stroke by stroke, then the line appears.          (values, Bharat, vision)
   splitflap - Airport departures board flips letter by letter, with flap clicks.                    (announcements, punchlines)
+  kinetic   - Words punch in one per beat, backgrounds flip, twist lands at the end.                  (hot takes)
+  guess     - Question, options, 3-2-1 countdown, reveal + fact, comment prompt. VERIFIED facts only. (engagement)
+  loop      - 2-3 phrases cycle around a turning ring; last frame flows into the first (rewatches).  (any short ideas)
   card      - The original rising-words statement card (tools/card_reel.py).                        (anything)
 """
 import hashlib
@@ -461,4 +464,225 @@ class _Mono:
         return len(s)
 
 
-FORMATS = {"terminal": terminal, "chain": chain, "chat": chat, "lineart": lineart, "splitflap": splitflap}
+# ======================================================================= kinetic
+_FCACHE = {}
+
+
+def _f(kind, size):
+    key = (kind, int(size))
+    if key not in _FCACHE:
+        _FCACHE[key] = font(kind, int(size))
+    return _FCACHE[key]
+
+
+def kinetic(spec, out, seconds=None):
+    """Words punch in one per beat, big and centred, backgrounds flip; twist lands at the end."""
+    chunks, l2, tag = spec["chunks"], spec["l2"], spec.get("tag", "theomnix.org")
+    bpm = 112
+    step = 60 / bpm
+    T0 = 0.6
+    hits = [T0 + i * step for i in range(len(chunks))]
+    T_TWIST = hits[-1] + step * 1.5
+    if seconds is None:
+        seconds = max(11.0, T_TWIST + 6.0)
+    T_END = seconds - 2.8
+    palettes = [(CREAM, INK), (NIGHT, CREAM), (ORANGE, (255, 255, 255))]
+    sizes = []
+    for c in chunks:
+        sz = 200
+        while sz > 70 and _f("bold", sz).getlength(c) * 1.28 > W - 120:
+            sz -= 6
+        sizes.append(sz)
+    f2, s2 = fit_font("semi", l2, W - 220, 78)
+
+    def frame(t, beats):
+        if t < T_TWIST:
+            i = max(0, sum(1 for h in hits if t >= h) - 1)
+            bg, fg = palettes[(i // 2) % len(palettes)] if t >= hits[0] else palettes[0]
+            im, d = blank(bg)
+            if t >= hits[0]:
+                p = ease((t - hits[i]) / 0.18)
+                sz = sizes[i] * (1.28 - 0.28 * p)
+                f = _f("bold", sz)
+                txt = chunks[i]
+                tw = f.getlength(txt)
+                # previous word ghosted above
+                if i > 0:
+                    pf = _f("bold", sizes[i - 1] * 0.45)
+                    pt = chunks[i - 1]
+                    d.text(((W - pf.getlength(pt)) / 2, H / 2 - sz * 0.5 - 150), pt, font=pf, fill=lerp(bg, fg, 0.25))
+                d.text(((W - tw) / 2, H / 2 - sz * 0.62), txt, font=f, fill=lerp(bg, fg, min(1, p * 1.5)))
+            return im
+        im, d = blank(CREAM)
+        fade = 1 - ease((t - T_END) / 0.5)
+        if fade > 0:
+            lh = int(s2 * 1.3)
+            y = (H - lh * len(l2)) // 2 - 60
+            # the full chunk sentence, small, above the twist
+            sent = " ".join(chunks)
+            fs = font("reg", 44)
+            sl = wrap(sent, fs, W - 220)
+            yy = y - 70 * len(sl) - 40
+            for k, line in enumerate(sl):
+                d.text((110, yy + k * 62), line, font=fs, fill=lerp(CREAM, GREY, ease((t - T_TWIST) / 0.4) * fade))
+            _rise_words(d, l2, f2, 110, y, lh, T_TWIST + 0.2, 0.16, t, ORANGE, CREAM, fade)
+        if t > T_END + 0.3:
+            end_card(im, d, ease((t - T_END - 0.3) / 0.6), tag)
+        return im
+
+    return render(frame, seconds, out, mood="tech", beat=True, bpm=bpm)
+
+
+# ======================================================================= guess
+def guess(spec, out, seconds=16.0):
+    """Question -> options -> 3-2-1 countdown -> reveal + fact -> comment prompt. Facts must be verified."""
+    q, options, ans = spec["question"], spec["options"], spec["answer"]
+    reveal, tag = spec["reveal"], spec.get("tag", "theomnix.org")
+    cta = spec.get("cta", "Did you get it? Tell us in the comments.")
+    fq, sq = fit_font("semi", q, W - 220, 70)
+    fo = font("med", 46)
+    fr, sr_ = fit_font("reg", reveal, W - 220, 50)
+    T_Q, T_OPT, T_CD, T_REV = 0.4, 2.6, 4.4, 7.6
+    T_END = seconds - 2.8
+    qh = int(sq * 1.3) * len(q)
+    oh = 112
+    top = 300
+    oy0 = top + 80 + qh + 70
+    letters = "ABCD"
+
+    def frame(t, beats):
+        im, d = blank(CREAM)
+        fade = 1 - ease((t - T_END) / 0.5)
+        if fade > 0:
+            d.text((110, top), "GUESS FIRST", font=font("monob", 30), fill=lerp(CREAM, ORANGE, ease(t / 0.5) * fade))
+            _rise_words(d, q, fq, 110, top + 70, int(sq * 1.3), T_Q, 0.1, t, INK, CREAM, fade)
+            for k, opt in enumerate(options):
+                to = T_OPT + k * 0.25
+                p = ease_back((t - to) / 0.35)
+                if t < to:
+                    continue
+                y = oy0 + k * (oh + 24)
+                x = 110 + int(60 * (1 - min(1, p)))
+                revealed = t >= T_REV
+                right = k == ans
+                fill = (255, 255, 255)
+                outline, txt = SOFT, INK
+                if revealed:
+                    rp = ease((t - T_REV) / 0.3)
+                    if right:
+                        fill = lerp((255, 255, 255), ORANGE, rp)
+                        outline = ORANGE
+                        txt = lerp(INK, (255, 255, 255), rp)
+                    else:
+                        txt = lerp(INK, SOFT, rp)
+                a = min(1, (t - to) / 0.2) * fade
+                d.rounded_rectangle((x, y, x + W - 220, y + oh), radius=oh // 2, fill=lerp(CREAM, fill, a),
+                                    outline=lerp(CREAM, outline, a), width=4)
+                d.text((x + 40, y + 30), f"{letters[k]}   {opt}", font=fo, fill=lerp(CREAM, txt, a))
+                if revealed and right:
+                    d.text((x + W - 300, y + 26), "✓", font=font("monob", 50), fill=lerp(ORANGE, (255, 255, 255), fade))
+            # countdown ring
+            if T_CD <= t < T_REV:
+                k = int(t - T_CD)
+                num = str(3 - k) if k < 3 else ""
+                cx, cy, r = W // 2, oy0 + len(options) * (oh + 24) + 170, 90
+                frac = (t - T_CD) - k
+                d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=lerp(CREAM, SOFT, fade), width=10)
+                d.arc((cx - r, cy - r, cx + r, cy + r), -90, -90 + 360 * frac, fill=lerp(CREAM, ORANGE, fade), width=10)
+                if num:
+                    fn_ = font("bold", 100)
+                    d.text((cx - fn_.getlength(num) / 2, cy - 66), num, font=fn_, fill=lerp(CREAM, INK, fade))
+            if t >= T_REV + 0.6:
+                ry = oy0 + len(options) * (oh + 24) + 60
+                last = _rise_words(d, reveal, fr, 110, ry, int(sr_ * 1.3), T_REV + 0.6, 0.08, t, INK, CREAM, fade)
+                cp = ease((t - last - 0.6) / 0.5) * fade
+                fc = font("semi", 38)
+                d.text((110, ry + int(sr_ * 1.3) * len(reveal) + 40), cta, font=fc, fill=lerp(CREAM, ORANGE, cp))
+        if t > T_END + 0.3:
+            end_card(im, d, ease((t - T_END - 0.3) / 0.6), tag)
+        return im
+
+    ticks = [T_CD + i for i in range(3)]
+    return render(frame, seconds, out, mood="warm", beat=False, clicks=ticks)
+
+
+# ======================================================================= loop
+def loop(spec, out, seconds=None):
+    """Seamless loop: 2-3 phrases cycle in place around a slowly turning ring; the last frame flows into the first."""
+    phrases, tag = spec["phrases"], spec.get("tag", "theomnix.org")
+    n = len(phrases)
+    seg = spec.get("seconds_per_phrase", 4.5)
+    if seconds is None:
+        seconds = seg * n
+    seg = seconds / n
+    fits = []
+    for ph in phrases:
+        f1, s1 = fit_font("reg", ph["l1"], W - 220, 66)
+        f2, s2 = fit_font("semi", ph["l2"], W - 220, s1)
+        fits.append((f1, f2, int(s1 * 1.3)))
+    cx, cy = W // 2, H // 2 - 40
+    ring_r = 470
+    marks = 24
+    TR = 0.7  # transition length
+
+    def phrase_layer(idx):
+        ph = phrases[idx]
+        f1, f2, lh = fits[idx]
+        layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ld = ImageDraw.Draw(layer)
+        total = lh * (len(ph["l1"]) + len(ph["l2"])) + 30
+        y = cy - total // 2
+        for line in ph["l1"]:
+            ld.text((110, y), line, font=f1, fill=INK + (255,))
+            y += lh
+        y += 30
+        for line in ph["l2"]:
+            ld.text((110, y), line, font=f2, fill=ORANGE + (255,))
+            y += lh
+        return layer
+
+    layers = [phrase_layer(i) for i in range(n)]
+
+    def put(im, idx, a, dy):
+        if a <= 0.01:
+            return
+        lay = layers[idx]
+        if a < 1:
+            lay = lay.copy()
+            lay.putalpha(lay.getchannel("A").point(lambda v: int(v * a)))
+        im.paste(lay, (0, dy), lay)
+
+    def draw_phrase(im, idx, p_in, p_out):
+        put(im, idx, p_in * (1 - p_out), int(30 * (1 - p_in)) - int(30 * p_out))
+
+    def frame(t, beats):
+        im, d = blank(CREAM)
+        # ring turns exactly one mark-step over the whole loop -> seamless
+        rot = (t / seconds) * (2 * math.pi / marks) * 2
+        for k in range(marks):
+            ang = rot + 2 * math.pi * k / marks
+            x, y = cx + ring_r * math.cos(ang), cy + ring_r * math.sin(ang)
+            rr = 9 if k % 2 == 0 else 5
+            d.ellipse((x - rr, y - rr, x + rr, y + rr), fill=ORANGE if k % 2 == 0 else SOFT)
+        idx = int(t // seg) % n
+        local = t - idx * seg
+        prev = (idx - 1) % n
+        if local < TR:
+            u = ease(local / TR)
+            draw_phrase(im, prev, 1.0, u)
+            draw_phrase(im, idx, u, 0.0)
+        else:
+            draw_phrase(im, idx, 1.0, 0.0)
+        # persistent brand footer (no end card, so the loop never breaks)
+        hs = header_strip(0.8)
+        im.paste(hs, (100, 230))
+        fb = font("semi", 32)
+        d.text((110, H - 330), "theomnix.org", font=fb, fill=GREY)
+        d.text((W - 110 - fb.getlength(tag), H - 330), tag, font=fb, fill=ORANGE)
+        return im
+
+    return render(frame, seconds, out, mood="calm", beat=False, loop=True)
+
+
+FORMATS = {"terminal": terminal, "chain": chain, "chat": chat, "lineart": lineart, "splitflap": splitflap,
+           "kinetic": kinetic, "guess": guess, "loop": loop}

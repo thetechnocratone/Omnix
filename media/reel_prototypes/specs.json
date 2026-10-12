@@ -1,26 +1,163 @@
 [
- {"name": "proto_terminal", "format": "terminal",
+ {
+  "name": "proto_terminal",
+  "format": "terminal",
   "goal": "give people their time back",
-  "steps": ["map the work nobody chose", "plan who or what can carry it", "act, check, learn, repeat"],
-  "l1": ["Autonomy is the easy part."], "l2": ["Alignment is the real work."],
-  "tag": "A.L.K.I. · coming soon"},
- {"name": "proto_chain", "format": "chain",
-  "blocks": ["Crypto bridges", "keep getting", "hacked."],
-  "l2": ["OmniChain is being", "designed not to need one."],
-  "tag": "OmniChain · in development"},
- {"name": "proto_chat", "format": "chat",
-  "left": "Most AI", "right": "A.L.K.I.",
-  "messages": [["L", "How can I help you today?"],
-               ["R", "You said you wanted your weekends back."],
-               ["L", "I can draft an email about that!"],
-               ["R", "I made a plan, booked the help, and logged every step so you can check it."],
-               ["L", "...can I see the plan?"],
-               ["R", "Coming soon."]],
-  "tag": "A.L.K.I. · coming soon"},
- {"name": "proto_lineart", "format": "lineart",
-  "l1": ["Abundance isn't excess."], "l2": ["It's enough,", "for everyone."],
-  "tag": "Vasudhaiva Kutumbakam"},
- {"name": "proto_splitflap", "format": "splitflap",
-  "label": "NOW BOARDING", "l1": ["Next stop:", "a world where"], "l2": ["no one has to", "do anything."],
-  "tag": "Built in Bharat"}
+  "steps": [
+   "map the work nobody chose",
+   "plan who or what can carry it",
+   "act, check, learn, repeat"
+  ],
+  "l1": [
+   "Autonomy is the easy part."
+  ],
+  "l2": [
+   "Alignment is the real work."
+  ],
+  "tag": "A.L.K.I. · coming soon"
+ },
+ {
+  "name": "proto_chain",
+  "format": "chain",
+  "blocks": [
+   "Crypto bridges",
+   "keep getting",
+   "hacked."
+  ],
+  "l2": [
+   "OmniChain is being",
+   "designed not to need one."
+  ],
+  "tag": "OmniChain · in development"
+ },
+ {
+  "name": "proto_chat",
+  "format": "chat",
+  "left": "Most AI",
+  "right": "A.L.K.I.",
+  "messages": [
+   [
+    "L",
+    "How can I help you today?"
+   ],
+   [
+    "R",
+    "You said you wanted your weekends back."
+   ],
+   [
+    "L",
+    "I can draft an email about that!"
+   ],
+   [
+    "R",
+    "I made a plan, booked the help, and logged every step so you can check it."
+   ],
+   [
+    "L",
+    "...can I see the plan?"
+   ],
+   [
+    "R",
+    "Coming soon."
+   ]
+  ],
+  "tag": "A.L.K.I. · coming soon"
+ },
+ {
+  "name": "proto_lineart",
+  "format": "lineart",
+  "l1": [
+   "Abundance isn't excess."
+  ],
+  "l2": [
+   "It's enough,",
+   "for everyone."
+  ],
+  "tag": "Vasudhaiva Kutumbakam"
+ },
+ {
+  "name": "proto_splitflap",
+  "format": "splitflap",
+  "label": "NOW BOARDING",
+  "l1": [
+   "Next stop:",
+   "a world where"
+  ],
+  "l2": [
+   "no one has to",
+   "do anything."
+  ],
+  "tag": "Built in Bharat"
+ },
+ {
+  "name": "proto_kinetic",
+  "format": "kinetic",
+  "chunks": [
+   "Fast.",
+   "Private",
+   "by default.",
+   "Quantum-",
+   "resistant.",
+   "Bridge-free."
+  ],
+  "l2": [
+   "That's the OmniChain",
+   "design. Still in",
+   "development."
+  ],
+  "tag": "OmniChain · in development"
+ },
+ {
+  "name": "proto_guess",
+  "format": "guess",
+  "question": [
+   "Which civilisation first",
+   "treated zero as a number",
+   "with its own rules?"
+  ],
+  "options": [
+   "Ancient Greece",
+   "Ancient India",
+   "Ancient Egypt",
+   "Ancient Rome"
+  ],
+  "answer": 1,
+  "reveal": [
+   "Indian mathematician Brahmagupta",
+   "set out rules for zero in 628 CE.",
+   "We're still building on that."
+  ],
+  "tag": "Built in Bharat"
+ },
+ {
+  "name": "proto_loop",
+  "format": "loop",
+  "phrases": [
+   {
+    "l1": [
+     "One chain."
+    ],
+    "l2": [
+     "Trust."
+    ]
+   },
+   {
+    "l1": [
+     "One mind."
+    ],
+    "l2": [
+     "Intelligence."
+    ]
+   },
+   {
+    "l1": [
+     "One body."
+    ],
+    "l2": [
+     "Embodiment."
+    ]
+   }
+  ],
+  "tag": "Built as one"
+ }
 ]

@@ -101,14 +101,33 @@ CHORDS = {
 }
 
 
-def music(seconds, path, mood="calm", bpm=100, beat=False, clicks=None, sr=44100):
+def music(seconds, path, mood="calm", bpm=100, beat=False, clicks=None, loop=False, sr=44100):
+    if loop:
+        # Render a little extra, fold the overflow back onto the start: the bed loops without a seam.
+        extra = 2.0
+        tmp = path + ".long.wav"
+        beats = _music(seconds + extra, tmp, mood, bpm, beat, clicks, sr, fades=False, chord_span=seconds)
+        rate, data = wavfile.read(tmp)
+        os.remove(tmp)
+        n = int(seconds * sr)
+        data = data.astype(np.float64)
+        body = data[:n].copy()
+        tail = data[n:]
+        body[:len(tail)] += tail
+        body = body / (np.abs(body).max() + 1e-9) * 0.6 * 32767
+        wavfile.write(path, sr, body.astype(np.int16))
+        return [b for b in beats if b < seconds]
+    return _music(seconds, path, mood, bpm, beat, clicks, sr)
+
+
+def _music(seconds, path, mood, bpm, beat, clicks, sr, fades=True, chord_span=None):
     """Original, royalty-free bed. mood: calm | tech | warm. beat=True adds a soft kick + hat.
     Returns the list of beat times (seconds) so visuals can sync to them."""
     n = int(seconds * sr)
     t = np.arange(n) / sr
     out = np.zeros(n)
     chords = CHORDS.get(mood, CHORDS["calm"])
-    seg = seconds / 4
+    seg = (chord_span or seconds) / 4
     arp_steps = 16 if mood == "tech" else 8
     for i, ch in enumerate(chords):
         s, e = int(i * seg * sr), int(min(seconds, (i + 1) * seg + 0.6) * sr)
@@ -147,8 +166,9 @@ def music(seconds, path, mood="calm", bpm=100, beat=False, clicks=None, sr=44100
         ln = min(int(0.012 * sr), n - st)
         if ln > 0:
             out[st:st + ln] += 0.05 * rng.standard_normal(ln) * np.exp(-np.arange(ln) / sr * 400)
-    fade = np.minimum(1, t / 0.8) * np.minimum(1, (seconds - t) / 1.2)
-    out = out * fade
+    if fades:
+        fade = np.minimum(1, t / 0.8) * np.minimum(1, (seconds - t) / 1.2)
+        out = out * fade
     out = out / (np.abs(out).max() + 1e-9) * 0.6
     stereo = np.stack([out, np.roll(out, 300)], axis=1)
     wavfile.write(path, sr, (stereo * 32767).astype(np.int16))
@@ -156,11 +176,11 @@ def music(seconds, path, mood="calm", bpm=100, beat=False, clicks=None, sr=44100
 
 
 # ---------------------------------------------------------------- writer
-def render(frame_fn, seconds, out_path, mood="calm", beat=False, bpm=100, clicks=None):
+def render(frame_fn, seconds, out_path, mood="calm", beat=False, bpm=100, clicks=None, loop=False):
     """Call frame_fn(t, beats) -> PIL.Image for every frame, mux with generated music."""
     with tempfile.TemporaryDirectory() as tmp:
         wav = os.path.join(tmp, "bed.wav")
-        beats = music(seconds, wav, mood=mood, beat=beat, bpm=bpm, clicks=clicks)
+        beats = music(seconds, wav, mood=mood, beat=beat, bpm=bpm, clicks=clicks, loop=loop)
         ff = subprocess.Popen(
             ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
              "-r", str(FPS), "-i", "-", "-i", wav, "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "medium",

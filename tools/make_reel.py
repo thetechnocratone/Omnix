@@ -10,6 +10,9 @@ Each entry needs "name" and "format", plus that format's fields:
   chat      {left, right, title?, messages:[["L"|"R", text]...], tag}
   lineart   {l1:[...], l2:[...], tag}                          lotus pattern draws itself
   splitflap {l1:[...], l2:[...], label?, tag}                   departures board, words ≤ 15 chars
+  kinetic   {chunks:[1-3 word chunks...], l2:[...], tag}         one chunk per beat (6-10 chunks)
+  guess     {question:[...], options:[2-4], answer:index, reveal:[...], cta?, tag}   verified facts only
+  loop      {phrases:[{l1:[...], l2:[...]}, ...2-3], tag}         seamless loop, no end card
 Output: OUT_DIR/<name>_reel.mp4 (1080x1920, original music).
 """
 import json
