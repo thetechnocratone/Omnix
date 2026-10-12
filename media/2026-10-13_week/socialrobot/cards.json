@@ -1,5 +1,58 @@
-[{"name":"sr1_zero","l1":["Bharat gave the world zero."],"l2":["We're building what","comes after one."],"tag":"Built in Bharat"},
-{"name":"sr2_bridge","l1":["Crypto bridges keep","getting hacked."],"l2":["OmniChain is being","designed not to need one."],"tag":"OmniChain · in development"},
-{"name":"sr3_alignment","l1":["Autonomy is the easy part."],"l2":["Alignment is the real work."],"tag":"A.L.K.I. · coming soon"},
-{"name":"sr4_world","l1":["Don't redesign the world","for the robot."],"l2":["Build the robot","for the world."],"tag":"OmniBot · coming soon"},
-{"name":"sr5_enough","l1":["Abundance isn't excess."],"l2":["It's enough,","for everyone."],"tag":"Vasudhaiva Kutumbakam"}]
+[
+ {
+  "name": "sr1_zero",
+  "l1": [
+   "Bharat gave the world zero."
+  ],
+  "l2": [
+   "We're building what",
+   "comes after one."
+  ],
+  "tag": "Built in Bharat"
+ },
+ {
+  "name": "sr2_bridge",
+  "l1": [
+   "Crypto bridges keep",
+   "getting hacked."
+  ],
+  "l2": [
+   "OmniChain is being",
+   "designed not to need one."
+  ],
+  "tag": "OmniChain · the build is on"
+ },
+ {
+  "name": "sr3_alignment",
+  "l1": [
+   "Autonomy is the easy part."
+  ],
+  "l2": [
+   "Alignment is the real work."
+  ],
+  "tag": "A.L.K.I. · coming soon"
+ },
+ {
+  "name": "sr4_world",
+  "l1": [
+   "Don't redesign the world",
+   "for the robot."
+  ],
+  "l2": [
+   "Build the robot",
+   "for the world."
+  ],
+  "tag": "OmniBot · coming soon"
+ },
+ {
+  "name": "sr5_enough",
+  "l1": [
+   "Abundance isn't excess."
+  ],
+  "l2": [
+   "It's enough,",
+   "for everyone."
+  ],
+  "tag": "Vasudhaiva Kutumbakam"
+ }
+]

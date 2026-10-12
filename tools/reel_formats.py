@@ -120,7 +120,7 @@ def terminal(spec, out, seconds=15.0):
 # ======================================================================= chain
 def chain(spec, out, seconds=14.0):
     blocks = spec["blocks"]
-    l2, tag = spec["l2"], spec.get("tag", "OmniChain · in development")
+    l2, tag = spec["l2"], spec.get("tag", "OmniChain · in the making")
     bpm = 100
     step = 60 / bpm
     n = len(blocks)
