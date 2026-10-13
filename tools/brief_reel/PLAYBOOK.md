@@ -115,8 +115,8 @@ recognises themselves WITHOUT being named or addressed. Reference: `media/2026-1
 - Structure: one verified, human-scale number as the hook (e.g. "168 hours a year = one full week") →
   why the problem is really many disconnected systems → "What if they talked to each other?" →
   2–3 concrete things that become possible (plain words, no product claims) → intelligence to plan it +
-  a shared trusted record so everyone can believe the data (subtle nod to A.L.K.I. + OmniChain, never
-  named, never described as live) → nobody builds this alone → many people working from the same truth →
+  a shared trusted record so everyone can believe the data (the Omnix ecosystem, see
+  "Omnix's role" below) → nobody builds this alone → many people working from the same truth →
   a nature/Vedic image of coming together → callback to the hook.
 - Collaboration visuals every time: a single node becoming a network, many hands, rivers meeting the
   ocean, orbits lining up, lotus, sunrise.
@@ -125,11 +125,25 @@ recognises themselves WITHOUT being named or addressed. Reference: `media/2026-1
 - Quiet sign-off, NOT on every episode (roughly every other one): end card signoff
   "Built in Bengaluru · Open to collaboration" or a final caption line "Our DMs are open." Otherwise
   use the default end card. Never a pitch.
-- Topic backlog (log in `media/together_log.md`, never repeat): Bengaluru's water (lakes, groundwater,
-  tankers) · financial inclusion (people outside formal credit) · trust in public records (land records,
-  certificates) · healthcare access in villages · farmers and supply chains · air quality · waste and
-  recycling · disaster response · power grids and solar · dignity of dangerous manual work (robots for
-  sanitation and hazardous jobs) · education access · public transport across India · climate at world scale.
+- Narrative scale (owner's direction): start from a vivid, specific Bengaluru problem, then widen masterfully
+  to India and to the world ("This isn't just Bengaluru…"), then bring it home with the callback.
+- Topic backlog, IN THIS ORDER (owner's list; log in `media/together_log.md`, never repeat):
+  1. Garbage on footpaths (Bengaluru → India's cities → the world's waste)
+  2. Potholes and bad roads
+  3. Metro construction that seems to take forever (infrastructure delays)
+  4. Bad air quality (AQI)
+  5. The smell from wet-waste processing plants in south Bengaluru (describe generally; never name or
+     blame a specific plant, company or official)
+  then global problems: hunger · lack of clean drinking water · corruption that stalls development
+  (frame as transparency and accountability; never name or accuse any person, party or department) ·
+  then the remaining ideas: Bengaluru's water and lakes · financial inclusion · trust in public records ·
+  healthcare access · farmers and supply chains · dignity of dangerous manual work · education · climate.
+- Omnix's role (owner's direction): the episode may NAME OmniChain, Nishq, A.L.K.I. and OmniBot as the
+  ecosystem Omnix is building to help with problems like this, e.g. "OmniChain is designed to keep a
+  record no one can quietly edit", "OmniBot is being built for the dangerous work no one should have to
+  do". Always future/design tense ("designed to", "being built to", "could"), never "solves" or "already",
+  never imply OmniChain is live, never present Nishq as an investment (it is the network's utility
+  asset). Products support the story; collaboration stays the hero.
 - Verify every number against its original source on the day; name the source on the end card.
 - Publish via Metricool (blogId 7386926) Sunday 11:00 AM IST (next free half-hour if taken): IG REEL
   (showReelOnFeed true, isAiGenerated true), FB REEL with title, YouTube short (category
