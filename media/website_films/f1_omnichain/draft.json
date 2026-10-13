@@ -1,0 +1,508 @@
+{
+ "film": "OMNICHAIN & NISHQ",
+ "title": "OmniChain & Nishq",
+ "subtitle": "A ledger built for what's coming",
+ "signoff": "The whitepaper's out. The build is on.",
+ "disclaimer": "Nishq is a utility asset of the OmniChain network. Nothing here is financial advice or an offer of investment. Parameters described are from a draft whitepaper and may change.",
+ "sources": "Sources: CoinDesk (8 Oct 2026) · Chainalysis (2022) · NIST FIPS 204 (2024) · Gidney, arXiv 2505.15917 (2025) · FIRST CVE forecast (2026)",
+ "segs": [
+  {
+   "scene": "bunker",
+   "keys": [
+    "bunker",
+    "mode",
+    "shortcut"
+   ],
+   "parts": [
+    "Last week, an Ethereum researcher asked crypto holders to start planning for something he called bunker mode.",
+    "His worry: that A.I. could find a shortcut through the maths that protects every wallet.",
+    "No such attack has been shown.",
+    "But the question it raises is exactly the right one."
+   ]
+  },
+  {
+   "scene": "hero",
+   "a": {
+    "icon": "shield",
+    "label": "Ready for adversaries that don't exist yet"
+   },
+   "keys": [
+    "adversaries",
+    "yet"
+   ],
+   "parts": [
+    "What would it take to build a blockchain that is ready for adversaries that don't exist yet?"
+   ]
+  },
+  {
+   "chapter": "Every chain made a bet",
+   "scene": "icons",
+   "a": {
+    "items": [
+     [
+      "coin",
+      "Bitcoin",
+      "security"
+     ],
+     [
+      "doc",
+      "Ethereum",
+      "programmability"
+     ],
+     [
+      "bolt",
+      "Solana",
+      "speed"
+     ],
+     [
+      "link",
+      "Cosmos",
+      "many chains"
+     ],
+     [
+      "mask",
+      "Zcash",
+      "privacy"
+     ]
+    ],
+    "at": [
+     1,
+     2,
+     3,
+     4,
+     4
+    ]
+   },
+   "keys": [
+    "bet",
+    "scarcity",
+    "programmability",
+    "speed",
+    "privacy"
+   ],
+   "parts": [
+    "Every blockchain in production today made a bet.",
+    "Bitcoin bet on scarcity and security, and gave up speed.",
+    "Ethereum bet on programmability, and inherited congestion.",
+    "Solana bet on raw speed, and paid for it in outages.",
+    "Others bet on many connected chains, or on privacy."
+   ]
+  },
+  {
+   "scene": "versus",
+   "a": {
+    "left": {
+     "title": "Pick one",
+     "icon": "scales",
+     "items": [
+      "Security",
+      "Speed",
+      "Privacy",
+      "Connection"
+     ]
+    },
+    "right": {
+     "title": "Give up the rest",
+     "icon": "warn",
+     "items": [
+      "Slow",
+      "Congested",
+      "Fragile",
+      "Exposed"
+     ]
+    }
+   },
+   "keys": [
+    "wrong",
+    "give",
+    "up"
+   ],
+   "parts": [
+    "None of these bets were wrong.",
+    "Each one solved a real problem, in its own corner.",
+    "But to use them today, you still have to choose what to give up."
+   ]
+  },
+  {
+   "scene": "stat",
+   "a": {
+    "value": "2",
+    "pre": "$",
+    "unit": "billion",
+    "label": "stolen from cross-chain bridges in 2022 alone",
+    "src": "Chainalysis"
+   },
+   "keys": [
+    "two",
+    "billion",
+    "seventy"
+   ],
+   "parts": [
+    "And the gaps between them are expensive.",
+    "In 2022 alone, about two billion dollars was stolen from cross-chain bridges, according to Chainalysis.",
+    "That was nearly seventy percent of all crypto stolen that year."
+   ]
+  },
+  {
+   "chapter": "Built from what already works",
+   "scene": "gather",
+   "a": {
+    "items": [
+     "coin",
+     "doc",
+     "bolt",
+     "link",
+     "mask",
+     "clock"
+    ],
+    "center": "logo",
+    "label": "One network"
+   },
+   "keys": [
+    "solved",
+    "same",
+    "place"
+   ],
+   "parts": [
+    "OmniChain starts from a different premise.",
+    "The hard problems have already been solved.",
+    "Just never in the same place, at the same time."
+   ]
+  },
+  {
+   "scene": "quote",
+   "a": {
+    "text": "Has this been shown to work?\nAnd if so, why hasn't anyone\nput it all together?"
+   },
+   "keys": [
+    "shown",
+    "together"
+   ],
+   "parts": [
+    "So every design choice faces one simple test.",
+    "Has this been shown to work?",
+    "And if so, why hasn't anyone put it all together?"
+   ]
+  },
+  {
+   "chapter": "Four guarantees",
+   "scene": "chain",
+   "a": {
+    "label": "Final in under a second"
+   },
+   "keys": [
+    "finality",
+    "under",
+    "second"
+   ],
+   "parts": [
+    "The first guarantee is finality you can count on.",
+    "OmniChain separates ordering transactions from agreeing on them, with a verifiable clock and a DAG-based consensus, the family of designs already running on production networks.",
+    "The goal is a payment that is final in under a second, not probably safe after a long wait."
+   ]
+  },
+  {
+   "scene": "proof",
+   "keys": [
+    "central",
+    "bet",
+    "single",
+    "proof",
+    "plainly"
+   ],
+   "parts": [
+    "Then comes the hardest part, and the project's central bet.",
+    "Every block carries one small proof of the entire chain's history.",
+    "A phone could verify everything since day one by checking a single proof.",
+    "This has been shown at small scale. Doing it for a full smart-contract chain is real, unsolved engineering, and we say so plainly."
+   ]
+  },
+  {
+   "scene": "privacy",
+   "keys": [
+    "private",
+    "prove",
+    "compliance",
+    "own."
+   ],
+   "parts": [
+    "The second guarantee is privacy by default, and proof on demand.",
+    "Your balances stay private, but you can prove a fact about them, like this payment came from a verified source, without revealing anything else.",
+    "Institutions get provable compliance. Everyone else keeps their financial life their own."
+   ]
+  },
+  {
+   "scene": "bridges",
+   "keys": [
+    "without",
+    "bridges",
+    "verify"
+   ],
+   "parts": [
+    "The third is interoperability without bridges.",
+    "Instead of trusting a custodian with the keys, chains verify each other directly, using light clients and zero-knowledge proofs,",
+    "even chains that were never built for it."
+   ]
+  },
+  {
+   "scene": "quantum",
+   "keys": [
+    "quantum",
+    "million",
+    "first",
+    "block."
+   ],
+   "parts": [
+    "The fourth is resilience against tomorrow's computers.",
+    "In 2024, the U.S. standards body NIST finalised its first post-quantum signature standards.",
+    "A 2025 estimate from a Google researcher suggested that today's most common encryption could fall to a quantum computer with under a million qubits.",
+    "No major production chain uses post-quantum signatures by default. OmniChain plans to, from its very first block."
+   ]
+  },
+  {
+   "chapter": "A network with its own guardian",
+   "scene": "stat",
+   "a": {
+    "value": "66,000",
+    "label": "new software vulnerabilities expected in 2026, driven by A.I. bug-hunting",
+    "src": "FIRST forecast, June 2026"
+   },
+   "keys": [
+    "machine",
+    "speed",
+    "sixty-six",
+    "thousand"
+   ],
+   "parts": [
+    "Now, back to bunker mode.",
+    "Its real lesson is that threats now evolve at machine speed.",
+    "A.I. tools are finding software flaws so fast that the global incident-response community expects around sixty-six thousand new vulnerability reports this year."
+   ]
+  },
+  {
+   "scene": "shield",
+   "a": {
+    "core": "coin",
+    "label": "Nishq, guarded by A.L.K.I."
+   },
+   "keys": [
+    "defenders",
+    "natively",
+    "guarded",
+    "A.L.K.I."
+   ],
+   "parts": [
+    "If attackers have A.I., defenders need it too.",
+    "That's why Nishq is being designed to be natively guarded by Omnix's own intelligence, A.L.K.I."
+   ]
+  },
+  {
+   "scene": "icons",
+   "a": {
+    "items": [
+     [
+      "eye",
+      "Watch",
+      "around the clock"
+     ],
+     [
+      "magnifier",
+      "Search",
+      "its own code first"
+     ],
+     [
+      "warn",
+      "Spot",
+      "patterns as they begin"
+     ],
+     [
+      "link",
+      "Respond",
+      "openly, on-chain"
+     ]
+    ],
+    "connect": true
+   },
+   "keys": [
+    "watches",
+    "weaknesses",
+    "patterns",
+    "respond"
+   ],
+   "parts": [
+    "The aim is an autonomous guardian that watches the network around the clock,",
+    "searches its own code for weaknesses before anyone else can,",
+    "spots unusual patterns the moment they begin,",
+    "and helps the community respond, openly and on-chain."
+   ]
+  },
+  {
+   "scene": "layers",
+   "a": {
+    "items": [
+     [
+      "mind",
+      "An intelligent guardian on watch"
+     ],
+     [
+      "vote",
+      "Rules set by its community"
+     ],
+     [
+      "atom",
+      "Post-quantum maths at the base"
+     ]
+    ]
+   },
+   "keys": [
+    "guard,",
+    "rule",
+    "depth"
+   ],
+   "parts": [
+    "It is meant to stand guard, not to rule.",
+    "Its actions are recorded on the ledger, and the network's rules are set by its community.",
+    "Post-quantum maths at the base, an intelligent guardian on watch: defence in depth, for threats that haven't been invented yet."
+   ]
+  },
+  {
+   "chapter": "Nishq",
+   "scene": "orbit",
+   "a": {
+    "center": "coin",
+    "items": [
+     "gear",
+     "shield",
+     "vote",
+     "robot",
+     "mind"
+    ],
+    "label": "Nishq: the native asset of OmniChain"
+   },
+   "keys": [
+    "Nishq",
+    "computation",
+    "staking",
+    "governance",
+    "agents",
+    "robots"
+   ],
+   "parts": [
+    "At the heart of it all is Nishq, OmniChain's native asset.",
+    "It pays for computation, secures the network through staking, and carries a voice in governance.",
+    "And it is how A.I. agents and robots will pay for services on the network."
+   ]
+  },
+  {
+   "scene": "supply",
+   "keys": [
+    "one",
+    "billion",
+    "forty",
+    "burned",
+    "use,"
+   ],
+   "parts": [
+    "Its draft design borrows discipline that's already proven.",
+    "A hard cap of one billion Nishq, issued over about forty years.",
+    "Part of every fee is burned, so that real use, not hype, shapes its supply."
+   ]
+  },
+  {
+   "scene": "quadratic",
+   "keys": [
+    "plutocracy",
+    "cost",
+    "personhood"
+   ],
+   "parts": [
+    "Governance is designed to resist plutocracy.",
+    "With quadratic voting, each extra vote on the same proposal costs more, so the wealthiest can't simply buy the outcome.",
+    "And a proof of personhood keeps it fair: not a name, not a biometric, just proof that you haven't voted twice."
+   ]
+  },
+  {
+   "chapter": "The road",
+   "scene": "steps",
+   "a": {
+    "items": [
+     [
+      "gear",
+      "Testnet",
+      "consensus + proofs under real load"
+     ],
+     [
+      "link",
+      "Privacy + interoperability",
+      "selective disclosure, zk light clients"
+     ],
+     [
+      "coin",
+      "Mainnet",
+      "Nishq, with governance live from day one"
+     ]
+    ]
+   },
+   "keys": [
+    "testnet",
+    "privacy",
+    "mainnet",
+    "day",
+    "one."
+   ],
+   "parts": [
+    "The road ahead has three stages.",
+    "A testnet that proves fast consensus and recursive proofs under real load.",
+    "Then privacy and bridgeless connections to the largest chains.",
+    "Then mainnet, with Nishq and governance live from day one."
+   ]
+  },
+  {
+   "scene": "quote",
+   "a": {
+    "text": "Not a bet on magic.\nA bet that what already works\nbelongs in one place."
+   },
+   "keys": [
+    "magic",
+    "discovered",
+    "one",
+    "network."
+   ],
+   "parts": [
+    "OmniChain isn't a bet that some magic is waiting to be discovered.",
+    "It's a bet that what has already been discovered, separately, by separate teams, belongs in one network."
+   ]
+  },
+  {
+   "scene": "sunrise",
+   "a": {
+    "label": "Built in Bharat"
+   },
+   "keys": [
+    "build",
+    "Bengaluru",
+    "trusts,",
+    "invitation."
+   ],
+   "parts": [
+    "The whitepaper's out. The build is on, in Bengaluru.",
+    "And if you build, research, or shape how the world trusts, consider this your invitation."
+   ]
+  },
+  {
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "OmniChain",
+    "sub": "The trust layer for an intelligent world"
+   },
+   "keys": [
+    "trust",
+    "layer"
+   ],
+   "parts": [
+    "OmniChain. The trust layer for an intelligent world."
+   ]
+  }
+ ]
+}

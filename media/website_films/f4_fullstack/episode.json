@@ -1,0 +1,648 @@
+{
+ "film": "THE FULL STACK",
+ "title": "The Network. The Mind. The Machine.",
+ "subtitle": "How the Omnix stack works as one system",
+ "signoff": "The build is on.",
+ "disclaimer": "OmniChain, A.L.K.I. and OmniBot are in the making. The scenario shown is illustrative. Nishq is a utility asset; nothing here is financial advice.",
+ "sources": "",
+ "segs": [
+  {
+   "text": "Most technology solves one layer of a problem. A payment network moves money. An A.I. model answers questions. A robot does one task on one factory floor. Each is valuable. And each is limited by what it cannot do on its own.",
+   "scene": "icons",
+   "a": {
+    "items": [
+     [
+      "coin",
+      "A payment network",
+      "moves money"
+     ],
+     [
+      "mind",
+      "An A.I. model",
+      "answers questions"
+     ],
+     [
+      "robot",
+      "A robot",
+      "does one task"
+     ]
+    ]
+   },
+   "keys": [
+    "one",
+    "layer"
+   ],
+   "chapter": null,
+   "start": 5.0,
+   "end": 21.088,
+   "parts": [
+    [
+     "Most technology solves one layer of a problem.",
+     5.0,
+     7.78
+    ],
+    [
+     "A payment network moves money. An A.I. model answers questions. A robot does one task on one factory floor.",
+     8.28,
+     15.82
+    ],
+    [
+     "Each is valuable. And each is limited by what it cannot do on its own.",
+     16.28,
+     21.088
+    ]
+   ]
+  },
+  {
+   "text": "Intelligence without trust is hard to rely on. Trust without intelligence is merely a ledger. And intelligence and trust without a body cannot lift, build, tend or heal.",
+   "scene": "triad",
+   "a": {},
+   "keys": [
+    "trust",
+    "ledger.",
+    "body"
+   ],
+   "chapter": null,
+   "start": 21.838,
+   "end": 35.063,
+   "parts": [
+    [
+     "Intelligence without trust is hard to rely on.",
+     21.838,
+     24.998
+    ],
+    [
+     "Trust without intelligence is merely a ledger.",
+     25.558,
+     28.458
+    ],
+    [
+     "And intelligence and trust without a body cannot lift, build, tend or heal.",
+     29.118,
+     35.063
+    ]
+   ]
+  },
+  {
+   "text": "The next era will not be built by one tool. It will be built by a system. Omnix is designing that system whole: a network to trust it, a mind to power it, and a machine to bring it into the physical world.",
+   "scene": "stack",
+   "a": {
+    "hl": -1
+   },
+   "keys": [
+    "system",
+    "whole."
+   ],
+   "chapter": null,
+   "start": 35.813,
+   "end": 50.128,
+   "parts": [
+    [
+     "The next era will not be built by one tool. It will be built by a system.",
+     35.813,
+     40.813
+    ],
+    [
+     "Omnix is designing that system whole: a network to trust it, a mind to power it, and a machine to bring it into the physical world.",
+     41.413,
+     50.128
+    ]
+   ]
+  },
+  {
+   "text": "At the base is OmniChain, the trust layer. A blockchain designed so that people, applications and autonomous agents can exchange value and verify actions, securely and in the open. Its native asset, Nishq, fuels the network: transaction fees, staking, governance, and payment for the services of agents and robots.",
+   "scene": "stack",
+   "a": {
+    "hl": 0
+   },
+   "keys": [
+    "OmniChain",
+    "trust",
+    "layer.",
+    "Nishq"
+   ],
+   "chapter": "Layer one: the network",
+   "start": 53.528,
+   "end": 75.656,
+   "parts": [
+    [
+     "At the base is OmniChain, the trust layer.",
+     53.528,
+     56.388
+    ],
+    [
+     "A blockchain designed so that people, applications and autonomous agents can exchange value and verify actions, securely and in the open.",
+     56.968,
+     66.048
+    ],
+    [
+     "Its native asset, Nishq, fuels the network: transaction fees, staking, governance, and payment for the services of agents and robots.",
+     66.668,
+     75.656
+    ]
+   ],
+   "chapterNo": 1
+  },
+  {
+   "text": "Its whitepaper sets four design goals. Transactions that are final in under a second. Privacy by default, with proof on demand. Connections to other chains without custodial bridges. And post-quantum signatures from the very first block.",
+   "scene": "icons",
+   "a": {
+    "items": [
+     [
+      "clock",
+      "Sub-second finality",
+      ""
+     ],
+     [
+      "mask",
+      "Private by default",
+      ""
+     ],
+     [
+      "link",
+      "No custodial bridges",
+      ""
+     ],
+     [
+      "atom",
+      "Post-quantum signatures",
+      ""
+     ]
+    ],
+    "connect": true
+   },
+   "keys": [
+    "final",
+    "private",
+    "bridges",
+    "quantum"
+   ],
+   "chapter": null,
+   "start": 76.406,
+   "end": 92.542,
+   "parts": [
+    [
+     "Its whitepaper sets four design goals.",
+     76.406,
+     78.746
+    ],
+    [
+     "Transactions that are final in under a second.",
+     79.306,
+     81.886
+    ],
+    [
+     "Privacy by default, with proof on demand.",
+     82.466,
+     85.246
+    ],
+    [
+     "Connections to other chains without custodial bridges.",
+     85.686,
+     88.666
+    ],
+    [
+     "And post-quantum signatures from the very first block.",
+     89.046,
+     92.542
+    ]
+   ]
+  },
+  {
+   "text": "Above it sits A.L.K.I., the intelligence layer. An autonomous agent designed to learn, reason, act and coordinate. Not a chatbot that waits for questions, but a mind that understands goals, makes plans, and carries them out.",
+   "scene": "stack",
+   "a": {
+    "hl": 1
+   },
+   "keys": [
+    "A.L.K.I.,",
+    "intelligence",
+    "layer."
+   ],
+   "chapter": "Layer two: the mind",
+   "start": 95.942,
+   "end": 111.8,
+   "parts": [
+    [
+     "Above it sits A.L.K.I., the intelligence layer.",
+     95.942,
+     98.802
+    ],
+    [
+     "An autonomous agent designed to learn, reason, act and coordinate.",
+     99.402,
+     104.122
+    ],
+    [
+     "Not a chatbot that waits for questions, but a mind that understands goals, makes plans, and carries them out.",
+     104.802,
+     111.8
+    ]
+   ],
+   "chapterNo": 2
+  },
+  {
+   "text": "Its loop is simple to state, and hard to build. Understand the goal. Make a plan. Take action. Check the result. Learn, and do better next time. And because its consequential actions can be recorded on OmniChain, what it does can be verified, not just trusted.",
+   "scene": "loop",
+   "a": {},
+   "keys": [
+    "goal,",
+    "plan,",
+    "act,",
+    "learn."
+   ],
+   "chapter": null,
+   "start": 112.55,
+   "end": 130.476,
+   "parts": [
+    [
+     "Its loop is simple to state, and hard to build.",
+     112.55,
+     115.51
+    ],
+    [
+     "Understand the goal. Make a plan. Take action. Check the result. Learn, and do better next time.",
+     116.05,
+     122.85
+    ],
+    [
+     "And because its consequential actions can be recorded on OmniChain, what it does can be verified, not just trusted.",
+     123.29,
+     130.476
+    ]
+   ]
+  },
+  {
+   "text": "At the top is OmniBot, the embodiment layer. Humanoid robots, built in human form to work in spaces made for humans, and run by A.L.K.I. This is where intelligence gets hands.",
+   "scene": "stack",
+   "a": {
+    "hl": 2
+   },
+   "keys": [
+    "OmniBot,",
+    "embodiment",
+    "layer."
+   ],
+   "chapter": "Layer three: the machine",
+   "start": 133.876,
+   "end": 146.772,
+   "parts": [
+    [
+     "At the top is OmniBot, the embodiment layer.",
+     133.876,
+     136.956
+    ],
+    [
+     "Humanoid robots, built in human form to work in spaces made for humans, and run by A.L.K.I.",
+     137.576,
+     143.856
+    ],
+    [
+     "This is where intelligence gets hands.",
+     144.416,
+     146.772
+    ]
+   ],
+   "chapterNo": 3
+  },
+  {
+   "text": "Here's how the three layers could work together. Picture a neighbourhood in Bengaluru, years from now. Somewhere underground, a water pipe is starting to leak.",
+   "scene": "scenario",
+   "a": {
+    "step": 0
+   },
+   "keys": [
+    "Bengaluru",
+    "leak"
+   ],
+   "chapter": "One system, working together",
+   "start": 150.172,
+   "end": 159.76,
+   "parts": [
+    [
+     "Here's how the three layers could work together.",
+     150.172,
+     152.272
+    ],
+    [
+     "Picture a neighbourhood in Bengaluru, years from now. Somewhere underground, a water pipe is starting to leak.",
+     152.872,
+     159.76
+    ]
+   ],
+   "chapterNo": 4
+  },
+  {
+   "text": "A.L.K.I. notices it first: pressure readings drifting, a pattern it has learned to recognise. It makes a plan. Which pipe, which crew, which parts, and the least disruptive hour to do the work.",
+   "scene": "scenario",
+   "a": {
+    "step": 1
+   },
+   "keys": [
+    "A.L.K.I.",
+    "notices",
+    "plan"
+   ],
+   "chapter": null,
+   "start": 160.51,
+   "end": 173.285,
+   "parts": [
+    [
+     "A.L.K.I. notices it first: pressure readings drifting, a pattern it has learned to recognise.",
+     160.51,
+     166.17
+    ],
+    [
+     "It makes a plan. Which pipe, which crew, which parts, and the least disruptive hour to do the work.",
+     166.71,
+     173.285
+    ]
+   ]
+  },
+  {
+   "text": "Two OmniBots are dispatched. They walk the same footpaths, open the same access covers, and use the same tools a human crew would. No road redesigned for them.",
+   "scene": "scenario",
+   "a": {
+    "step": 2
+   },
+   "keys": [
+    "OmniBots",
+    "fix"
+   ],
+   "chapter": null,
+   "start": 174.035,
+   "end": 184.244,
+   "parts": [
+    [
+     "Two OmniBots are dispatched.",
+     174.035,
+     175.715
+    ],
+    [
+     "They walk the same footpaths, open the same access covers, and use the same tools a human crew would. No road redesigned for them.",
+     176.215,
+     184.244
+    ]
+   ]
+  },
+  {
+   "text": "Every step is recorded on OmniChain: the alert, the decision, the repair, and the parts used. The service is settled in Nishq, automatically. And anyone responsible for that water supply can verify exactly what happened, and when.",
+   "scene": "scenario",
+   "a": {
+    "step": 3
+   },
+   "keys": [
+    "recorded",
+    "Nishq",
+    "verify"
+   ],
+   "chapter": null,
+   "start": 184.994,
+   "end": 200.21,
+   "parts": [
+    [
+     "Every step is recorded on OmniChain: the alert, the decision, the repair, and the parts used.",
+     184.994,
+     191.314
+    ],
+    [
+     "The service is settled in Nishq, automatically.",
+     191.874,
+     194.574
+    ],
+    [
+     "And anyone responsible for that water supply can verify exactly what happened, and when.",
+     194.954,
+     200.21
+    ]
+   ]
+  },
+  {
+   "text": "The result is a leak fixed before anyone noticed it, and not a drop of trust lost.",
+   "scene": "quote",
+   "a": {
+    "text": "A leak fixed before\nanyone noticed it."
+   },
+   "keys": [
+    "before",
+    "anyone",
+    "noticed"
+   ],
+   "chapter": null,
+   "start": 200.96,
+   "end": 206.633,
+   "parts": [
+    [
+     "The result is a leak fixed before anyone noticed it, and not a drop of trust lost.",
+     200.96,
+     206.633
+    ]
+   ]
+  },
+  {
+   "text": "Each layer makes the others stronger. Every task a robot completes teaches the mind something new. Every action the mind takes is verifiable on the network. And every verified action builds the trust that lets the system take on more. It is a loop that grows with what it enables.",
+   "scene": "flywheel",
+   "a": {},
+   "keys": [
+    "learns",
+    "trust",
+    "loop"
+   ],
+   "chapter": "Why the stack matters",
+   "start": 210.033,
+   "end": 229.102,
+   "parts": [
+    [
+     "Each layer makes the others stronger.",
+     210.033,
+     212.333
+    ],
+    [
+     "Every task a robot completes teaches the mind something new.",
+     212.913,
+     216.633
+    ],
+    [
+     "Every action the mind takes is verifiable on the network.",
+     217.093,
+     220.453
+    ],
+    [
+     "And every verified action builds the trust that lets the system take on more. It is a loop that grows with what it enables.",
+     220.933,
+     229.102
+    ]
+   ],
+   "chapterNo": 5
+  },
+  {
+   "text": "That is the Omnix approach. Integrated by design, so network, mind and machine work together from day one. Autonomous at the core, with systems that learn and act, not just respond. And built to scale, with infrastructure that grows with what it enables.",
+   "scene": "icons",
+   "a": {
+    "items": [
+     [
+      "layers",
+      "Integrated by design",
+      "network, mind, machine"
+     ],
+     [
+      "bolt",
+      "Autonomous at the core",
+      "learn and act"
+     ],
+     [
+      "globe",
+      "Built to scale",
+      "grows with use"
+     ]
+    ]
+   },
+   "keys": [
+    "integrated",
+    "autonomous",
+    "scale."
+   ],
+   "chapter": null,
+   "start": 229.852,
+   "end": 247.899,
+   "parts": [
+    [
+     "That is the Omnix approach.",
+     229.852,
+     231.552
+    ],
+    [
+     "Integrated by design, so network, mind and machine work together from day one.",
+     232.112,
+     237.732
+    ],
+    [
+     "Autonomous at the core, with systems that learn and act, not just respond.",
+     238.212,
+     242.952
+    ],
+    [
+     "And built to scale, with infrastructure that grows with what it enables.",
+     243.392,
+     247.899
+    ]
+   ]
+  },
+  {
+   "text": "Swap the water pipe for a hospital supply chain, a farm, a power grid, or a forest that needs restoring, and the pattern holds. Sense the problem. Plan the response. Do the physical work. Prove what was done. Most of our hardest problems are problems of coordination and trust. This is a stack built for exactly that.",
+   "scene": "settings",
+   "a": {
+    "items": [
+     [
+      "drop",
+      "Water"
+     ],
+     [
+      "truck",
+      "Logistics"
+     ],
+     [
+      "hospital",
+      "Healthcare"
+     ],
+     [
+      "farm",
+      "Food"
+     ],
+     [
+      "city",
+      "Cities"
+     ],
+     [
+      "leaf",
+      "Nature"
+     ]
+    ]
+   },
+   "keys": [
+    "water",
+    "food",
+    "health",
+    "coordination"
+   ],
+   "chapter": null,
+   "start": 248.649,
+   "end": 270.554,
+   "parts": [
+    [
+     "Swap the water pipe for a hospital supply chain, a farm, a power grid, or a forest that needs restoring, and the pattern holds.",
+     248.649,
+     256.589
+    ],
+    [
+     "Sense the problem. Plan the response. Do the physical work. Prove what was done.",
+     257.109,
+     262.689
+    ],
+    [
+     "Most of our hardest problems are problems of coordination and trust. This is a stack built for exactly that.",
+     263.169,
+     270.554
+    ]
+   ]
+  },
+  {
+   "text": "The whitepaper's out. The build is on, in Bengaluru. The next era won't be built by one tool, or one company. It will be built by builders, partners and people who shape how the world works. Come build it with us.",
+   "scene": "sunrise",
+   "a": {
+    "label": "Come build it with us"
+   },
+   "keys": [
+    "builders,",
+    "partners,",
+    "build"
+   ],
+   "chapter": null,
+   "start": 271.304,
+   "end": 285.92,
+   "parts": [
+    [
+     "The whitepaper's out. The build is on, in Bengaluru.",
+     271.304,
+     274.564
+    ],
+    [
+     "The next era won't be built by one tool, or one company. It will be built by builders, partners and people who shape how the world works.",
+     275.044,
+     284.304
+    ],
+    [
+     "Come build it with us.",
+     284.804,
+     285.92
+    ]
+   ]
+  },
+  {
+   "text": "Omnix. The network. The mind. The machine.",
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "Omnix",
+    "sub": "The network. The mind. The machine."
+   },
+   "keys": [
+    "network.",
+    "mind.",
+    "machine."
+   ],
+   "chapter": null,
+   "start": 286.67,
+   "end": 290.544,
+   "parts": [
+    [
+     "Omnix. The network. The mind. The machine.",
+     286.67,
+     290.544
+    ]
+   ]
+  }
+ ],
+ "endStart": 291.74,
+ "total": 300.74
+}

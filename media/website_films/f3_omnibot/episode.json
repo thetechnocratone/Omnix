@@ -1,0 +1,565 @@
+{
+ "film": "OMNIBOT",
+ "title": "OmniBot",
+ "subtitle": "Intelligence with hands",
+ "signoff": "In the making, in Bengaluru.",
+ "disclaimer": "OmniBot is in the making. Descriptions reflect design intent, not current capability.",
+ "sources": "",
+ "segs": [
+  {
+   "text": "For all the brilliance of modern software, most of the world's work still happens with hands. Crops are harvested. Buildings are raised. Patients are lifted. Meals are served. Homes are kept.",
+   "scene": "hands",
+   "a": {},
+   "keys": [
+    "hands."
+   ],
+   "chapter": null,
+   "start": 5.0,
+   "end": 18.871,
+   "parts": [
+    [
+     "For all the brilliance of modern software, most of the world's work still happens with hands.",
+     5.0,
+     10.88
+    ],
+    [
+     "Crops are harvested. Buildings are raised. Patients are lifted. Meals are served. Homes are kept.",
+     11.48,
+     18.871
+    ]
+   ]
+  },
+  {
+   "text": "Intelligence that lives only on a screen cannot touch any of it. OmniBot is Omnix's answer: humanoid robots, powered by A.L.K.I., carrying intelligence out of the screen and into the real world.",
+   "scene": "hero",
+   "a": {
+    "icon": "robot",
+    "label": "OmniBot",
+    "sub": "Humanoid robots, powered by A.L.K.I."
+   },
+   "keys": [
+    "touch",
+    "OmniBot",
+    "real",
+    "world."
+   ],
+   "chapter": null,
+   "start": 19.621,
+   "end": 33.026,
+   "parts": [
+    [
+     "Intelligence that lives only on a screen cannot touch any of it.",
+     19.621,
+     23.621
+    ],
+    [
+     "OmniBot is Omnix's answer: humanoid robots, powered by A.L.K.I., carrying intelligence out of the screen and into the real world.",
+     24.121,
+     33.026
+    ]
+   ]
+  },
+  {
+   "text": "Look around, and notice how much of our world assumes a human body. Doorways and staircases. Handles and workbenches. Hospital beds, kitchen counters, and tools of every kind.",
+   "scene": "icons",
+   "a": {
+    "items": [
+     [
+      "door",
+      "Doorways",
+      ""
+     ],
+     [
+      "stairs",
+      "Stairs",
+      ""
+     ],
+     [
+      "gear",
+      "Tools",
+      ""
+     ],
+     [
+      "house",
+      "Kitchens",
+      ""
+     ],
+     [
+      "hospital",
+      "Hospital beds",
+      ""
+     ]
+    ]
+   },
+   "keys": [
+    "human",
+    "body."
+   ],
+   "chapter": "A world built for human shape",
+   "start": 36.426,
+   "end": 49.146,
+   "parts": [
+    [
+     "Look around, and notice how much of our world assumes a human body.",
+     36.426,
+     40.806
+    ],
+    [
+     "Doorways and staircases. Handles and workbenches. Hospital beds, kitchen counters, and tools of every kind.",
+     41.306,
+     49.146
+    ]
+   ],
+   "chapterNo": 1
+  },
+  {
+   "text": "Most robots today are specialists, and the factory is rebuilt around them. OmniBot takes the opposite approach. Don't redesign the world for the robot. Build the robot for the world.",
+   "scene": "quote",
+   "a": {
+    "text": "Don't redesign the world for the robot.\nBuild the robot for the world."
+   },
+   "keys": [
+    "redesign",
+    "world."
+   ],
+   "chapter": null,
+   "start": 49.896,
+   "end": 61.988,
+   "parts": [
+    [
+     "Most robots today are specialists, and the factory is rebuilt around them.",
+     49.896,
+     54.496
+    ],
+    [
+     "OmniBot takes the opposite approach.",
+     55.016,
+     56.996
+    ],
+    [
+     "Don't redesign the world for the robot. Build the robot for the world.",
+     57.496,
+     61.988
+    ]
+   ]
+  },
+  {
+   "text": "A humanoid body is only half the idea. Traditional robots follow scripts. They repeat a motion perfectly, until something unexpected happens, and then they stop. Every OmniBot is designed to run on A.L.K.I., so it can understand its surroundings, learn new tasks, and adapt as things change. A scripted machine does one job. An intelligent one can be taught another, and another.",
+   "scene": "versus",
+   "a": {
+    "left": {
+     "title": "Scripted",
+     "icon": "gear",
+     "items": [
+      "One motion",
+      "One job",
+      "Stops at surprises"
+     ]
+    },
+    "right": {
+     "title": "Intelligent",
+     "icon": "mind",
+     "items": [
+      "Understands",
+      "Learns new tasks",
+      "Adapts"
+     ]
+    }
+   },
+   "keys": [
+    "scripts.",
+    "stop.",
+    "learns,",
+    "adapts."
+   ],
+   "chapter": "A mind inside",
+   "start": 65.388,
+   "end": 91.028,
+   "parts": [
+    [
+     "A humanoid body is only half the idea.",
+     65.388,
+     67.968
+    ],
+    [
+     "Traditional robots follow scripts. They repeat a motion perfectly, until something unexpected happens, and then they stop.",
+     68.548,
+     76.328
+    ],
+    [
+     "Every OmniBot is designed to run on A.L.K.I., so it can understand its surroundings, learn new tasks, and adapt as things change.",
+     76.868,
+     85.108
+    ],
+    [
+     "A scripted machine does one job. An intelligent one can be taught another, and another.",
+     85.528,
+     91.028
+    ]
+   ],
+   "chapterNo": 2
+  },
+  {
+   "text": "OmniBots are also designed to be connected. Through OmniChain, robots can coordinate with each other, with A.L.K.I., and with the people they serve, and their actions can be recorded transparently. With Nishq powering robot services, work done by machines can be accounted for as clearly as work done by anyone else.",
+   "scene": "network",
+   "a": {
+    "center": "robot",
+    "items": [
+     "robot",
+     "robot",
+     "mind",
+     "person",
+     "coin",
+     "robot"
+    ],
+    "label": "Connected through OmniChain"
+   },
+   "keys": [
+    "connected.",
+    "accounted"
+   ],
+   "chapter": null,
+   "start": 91.778,
+   "end": 111.199,
+   "parts": [
+    [
+     "OmniBots are also designed to be connected.",
+     91.778,
+     94.238
+    ],
+    [
+     "Through OmniChain, robots can coordinate with each other, with A.L.K.I., and with the people they serve, and their actions can be recorded transparently.",
+     94.778,
+     103.278
+    ],
+    [
+     "With Nishq powering robot services, work done by machines can be accounted for as clearly as work done by anyone else.",
+     103.838,
+     111.199
+    ]
+   ]
+  },
+  {
+   "text": "Where can OmniBot help? The honest answer is, almost everything humans do. Homes and hospitals. Farms and factories. Warehouses, roads, kitchens and hotels.",
+   "scene": "settings",
+   "a": {
+    "items": [
+     [
+      "house",
+      "Homes"
+     ],
+     [
+      "hospital",
+      "Healthcare"
+     ],
+     [
+      "farm",
+      "Farms"
+     ],
+     [
+      "factory",
+      "Industry"
+     ],
+     [
+      "truck",
+      "Logistics"
+     ],
+     [
+      "city",
+      "Cities"
+     ]
+    ]
+   },
+   "keys": [
+    "everything",
+    "humans",
+    "do."
+   ],
+   "chapter": "From homes to the whole world",
+   "start": 114.599,
+   "end": 127.169,
+   "parts": [
+    [
+     "Where can OmniBot help? The honest answer is, almost everything humans do.",
+     114.599,
+     119.899
+    ],
+    [
+     "Homes and hospitals. Farms and factories. Warehouses, roads, kitchens and hotels.",
+     120.399,
+     127.169
+    ]
+   ],
+   "chapterNo": 3
+  },
+  {
+   "text": "In a home, it could cook, clean, and care for an ageing parent with patience that never runs out. In industry, it could take on the work that is dangerous, exhausting, or simply endless. And at the scale of the world, many OmniBots guided by one mind could help manage the great systems we all depend on: how food is grown and moved, how water is cleaned, how cities are built and repaired.",
+   "scene": "scaleup",
+   "a": {},
+   "keys": [
+    "home",
+    "industry",
+    "world"
+   ],
+   "chapter": null,
+   "start": 127.919,
+   "end": 154.046,
+   "parts": [
+    [
+     "In a home, it could cook, clean, and care for an ageing parent with patience that never runs out.",
+     127.919,
+     134.299
+    ],
+    [
+     "In industry, it could take on the work that is dangerous, exhausting, or simply endless.",
+     134.719,
+     140.359
+    ],
+    [
+     "And at the scale of the world, many OmniBots guided by one mind could help manage the great systems we all depend on: how food is grown and moved, how water is cleaned, how cities are built and repaired.",
+     140.739,
+     154.046
+    ]
+   ]
+  },
+  {
+   "text": "OmniBot is being built to serve the entire world: humanity, nature and the animal kingdom alike. Everything conscious, and everything inert. Restoring forests and rivers. Supporting conservation. Caring for animals and tending the land, the tasks we have neglected because they were too difficult, too dangerous, or simply too many.",
+   "scene": "globe",
+   "a": {},
+   "keys": [
+    "conscious",
+    "inert.",
+    "forests,",
+    "animals"
+   ],
+   "chapter": null,
+   "start": 154.796,
+   "end": 177.764,
+   "parts": [
+    [
+     "OmniBot is being built to serve the entire world: humanity, nature and the animal kingdom alike. Everything conscious, and everything inert.",
+     154.796,
+     164.656
+    ],
+    [
+     "Restoring forests and rivers. Supporting conservation. Caring for animals and tending the land,",
+     165.196,
+     171.456
+    ],
+    [
+     "the tasks we have neglected because they were too difficult, too dangerous, or simply too many.",
+     171.916,
+     177.764
+    ]
+   ]
+  },
+  {
+   "text": "In every case, the aim is the same. Remove the burden. Keep the dignity.",
+   "scene": "quote",
+   "a": {
+    "text": "Remove the burden.\nKeep the dignity."
+   },
+   "keys": [
+    "burden.",
+    "dignity."
+   ],
+   "chapter": null,
+   "start": 178.514,
+   "end": 184.223,
+   "parts": [
+    [
+     "In every case, the aim is the same.",
+     178.514,
+     181.014
+    ],
+    [
+     "Remove the burden. Keep the dignity.",
+     181.534,
+     184.223
+    ]
+   ]
+  },
+  {
+   "text": "The deepest reason to build OmniBot is not efficiency. It is freedom. Imagine a world where the labour needed to feed, house, heal and care for everyone is done by capable machines, working in service of people. A world where no one has to do anything, merely to survive.",
+   "scene": "split",
+   "a": {
+    "before": [
+     "clock",
+     "gear",
+     "truck"
+    ],
+    "after": [
+     "book",
+     "heart",
+     "sun"
+    ],
+    "lb": "Work to survive",
+    "la": "Free to pursue what matters"
+   },
+   "keys": [
+    "freedom.",
+    "survive."
+   ],
+   "chapter": "Freedom is the purpose",
+   "start": 187.623,
+   "end": 207.068,
+   "parts": [
+    [
+     "The deepest reason to build OmniBot is not efficiency. It is freedom.",
+     187.623,
+     192.683
+    ],
+    [
+     "Imagine a world where the labour needed to feed, house, heal and care for everyone is done by capable machines, working in service of people.",
+     193.303,
+     202.743
+    ],
+    [
+     "A world where no one has to do anything, merely to survive.",
+     203.323,
+     207.068
+    ]
+   ],
+   "chapterNo": 4
+  },
+  {
+   "text": "Then people would be free to create, to learn, to love, to explore. Free to ask the oldest question there is: what is a human life for? Free to rise above the mundane, and pursue the true purpose of this human existence.",
+   "scene": "path",
+   "a": {},
+   "keys": [
+    "create,",
+    "learn,",
+    "love,",
+    "purpose"
+   ],
+   "chapter": null,
+   "start": 207.818,
+   "end": 223.736,
+   "parts": [
+    [
+     "Then people would be free to create, to learn, to love, to explore.",
+     207.818,
+     212.958
+    ],
+    [
+     "Free to ask the oldest question there is: what is a human life for?",
+     213.498,
+     217.938
+    ],
+    [
+     "Free to rise above the mundane, and pursue the true purpose of this human existence.",
+     218.458,
+     223.736
+    ]
+   ]
+  },
+  {
+   "text": "A vision this large carries real responsibilities. Safety around people. Fair access, so the benefits reach everyone. Honest care for work and livelihoods during the transition. And strong human oversight of what these machines can do. We take those responsibilities as seriously as the ambition.",
+   "scene": "layers",
+   "a": {
+    "items": [
+     [
+      "shield",
+      "Safety around people"
+     ],
+     [
+      "scales",
+      "Fair access for all"
+     ],
+     [
+      "hand",
+      "Care for every livelihood"
+     ],
+     [
+      "eye",
+      "Strong human oversight"
+     ]
+    ]
+   },
+   "keys": [
+    "safety",
+    "fair",
+    "livelihoods",
+    "oversight."
+   ],
+   "chapter": "Earning trust",
+   "start": 227.136,
+   "end": 246.796,
+   "parts": [
+    [
+     "A vision this large carries real responsibilities.",
+     227.136,
+     230.416
+    ],
+    [
+     "Safety around people. Fair access, so the benefits reach everyone.",
+     230.896,
+     235.476
+    ],
+    [
+     "Honest care for work and livelihoods during the transition. And strong human oversight of what these machines can do.",
+     235.896,
+     242.736
+    ],
+    [
+     "We take those responsibilities as seriously as the ambition.",
+     243.116,
+     246.796
+    ]
+   ],
+   "chapterNo": 5
+  },
+  {
+   "text": "OmniBot is in the making, in Bengaluru, and we intend to earn the trust it will require. If you make things, move things, or build the places people live, we'd love to build it with you.",
+   "scene": "sunrise",
+   "a": {
+    "label": "Built in Bharat"
+   },
+   "keys": [
+    "trust",
+    "build",
+    "with",
+    "us."
+   ],
+   "chapter": null,
+   "start": 247.546,
+   "end": 259.642,
+   "parts": [
+    [
+     "OmniBot is in the making, in Bengaluru, and we intend to earn the trust it will require.",
+     247.546,
+     253.166
+    ],
+    [
+     "If you make things, move things, or build the places people live, we'd love to build it with you.",
+     253.686,
+     259.642
+    ]
+   ]
+  },
+  {
+   "text": "OmniBot. Intelligence, with hands.",
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "OmniBot",
+    "sub": "Intelligence with hands"
+   },
+   "keys": [
+    "hands."
+   ],
+   "chapter": null,
+   "start": 260.392,
+   "end": 263.626,
+   "parts": [
+    [
+     "OmniBot. Intelligence, with hands.",
+     260.392,
+     263.626
+    ]
+   ]
+  }
+ ],
+ "endStart": 264.83,
+ "total": 273.83
+}

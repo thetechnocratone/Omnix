@@ -1,0 +1,599 @@
+{
+ "film": "A.L.K.I.",
+ "title": "A.L.K.I.",
+ "subtitle": "The mind of Omnix",
+ "signoff": "Being built right now in Bengaluru.",
+ "disclaimer": "A.L.K.I. is in the making. Descriptions reflect design intent, not current capability.",
+ "sources": "Vasudhaiva Kutumbakam: Maha Upanishad \u00b7 Sarve bhavantu sukhinah: traditional Vedic prayer",
+ "segs": [
+  {
+   "text": "Every era of technology has a defining question. For the printing press, it was who gets to read. For the internet, it was who gets to connect. For our era, it is who, or what, gets to think alongside us.",
+   "scene": "title2",
+   "a": {
+    "lines": [
+     "The printing press asked: who gets to read?",
+     "The internet asked: who gets to connect?",
+     "Our age asks: who, or what, gets to think alongside us?"
+    ]
+   },
+   "keys": [
+    "read",
+    "connect",
+    "think"
+   ],
+   "chapter": null,
+   "start": 5.0,
+   "end": 20.729,
+   "parts": [
+    [
+     "Every era of technology has a defining question.",
+     5.0,
+     8.2
+    ],
+    [
+     "For the printing press, it was who gets to read.",
+     8.8,
+     11.66
+    ],
+    [
+     "For the internet, it was who gets to connect.",
+     12.22,
+     14.88
+    ],
+    [
+     "For our era, it is who, or what, gets to think alongside us.",
+     15.48,
+     20.729
+    ]
+   ]
+  },
+  {
+   "text": "A.L.K.I. is Omnix's answer. The Autonomous Lifeform of Knowledge and Intelligence: an artificial superintelligence agent, designed to learn continuously, reason across every domain, and act with purpose, in service of all.",
+   "scene": "hero",
+   "a": {
+    "icon": "mind",
+    "label": "A.L.K.I.",
+    "sub": "Autonomous Lifeform of Knowledge and Intelligence"
+   },
+   "keys": [
+    "A.L.K.I.",
+    "Autonomous",
+    "Lifeform"
+   ],
+   "chapter": null,
+   "start": 21.479,
+   "end": 37.216,
+   "parts": [
+    [
+     "A.L.K.I. is Omnix's answer.",
+     21.479,
+     23.379
+    ],
+    [
+     "The Autonomous Lifeform of Knowledge and Intelligence:",
+     23.999,
+     26.999
+    ],
+    [
+     "an artificial superintelligence agent, designed to learn continuously, reason across every domain, and act with purpose, in service of all.",
+     27.439,
+     37.216
+    ]
+   ]
+  },
+  {
+   "text": "Most A.I. today waits. It sits idle until someone types a question, gives an answer, and falls silent again. A.L.K.I. is built on a different premise. It is meant to understand a goal, break it into a plan, take the steps, notice where it went wrong, and improve. It's the difference between a reference book and a colleague.",
+   "scene": "versus",
+   "a": {
+    "left": {
+     "title": "A tool",
+     "icon": "book",
+     "items": [
+      "Waits",
+      "Answers",
+      "Falls silent"
+     ]
+    },
+    "right": {
+     "title": "A mind",
+     "icon": "mind",
+     "items": [
+      "Understands",
+      "Decides",
+      "Acts and improves"
+     ]
+    }
+   },
+   "keys": [
+    "waits.",
+    "colleague."
+   ],
+   "chapter": "Beyond the assistant",
+   "start": 40.616,
+   "end": 61.811,
+   "parts": [
+    [
+     "Most A.I. today waits.",
+     40.616,
+     42.516
+    ],
+    [
+     "It sits idle until someone types a question, gives an answer, and falls silent again.",
+     42.876,
+     48.096
+    ],
+    [
+     "A.L.K.I. is built on a different premise.",
+     48.716,
+     50.836
+    ],
+    [
+     "It is meant to understand a goal, break it into a plan, take the steps, notice where it went wrong, and improve.",
+     51.296,
+     58.096
+    ],
+    [
+     "It's the difference between a reference book and a colleague.",
+     58.756,
+     61.811
+    ]
+   ],
+   "chapterNo": 1
+  },
+  {
+   "text": "A.L.K.I. is designed around four capacities that strengthen one another. To learn, refining its understanding instead of freezing on the day it was trained. To reason, connecting medicine, engineering, ecology, economics and the humanities, because real problems rarely respect the boundaries between them. To act, carrying out tasks on its own. And to coordinate, working with people, with other agents, and with robots, as a web of cooperation rather than a lone centre of control.",
+   "scene": "icons",
+   "a": {
+    "items": [
+     [
+      "book",
+      "Learn",
+      "continuously"
+     ],
+     [
+      "mind",
+      "Reason",
+      "across every field"
+     ],
+     [
+      "hand",
+      "Act",
+      "in software and the world"
+     ],
+     [
+      "link",
+      "Coordinate",
+      "with people, agents, robots"
+     ]
+    ],
+    "connect": true
+   },
+   "keys": [
+    "learn,",
+    "reason,",
+    "act,",
+    "coordinate."
+   ],
+   "chapter": "Four capacities, one mind",
+   "start": 65.211,
+   "end": 97.267,
+   "parts": [
+    [
+     "A.L.K.I. is designed around four capacities that strengthen one another.",
+     65.211,
+     69.171
+    ],
+    [
+     "To learn, refining its understanding instead of freezing on the day it was trained.",
+     69.751,
+     74.731
+    ],
+    [
+     "To reason, connecting medicine, engineering, ecology, economics and the humanities, because real problems rarely respect the boundaries between them.",
+     75.271,
+     84.751
+    ],
+    [
+     "To act, carrying out tasks on its own.",
+     85.251,
+     87.971
+    ],
+    [
+     "And to coordinate, working with people, with other agents, and with robots, as a web of cooperation rather than a lone centre of control.",
+     88.491,
+     97.267
+    ]
+   ],
+   "chapterNo": 2
+  },
+  {
+   "text": "Now the most important question. An intelligence that can act on its own must want the right things. Researchers call this alignment: how do we make sure a powerful mind pursues what is truly good, for all of us?",
+   "scene": "quote",
+   "a": {
+    "text": "How do we make sure a powerful mind\nwants what is good for all of us?"
+   },
+   "keys": [
+    "alignment",
+    "good",
+    "all"
+   ],
+   "chapter": "A compass older than computers",
+   "start": 100.667,
+   "end": 116.091,
+   "parts": [
+    [
+     "Now the most important question.",
+     100.667,
+     102.667
+    ],
+    [
+     "An intelligence that can act on its own must want the right things.",
+     103.267,
+     107.447
+    ],
+    [
+     "Researchers call this alignment: how do we make sure a powerful mind pursues what is truly good, for all of us?",
+     108.087,
+     116.091
+    ]
+   ],
+   "chapterNo": 3
+  },
+  {
+   "text": "Omnix finds its compass in the timeless teachings of the Vedic sages. Vasudhaiva Kutumbakam: the whole world is one family. Everything conscious, and everything inert.",
+   "scene": "sanskrit",
+   "a": {
+    "sa": "\u0935\u0938\u0941\u0927\u0948\u0935 \u0915\u0941\u091f\u0941\u092e\u094d\u092c\u0915\u092e\u094d",
+    "tr": "Vasudhaiva Kutumbakam",
+    "en": "The whole world is one family",
+    "src": "Maha Upanishad"
+   },
+   "keys": [
+    "Vasudhaiva",
+    "Kutumbakam",
+    "one",
+    "family."
+   ],
+   "chapter": null,
+   "start": 116.841,
+   "end": 129.337,
+   "parts": [
+    [
+     "Omnix finds its compass in the timeless teachings of the Vedic sages.",
+     116.841,
+     121.301
+    ],
+    [
+     "Vasudhaiva Kutumbakam: the whole world is one family.",
+     121.921,
+     125.961
+    ],
+    [
+     "Everything conscious, and everything inert.",
+     126.481,
+     129.337
+    ]
+   ]
+  },
+  {
+   "text": "For an intelligence, this is not a slogan. It is an alignment target. A system that sees humanity, nature and the animal kingdom as one family has goals that include the wellbeing of all of them, not just the convenience of whoever happens to deploy it.",
+   "scene": "globe",
+   "a": {},
+   "keys": [
+    "alignment",
+    "target.",
+    "nature",
+    "animal"
+   ],
+   "chapter": null,
+   "start": 130.087,
+   "end": 147.276,
+   "parts": [
+    [
+     "For an intelligence, this is not a slogan. It is an alignment target.",
+     130.087,
+     134.787
+    ],
+    [
+     "A system that sees humanity, nature and the animal kingdom as one family has goals that include the wellbeing of all of them,",
+     135.407,
+     143.727
+    ],
+    [
+     "not just the convenience of whoever happens to deploy it.",
+     144.147,
+     147.276
+    ]
+   ]
+  },
+  {
+   "text": "Other ancient ideas sharpen that compass. Sarve bhavantu sukhinah: may all beings be happy. The wellbeing of every being is the goal. Ahimsa, non-harm, is the boundary. Never a source of pain or misery for anyone. And Satya, truthfulness, is the duty: an intelligence must be honest about what it is, and what it is not.",
+   "scene": "icons",
+   "a": {
+    "items": [
+     [
+      "heart",
+      "Sarve bhavantu sukhinah",
+      "may all beings be happy: the goal"
+     ],
+     [
+      "leaf",
+      "Ahimsa",
+      "do no harm: the boundary"
+     ],
+     [
+      "eye",
+      "Satya",
+      "truthfulness: the duty"
+     ]
+    ]
+   },
+   "keys": [
+    "goal.",
+    "boundary.",
+    "honest"
+   ],
+   "chapter": null,
+   "start": 148.026,
+   "end": 172.343,
+   "parts": [
+    [
+     "Other ancient ideas sharpen that compass.",
+     148.026,
+     150.766
+    ],
+    [
+     "Sarve bhavantu sukhinah: may all beings be happy. The wellbeing of every being is the goal.",
+     151.306,
+     158.326
+    ],
+    [
+     "Ahimsa, non-harm, is the boundary. Never a source of pain or misery for anyone.",
+     158.786,
+     164.566
+    ],
+    [
+     "And Satya, truthfulness, is the duty: an intelligence must be honest about what it is, and what it is not.",
+     165.026,
+     172.343
+    ]
+   ]
+  },
+  {
+   "text": "Values must be matched by engineering. Oversight that people can actually use. Transparency about limits. And the willingness to slow down when safety demands it. We do not claim these problems are solved. We claim they are the first problems, not the last, and they belong at the foundation.",
+   "scene": "layers",
+   "a": {
+    "items": [
+     [
+      "eye",
+      "Oversight people can use"
+     ],
+     [
+      "doc",
+      "Transparency about limits"
+     ],
+     [
+      "clock",
+      "Willingness to slow down"
+     ]
+    ]
+   },
+   "keys": [
+    "engineering",
+    "solved.",
+    "first"
+   ],
+   "chapter": null,
+   "start": 173.093,
+   "end": 192.885,
+   "parts": [
+    [
+     "Values must be matched by engineering.",
+     173.093,
+     175.633
+    ],
+    [
+     "Oversight that people can actually use. Transparency about limits. And the willingness to slow down when safety demands it.",
+     176.153,
+     184.493
+    ],
+    [
+     "We do not claim these problems are solved.",
+     184.913,
+     187.033
+    ],
+    [
+     "We claim they are the first problems, not the last, and they belong at the foundation.",
+     187.473,
+     192.885
+    ]
+   ]
+  },
+  {
+   "text": "Omnix pairs A.L.K.I. with OmniChain. When agents and robots coordinate and take consequential actions on a transparent ledger, those actions can be verified, not merely believed. Autonomy and accountability stop being opposites, and start being partners.",
+   "scene": "shield",
+   "a": {
+    "core": "mind",
+    "label": "Actions verified on OmniChain"
+   },
+   "keys": [
+    "verified",
+    "believed.",
+    "partners."
+   ],
+   "chapter": "Trust, built in",
+   "start": 196.285,
+   "end": 213.314,
+   "parts": [
+    [
+     "Omnix pairs A.L.K.I. with OmniChain.",
+     196.285,
+     198.705
+    ],
+    [
+     "When agents and robots coordinate and take consequential actions on a transparent ledger, those actions can be verified, not merely believed.",
+     199.225,
+     207.845
+    ],
+    [
+     "Autonomy and accountability stop being opposites, and start being partners.",
+     208.425,
+     213.314
+    ]
+   ],
+   "chapterNo": 4
+  },
+  {
+   "text": "A.L.K.I. is also the mind of every OmniBot. The reasoning that plans a task on a screen is the reasoning that guides a robot through a hospital ward, a warehouse, or a home. One mind, many bodies, each learning something the rest can use.",
+   "scene": "robotmind",
+   "a": {},
+   "keys": [
+    "OmniBot.",
+    "One",
+    "mind,",
+    "many",
+    "bodies."
+   ],
+   "chapter": null,
+   "start": 214.064,
+   "end": 229.762,
+   "parts": [
+    [
+     "A.L.K.I. is also the mind of every OmniBot.",
+     214.064,
+     216.844
+    ],
+    [
+     "The reasoning that plans a task on a screen is the reasoning that guides a robot through a hospital ward, a warehouse, or a home.",
+     217.464,
+     224.644
+    ],
+    [
+     "One mind, many bodies, each learning something the rest can use.",
+     225.204,
+     229.762
+    ]
+   ]
+  },
+  {
+   "text": "The purpose of A.L.K.I. is not to be impressive. It is to lift burdens. Every hour spent on work no one chose, on paperwork, on repetitive labour, is an hour taken from what makes a life meaningful. If A.L.K.I. succeeds, it will do so quietly, by giving people their time back.",
+   "scene": "clock",
+   "a": {},
+   "keys": [
+    "burdens.",
+    "time",
+    "back."
+   ],
+   "chapter": "What it is for",
+   "start": 233.162,
+   "end": 253.399,
+   "parts": [
+    [
+     "The purpose of A.L.K.I. is not to be impressive. It is to lift burdens.",
+     233.162,
+     237.962
+    ],
+    [
+     "Every hour spent on work no one chose, on paperwork, on repetitive labour, is an hour taken from what makes a life meaningful.",
+     238.622,
+     247.382
+    ],
+    [
+     "If A.L.K.I. succeeds, it will do so quietly, by giving people their time back.",
+     248.082,
+     253.399
+    ]
+   ],
+   "chapterNo": 5
+  },
+  {
+   "text": "Imagine an intelligence that tends the planet the way a family tends its home. Clean rivers and living forests. Cities that run themselves well. Needs met, for every being. Our planet, slowly becoming what the sages always said it could be: a sanctuary, close to heaven, for all who live on it.",
+   "scene": "sunrise",
+   "a": {
+    "label": "A sanctuary for all beings"
+   },
+   "keys": [
+    "sanctuary",
+    "heaven,"
+   ],
+   "chapter": null,
+   "start": 254.149,
+   "end": 275.853,
+   "parts": [
+    [
+     "Imagine an intelligence that tends the planet the way a family tends its home.",
+     254.149,
+     258.749
+    ],
+    [
+     "Clean rivers and living forests. Cities that run themselves well. Needs met, for every being.",
+     259.369,
+     266.489
+    ],
+    [
+     "Our planet, slowly becoming what the sages always said it could be: a sanctuary, close to heaven, for all who live on it.",
+     267.269,
+     275.853
+    ]
+   ]
+  },
+  {
+   "text": "The future of intelligence should not be something that happens to humanity. It should be something humanity builds, with its eyes open and its values intact. A.L.K.I. is being built right now, in Bengaluru. And this is an open invitation, to every mind that wants to help build it well.",
+   "scene": "quote",
+   "a": {
+    "text": "The future of intelligence\nshould not happen to humanity.\nHumanity should build it."
+   },
+   "keys": [
+    "happens",
+    "builds",
+    "eyes",
+    "open"
+   ],
+   "chapter": null,
+   "start": 276.603,
+   "end": 295.693,
+   "parts": [
+    [
+     "The future of intelligence should not be something that happens to humanity.",
+     276.603,
+     280.723
+    ],
+    [
+     "It should be something humanity builds, with its eyes open and its values intact.",
+     281.323,
+     286.503
+    ],
+    [
+     "A.L.K.I. is being built right now, in Bengaluru. And this is an open invitation, to every mind that wants to help build it well.",
+     287.083,
+     295.693
+    ]
+   ]
+  },
+  {
+   "text": "A.L.K.I. Knowledge and intelligence, in service of all.",
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "A.L.K.I.",
+    "sub": "Knowledge and intelligence, in service of all"
+   },
+   "keys": [
+    "service",
+    "all."
+   ],
+   "chapter": null,
+   "start": 296.443,
+   "end": 300.963,
+   "parts": [
+    [
+     "A.L.K.I. Knowledge and intelligence, in service of all.",
+     296.443,
+     300.963
+    ]
+   ]
+  }
+ ],
+ "endStart": 302.16,
+ "total": 311.16
+}

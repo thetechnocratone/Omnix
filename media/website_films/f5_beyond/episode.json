@@ -1,0 +1,540 @@
+{
+ "film": "BEYOND IMAGINATION",
+ "title": "Beyond Imagination",
+ "subtitle": "A new era of peace, joy and abundance",
+ "signoff": "Built in Bharat, for the whole world.",
+ "disclaimer": "This film describes the vision and intent of Omnix.",
+ "sources": "Asato ma sadgamaya: Brihadaranyaka Upanishad \u00b7 Vasudhaiva Kutumbakam: Maha Upanishad",
+ "segs": [
+  {
+   "text": "Think about an ordinary day. The alarm. The commute. The work that has to be done, whether you love it or not. The bills. The worries. The tiredness at night. And tomorrow, it begins again.",
+   "scene": "day",
+   "a": {},
+   "keys": [
+    "alarm.",
+    "again."
+   ],
+   "chapter": null,
+   "start": 5.0,
+   "end": 18.585,
+   "parts": [
+    [
+     "Think about an ordinary day.",
+     5.0,
+     6.62
+    ],
+    [
+     "The alarm. The commute. The work that has to be done, whether you love it or not.",
+     7.12,
+     12.18
+    ],
+    [
+     "The bills. The worries. The tiredness at night. And tomorrow, it begins again.",
+     12.7,
+     18.585
+    ]
+   ]
+  },
+  {
+   "text": "Most of us spend most of our lives just keeping up. Somewhere along the way, we stop asking what all of this is for.",
+   "scene": "quote",
+   "a": {
+    "text": "When did we last ask\nwhat all of this is for?"
+   },
+   "keys": [
+    "for?"
+   ],
+   "chapter": null,
+   "start": 19.335,
+   "end": 27.373,
+   "parts": [
+    [
+     "Most of us spend most of our lives just keeping up.",
+     19.335,
+     22.535
+    ],
+    [
+     "Somewhere along the way, we stop asking what all of this is for.",
+     23.215,
+     27.373
+    ]
+   ]
+  },
+  {
+   "text": "Thousands of years ago, the sages of India never stopped asking. Their prayer was simple: lead me from the untrue to the truth. Lead me from darkness to light. Lead me from death to the eternal.",
+   "scene": "sanskrit",
+   "a": {
+    "sa": "\u0905\u0938\u0924\u094b \u092e\u093e \u0938\u0926\u094d\u0917\u092e\u092f \u0964 \u0924\u092e\u0938\u094b \u092e\u093e \u091c\u094d\u092f\u094b\u0924\u093f\u0930\u094d\u0917\u092e\u092f \u0964",
+    "tr": "Asato ma sadgamaya, tamaso ma jyotirgamaya",
+    "en": "Lead me from the untrue to the true, from darkness to light",
+    "src": "Brihadaranyaka Upanishad"
+   },
+   "keys": [
+    "truth.",
+    "light."
+   ],
+   "chapter": "An ancient question",
+   "start": 30.773,
+   "end": 45.215,
+   "parts": [
+    [
+     "Thousands of years ago, the sages of India never stopped asking.",
+     30.773,
+     34.973
+    ],
+    [
+     "Their prayer was simple: lead me from the untrue to the truth. Lead me from darkness to light. Lead me from death to the eternal.",
+     35.533,
+     45.215
+    ]
+   ],
+   "chapterNo": 1
+  },
+  {
+   "text": "They taught that a comfortable life is not the end of the journey. It is the foundation. Once our needs are met, we are meant to look higher, and seek what lies beyond: lasting peace, lasting joy, and the truth of who we really are.",
+   "scene": "path",
+   "a": {},
+   "keys": [
+    "foundation,",
+    "beyond"
+   ],
+   "chapter": null,
+   "start": 45.965,
+   "end": 61.873,
+   "parts": [
+    [
+     "They taught that a comfortable life is not the end of the journey. It is the foundation.",
+     45.965,
+     51.225
+    ],
+    [
+     "Once our needs are met, we are meant to look higher, and seek what lies beyond: lasting peace, lasting joy, and the truth of who we really are.",
+     51.785,
+     61.873
+    ]
+   ]
+  },
+  {
+   "text": "So what holds us back? For most of history, the answer has been scarcity. Not enough time. Not enough hands. Not enough food, water, care, or trust to go around.",
+   "scene": "scale",
+   "a": {},
+   "keys": [
+    "scarcity.",
+    "enough."
+   ],
+   "chapter": "What holds us back",
+   "start": 65.273,
+   "end": 77.915,
+   "parts": [
+    [
+     "So what holds us back? For most of history, the answer has been scarcity.",
+     65.273,
+     70.613
+    ],
+    [
+     "Not enough time. Not enough hands. Not enough food, water, care, or trust to go around.",
+     71.153,
+     77.915
+    ]
+   ],
+   "chapterNo": 2
+  },
+  {
+   "text": "When there isn't enough, people compete. Sometimes they fight. And so many quarrels between families, cities and nations are really about scarcity, kept alive by distrust.",
+   "scene": "icons",
+   "a": {
+    "items": [
+     [
+      "clock",
+      "Time",
+      "spent on survival"
+     ],
+     [
+      "hand",
+      "Labour",
+      "too much, too hard"
+     ],
+     [
+      "scales",
+      "Distrust",
+      "that divides us"
+     ]
+    ]
+   },
+   "keys": [
+    "fight",
+    "distrust."
+   ],
+   "chapter": null,
+   "start": 78.665,
+   "end": 91.138,
+   "parts": [
+    [
+     "When there isn't enough, people compete. Sometimes they fight.",
+     78.665,
+     82.745
+    ],
+    [
+     "And so many quarrels between families, cities and nations are really about scarcity, kept alive by distrust.",
+     83.305,
+     91.138
+    ]
+   ]
+  },
+  {
+   "text": "For the first time, we are building tools that could change this. Systems people can trust, because everything can be checked. Intelligence that can plan, solve, and care for problems day and night. And machines that can do the hard physical work, in our homes, our fields, our cities.",
+   "scene": "triad2",
+   "a": {},
+   "keys": [
+    "first",
+    "time"
+   ],
+   "chapter": "Tools that could change that",
+   "start": 94.538,
+   "end": 113.338,
+   "parts": [
+    [
+     "For the first time, we are building tools that could change this.",
+     94.538,
+     98.138
+    ],
+    [
+     "Systems people can trust, because everything can be checked.",
+     98.658,
+     102.218
+    ],
+    [
+     "Intelligence that can plan, solve, and care for problems day and night.",
+     102.658,
+     107.298
+    ],
+    [
+     "And machines that can do the hard physical work, in our homes, our fields, our cities.",
+     107.758,
+     113.338
+    ]
+   ],
+   "chapterNo": 3
+  },
+  {
+   "text": "Omnix is bringing these together as one family of tools. A network for trust. A mind for wisdom in action. Hands to do the work.",
+   "scene": "stack",
+   "a": {
+    "hl": -1,
+    "plain": true
+   },
+   "keys": [
+    "trust,",
+    "mind,",
+    "hands."
+   ],
+   "chapter": null,
+   "start": 114.088,
+   "end": 124.163,
+   "parts": [
+    [
+     "Omnix is bringing these together as one family of tools.",
+     114.088,
+     117.728
+    ],
+    [
+     "A network for trust. A mind for wisdom in action. Hands to do the work.",
+     118.248,
+     124.163
+    ]
+   ]
+  },
+  {
+   "text": "Imagine food, shelter, healthcare, learning and comfort, not rationed by cost, but available to all. This is what we mean by abundance. Not excess, but enough, shared with everyone, and managed wisely.",
+   "scene": "split",
+   "a": {
+    "before": [
+     "clock",
+     "hand",
+     "scales"
+    ],
+    "after": [
+     "house",
+     "farm",
+     "heart"
+    ],
+    "lb": "Scarcity",
+    "la": "Enough, for everyone"
+   },
+   "keys": [
+    "excess,",
+    "enough,",
+    "everyone."
+   ],
+   "chapter": "Abundance",
+   "start": 127.563,
+   "end": 143.778,
+   "parts": [
+    [
+     "Imagine food, shelter, healthcare, learning and comfort, not rationed by cost, but available to all.",
+     127.563,
+     135.563
+    ],
+    [
+     "This is what we mean by abundance. Not excess, but enough, shared with everyone, and managed wisely.",
+     136.163,
+     143.778
+    ]
+   ],
+   "chapterNo": 4
+  },
+  {
+   "text": "And it is not only for people. The rishis taught Vasudhaiva Kutumbakam: the whole world is one family. Clean rivers. Living forests. Animals cared for. A planet tended like a home, by a family that finally has the time to care for it.",
+   "scene": "globe",
+   "a": {},
+   "keys": [
+    "one",
+    "family.",
+    "rivers",
+    "animals"
+   ],
+   "chapter": null,
+   "start": 144.528,
+   "end": 162.316,
+   "parts": [
+    [
+     "And it is not only for people.",
+     144.528,
+     146.108
+    ],
+    [
+     "The rishis taught Vasudhaiva Kutumbakam: the whole world is one family.",
+     146.648,
+     151.808
+    ],
+    [
+     "Clean rivers. Living forests. Animals cared for. A planet tended like a home, by a family that finally has the time to care for it.",
+     152.328,
+     162.316
+    ]
+   ]
+  },
+  {
+   "text": "Imagine what that does to the world's quarrels. When needs are met, there is less to fight about. When actions can be seen and checked, there is less room for deceit. Peace becomes not just a hope, but the natural state of things.",
+   "scene": "hearts",
+   "a": {},
+   "keys": [
+    "peace",
+    "trust",
+    "needs"
+   ],
+   "chapter": null,
+   "start": 163.066,
+   "end": 177.915,
+   "parts": [
+    [
+     "Imagine what that does to the world's quarrels.",
+     163.066,
+     165.826
+    ],
+    [
+     "When needs are met, there is less to fight about. When actions can be seen and checked, there is less room for deceit.",
+     166.326,
+     173.506
+    ],
+    [
+     "Peace becomes not just a hope, but the natural state of things.",
+     174.026,
+     177.915
+    ]
+   ]
+  },
+  {
+   "text": "Our vision is a world where no one has to do anything. Everyone is free to choose. Free to pursue what they love, without being burdened by anything.",
+   "scene": "quote",
+   "a": {
+    "text": "A world where no one\nhas to do anything.\nEveryone is free to choose."
+   },
+   "keys": [
+    "has",
+    "free"
+   ],
+   "chapter": "Freedom",
+   "start": 181.315,
+   "end": 191.517,
+   "parts": [
+    [
+     "Our vision is a world where no one has to do anything.",
+     181.315,
+     184.815
+    ],
+    [
+     "Everyone is free to choose. Free to pursue what they love, without being burdened by anything.",
+     185.335,
+     191.517
+    ]
+   ],
+   "chapterNo": 5
+  },
+  {
+   "text": "To create. To learn. To love. To serve. To spend a morning with a child, an afternoon with a craft, an evening in silence under the stars.",
+   "scene": "hands",
+   "a": {
+    "free": true
+   },
+   "keys": [
+    "create,",
+    "learn,",
+    "love,",
+    "serve,"
+   ],
+   "chapter": null,
+   "start": 192.267,
+   "end": 203.856,
+   "parts": [
+    [
+     "To create. To learn. To love. To serve.",
+     192.267,
+     195.147
+    ],
+    [
+     "To spend a morning with a child, an afternoon with a craft, an evening in silence under the stars.",
+     195.687,
+     203.856
+    ]
+   ]
+  },
+  {
+   "text": "And above all, to turn inward, and answer the call every human heart carries. The call to find the ultimate truth. The eternal light. Lasting peace, and bliss. Technology cannot walk that path for us. But it can clear the way.",
+   "scene": "path",
+   "a": {
+    "light": true
+   },
+   "keys": [
+    "truth,",
+    "light,",
+    "bliss."
+   ],
+   "chapter": null,
+   "start": 204.606,
+   "end": 222.893,
+   "parts": [
+    [
+     "And above all, to turn inward, and answer the call every human heart carries.",
+     204.606,
+     210.526
+    ],
+    [
+     "The call to find the ultimate truth. The eternal light. Lasting peace, and bliss.",
+     211.186,
+     217.646
+    ],
+    [
+     "Technology cannot walk that path for us. But it can clear the way.",
+     218.466,
+     222.893
+    ]
+   ]
+  },
+  {
+   "text": "A dream this big must be pursued with care. Powerful tools can be misused. Changes in work must be handled with compassion. The benefits must reach everyone. Nothing we build should be a source of pain for anyone. Everything should aim to be a source of light.",
+   "scene": "layers",
+   "a": {
+    "items": [
+     [
+      "shield",
+      "Safety first"
+     ],
+     [
+      "scales",
+      "Fair to all"
+     ],
+     [
+      "heart",
+      "Compassion in every change"
+     ]
+    ]
+   },
+   "keys": [
+    "care",
+    "pain",
+    "light"
+   ],
+   "chapter": "With open eyes",
+   "start": 226.293,
+   "end": 245.205,
+   "parts": [
+    [
+     "A dream this big must be pursued with care.",
+     226.293,
+     229.473
+    ],
+    [
+     "Powerful tools can be misused. Changes in work must be handled with compassion. The benefits must reach everyone.",
+     230.153,
+     238.333
+    ],
+    [
+     "Nothing we build should be a source of pain for anyone. Everything should aim to be a source of light.",
+     238.853,
+     245.205
+    ]
+   ],
+   "chapterNo": 6
+  },
+  {
+   "text": "The story of Omnix is the story of a simple, ancient hope: that every being might live in peace, in joy, and in abundance. For the first time, the tools to pursue that hope are within reach. Our task is to use them well. And to build it, together.",
+   "scene": "sunrise",
+   "a": {
+    "label": "Built in Bharat, for the whole world"
+   },
+   "keys": [
+    "hope",
+    "peace,",
+    "joy,",
+    "abundance.",
+    "together."
+   ],
+   "chapter": null,
+   "start": 245.955,
+   "end": 264.537,
+   "parts": [
+    [
+     "The story of Omnix is the story of a simple, ancient hope: that every being might live in peace, in joy, and in abundance.",
+     245.955,
+     255.215
+    ],
+    [
+     "For the first time, the tools to pursue that hope are within reach.",
+     255.835,
+     259.735
+    ],
+    [
+     "Our task is to use them well. And to build it, together.",
+     260.295,
+     264.537
+    ]
+   ]
+  },
+  {
+   "text": "Omnix. Beyond imagination.",
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "Omnix",
+    "sub": "Beyond imagination"
+   },
+   "keys": [
+    "Beyond",
+    "imagination."
+   ],
+   "chapter": null,
+   "start": 265.287,
+   "end": 268.049,
+   "parts": [
+    [
+     "Omnix. Beyond imagination.",
+     265.287,
+     268.049
+    ]
+   ]
+  }
+ ],
+ "endStart": 269.25,
+ "total": 278.25
+}
