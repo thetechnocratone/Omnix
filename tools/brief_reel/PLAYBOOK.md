@@ -144,6 +144,8 @@ recognises themselves WITHOUT being named or addressed. Reference: `media/2026-1
   do". Always future/design tense ("designed to", "being built to", "could"), never "solves" or "already",
   never imply OmniChain is live, never present Nishq as an investment (it is the network's utility
   asset). Products support the story; collaboration stays the hero.
+- Any caption that names Nishq must end with: "Nishq is a utility asset. Nothing here is financial advice."
+  Spell it "Nishq" (not "Nishk").
 - Verify every number against its original source on the day; name the source on the end card.
 - Publish via Metricool (blogId 7386926) Sunday 11:00 AM IST (next free half-hour if taken): IG REEL
   (showReelOnFeed true, isAiGenerated true), FB REEL with title, YouTube short (category
