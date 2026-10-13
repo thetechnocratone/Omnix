@@ -1,0 +1,203 @@
+{
+ "segs": [
+  {
+   "text": "This week, an Ethereum researcher asked the entire crypto industry to prepare for something called... bunker mode.",
+   "scene": "vault",
+   "keys": [
+    "bunker",
+    "mode."
+   ],
+   "start": 0.15,
+   "end": 7.13,
+   "parts": [
+    [
+     "This week, an Ethereum researcher asked the entire crypto industry to prepare for something called...",
+     0.15,
+     5.9
+    ],
+    [
+     "bunker mode.",
+     6.33,
+     7.13
+    ]
+   ]
+  },
+  {
+   "text": "The threat? Not quantum computers. A.I.",
+   "scene": "qa",
+   "keys": [
+    "Not",
+    "A.I."
+   ],
+   "start": 7.62,
+   "end": 11.02,
+   "parts": [
+    [
+     "The threat?",
+     7.62,
+     8.09
+    ],
+    [
+     "Not quantum computers.",
+     8.46,
+     9.85
+    ],
+    [
+     "A.I.",
+     10.39,
+     11.02
+    ]
+   ]
+  },
+  {
+   "text": "Every crypto wallet is protected by a hard maths problem.",
+   "scene": "lock",
+   "keys": [
+    "hard",
+    "maths",
+    "problem."
+   ],
+   "start": 11.65,
+   "end": 14.98,
+   "parts": [
+    [
+     "Every crypto wallet is protected by a hard maths problem.",
+     11.65,
+     14.98
+    ]
+   ]
+  },
+  {
+   "text": "Justin Drake warns that A.I. could find a shortcut through it. In the worst case, in months, not years.",
+   "scene": "maze",
+   "keys": [
+    "shortcut",
+    "months,",
+    "years."
+   ],
+   "start": 15.56,
+   "end": 22.09,
+   "parts": [
+    [
+     "Justin Drake warns that A.I. could find a shortcut through it.",
+     15.56,
+     18.89
+    ],
+    [
+     "In the worst case, in months, not years.",
+     19.26,
+     22.09
+    ]
+   ]
+  },
+  {
+   "text": "Vitalik Buterin agrees the risk is real. Even some quantum-resistant designs could take a hit.",
+   "scene": "lattice",
+   "keys": [
+    "real.",
+    "quantum-resistant",
+    "hit."
+   ],
+   "start": 22.59,
+   "end": 28.79,
+   "parts": [
+    [
+     "Vitalik Buterin agrees the risk is real.",
+     22.59,
+     25.53
+    ],
+    [
+     "Even some quantum-resistant designs could take a hit.",
+     25.98,
+     28.79
+    ]
+   ]
+  },
+  {
+   "text": "To be clear: no such attack has been shown yet.",
+   "scene": "zero",
+   "keys": [
+    "no",
+    "such",
+    "attack"
+   ],
+   "start": 29.36,
+   "end": 32.32,
+   "parts": [
+    [
+     "To be clear:",
+     29.36,
+     29.92
+    ],
+    [
+     "no such attack has been shown yet.",
+     30.29,
+     32.32
+    ]
+   ]
+  },
+  {
+   "text": "The advice? Keep your public key off-chain where you can. And don't rush. Buterin says he's lost more money in botched migrations than in all hacks combined.",
+   "scene": "advice",
+   "keys": [
+    "off-chain",
+    "don't",
+    "rush.",
+    "botched",
+    "migrations"
+   ],
+   "start": 32.82,
+   "end": 43.27,
+   "parts": [
+    [
+     "The advice?",
+     32.82,
+     33.41
+    ],
+    [
+     "Keep your public key off-chain where you can.",
+     33.91,
+     36.42
+    ],
+    [
+     "And don't rush.",
+     36.76,
+     37.65
+    ],
+    [
+     "Buterin says he's lost more money in botched migrations than in all hacks combined.",
+     37.96,
+     43.27
+    ]
+   ]
+  },
+  {
+   "text": "The lesson for anyone building a blockchain: design for adversaries that don't exist yet.",
+   "scene": "lesson",
+   "keys": [
+    "design",
+    "adversaries",
+    "exist",
+    "yet."
+   ],
+   "start": 43.75,
+   "end": 48.96,
+   "parts": [
+    [
+     "The lesson for anyone building a blockchain:",
+     43.75,
+     45.8
+    ],
+    [
+     "design for adversaries that don't exist yet.",
+     46.3,
+     48.96
+    ]
+   ]
+  }
+ ],
+ "endStart": 49.6,
+ "dateLabel": "13 OCT 2026",
+ "sourceShort": "Source: CoinDesk",
+ "sourceFull": "Source: CoinDesk, 8 Oct 2026"
+}
