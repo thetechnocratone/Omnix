@@ -16,6 +16,8 @@ blockchain, crypto, AI or robotics. Episode 1 (`media/2026-10-13_week/brief/ep1/
 ## 2. Script (≈90–130 words, 6–9 beats)
 - Hook first line. Plain English. Balanced: include the caveat/counterpoint.
 - Never give financial advice or price predictions. No hype, no FUD.
+- Open on the most specific, surprising detail of the story (a number, an object, a moment), and where it fits
+  naturally, end with a callback to that opening hook (see reference: founder-story reels).
 - Close with a one-line takeaway for builders. Omnix is NOT mentioned in the narration except, at most,
   a subtle tie-in. OmniChain is not live — never imply it is. No "still in development" wording.
 - No name-dropping/tagging people to get attention; naming a source of a quote is fine.
