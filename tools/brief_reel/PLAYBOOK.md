@@ -101,3 +101,37 @@ music.py → mix.sh) with these differences:
   3 short plain-English paragraphs, takeaway, data source + "Not financial advice", "Omnix Explains ·
   Built in Bengaluru 🇮🇳", 6–8 hashtags incl. #OmnixExplains #Omnix.
 - Before every push: `git pull --rebase` (The Brief task may have pushed the same morning).
+
+---
+
+# Build Together — weekly vision reel (Sundays)
+
+One narrated 50–70 s reel a week about a real problem Omnix wants to help solve, at city, country or world
+scale, told so that anyone who shapes that system (officials, planners, company heads, engineers, citizens)
+recognises themselves WITHOUT being named or addressed. Reference: `media/2026-10-13_week/together/ep1/`
+(Bengaluru traffic, 66 s). Same pipeline and bright theme as The Brief; `draft.json` uses
+`"series": "BUILD TOGETHER"`, `"dateLabel": "#N · TOPIC"`, and an optional `"signoff"` for the end card.
+
+- Structure: one verified, human-scale number as the hook (e.g. "168 hours a year = one full week") →
+  why the problem is really many disconnected systems → "What if they talked to each other?" →
+  2–3 concrete things that become possible (plain words, no product claims) → intelligence to plan it +
+  a shared trusted record so everyone can believe the data (subtle nod to A.L.K.I. + OmniChain, never
+  named, never described as live) → nobody builds this alone → many people working from the same truth →
+  a nature/Vedic image of coming together → callback to the hook.
+- Collaboration visuals every time: a single node becoming a network, many hands, rivers meeting the
+  ocean, orbits lining up, lotus, sunrise.
+- Never name or tag people, departments or officials; never say "policymakers" or "leaders, contact us".
+  The invitation is implied by the story.
+- Quiet sign-off, NOT on every episode (roughly every other one): end card signoff
+  "Built in Bengaluru · Open to collaboration" or a final caption line "Our DMs are open." Otherwise
+  use the default end card. Never a pitch.
+- Topic backlog (log in `media/together_log.md`, never repeat): Bengaluru's water (lakes, groundwater,
+  tankers) · financial inclusion (people outside formal credit) · trust in public records (land records,
+  certificates) · healthcare access in villages · farmers and supply chains · air quality · waste and
+  recycling · disaster response · power grids and solar · dignity of dangerous manual work (robots for
+  sanitation and hazardous jobs) · education access · public transport across India · climate at world scale.
+- Verify every number against its original source on the day; name the source on the end card.
+- Publish via Metricool (blogId 7386926) Sunday 11:00 AM IST (next free half-hour if taken): IG REEL
+  (showReelOnFeed true, isAiGenerated true), FB REEL with title, YouTube short (category
+  SCIENCE_TECHNOLOGY). Caption: the hook, 2–3 short paragraphs on the problem and what could be built
+  together, source line, optional quiet sign-off, 6–8 hashtags incl. #BuildTogether #Omnix #BuiltInBharat.

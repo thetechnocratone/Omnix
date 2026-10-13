@@ -1,0 +1,14 @@
+{"dateLabel":"#1 · TRAFFIC","series":"BUILD TOGETHER","signoff":"Built in Bengaluru  ·  Open to collaboration","sourceShort":"Data: TomTom Traffic Index 2025","sourceFull":"Data: TomTom Traffic Index 2025 (Bengaluru)",
+"segs":[
+{"scene":"jam","keys":["168","hours"],"parts":["Every year, a Bengaluru commuter loses about 168 hours to rush-hour traffic."]},
+{"scene":"week","keys":["full","week."],"parts":["That's one full week. Standing still."]},
+{"scene":"speed","keys":["thirty-six","minutes."],"parts":["Ten kilometres takes about thirty-six minutes."]},
+{"scene":"silos","keys":["alone."],"parts":["Traffic isn't one problem.","It's signals, buses, the metro, roadworks and weather, all working alone."]},
+{"scene":"connect","keys":["talked"],"parts":["What if they talked to each other?"]},
+{"scene":"vision","keys":["learn","live","map","real","data,"],"parts":["Signals that learn from the roads around them.","One live map for every bus and train.","Roadworks planned with real data, open for anyone to check."]},
+{"scene":"trust","keys":["Intelligence","trusted","record"],"parts":["Intelligence to plan it.","A shared, trusted record, so everyone can believe the data."]},
+{"scene":"alone","keys":["alone."],"parts":["No one builds this alone.","Not one company. Not one department."]},
+{"scene":"hands","keys":["same","truth."],"parts":["It takes engineers, planners, citizens, and the people who run our cities, working from the same truth."]},
+{"scene":"rivers","keys":["ocean"],"parts":["Rivers become an ocean when they meet."]},
+{"scene":"close","keys":["week","back."],"parts":["Let's give Bengaluru its week back."]}
+]}

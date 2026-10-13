@@ -1,0 +1,222 @@
+{
+ "dateLabel": "#1 \u00b7 TRAFFIC",
+ "sourceShort": "Data: TomTom Traffic Index 2025",
+ "sourceFull": "Data: TomTom Traffic Index 2025 (Bengaluru)",
+ "series": "BUILD TOGETHER",
+ "signoff": "Built in Bengaluru  \u00b7  Open to collaboration",
+ "segs": [
+  {
+   "text": "Every year, a Bengaluru commuter loses about 168 hours to rush-hour traffic.",
+   "scene": "jam",
+   "keys": [
+    "168",
+    "hours"
+   ],
+   "start": 0.25,
+   "end": 6.891,
+   "parts": [
+    [
+     "Every year, a Bengaluru commuter loses about 168 hours to rush-hour traffic.",
+     0.25,
+     6.891
+    ]
+   ]
+  },
+  {
+   "text": "That's one full week. Standing still.",
+   "scene": "week",
+   "keys": [
+    "full",
+    "week."
+   ],
+   "start": 7.391,
+   "end": 10.824,
+   "parts": [
+    [
+     "That's one full week. Standing still.",
+     7.391,
+     10.824
+    ]
+   ]
+  },
+  {
+   "text": "Ten kilometres takes about thirty-six minutes.",
+   "scene": "speed",
+   "keys": [
+    "thirty-six",
+    "minutes."
+   ],
+   "start": 11.324,
+   "end": 14.496,
+   "parts": [
+    [
+     "Ten kilometres takes about thirty-six minutes.",
+     11.324,
+     14.496
+    ]
+   ]
+  },
+  {
+   "text": "Traffic isn't one problem. It's signals, buses, the metro, roadworks and weather, all working alone.",
+   "scene": "silos",
+   "keys": [
+    "alone."
+   ],
+   "start": 14.996,
+   "end": 23.069,
+   "parts": [
+    [
+     "Traffic isn't one problem.",
+     14.996,
+     16.976
+    ],
+    [
+     "It's signals, buses, the metro, roadworks and weather, all working alone.",
+     17.296,
+     23.069
+    ]
+   ]
+  },
+  {
+   "text": "What if they talked to each other?",
+   "scene": "connect",
+   "keys": [
+    "talked"
+   ],
+   "start": 23.569,
+   "end": 25.36,
+   "parts": [
+    [
+     "What if they talked to each other?",
+     23.569,
+     25.36
+    ]
+   ]
+  },
+  {
+   "text": "Signals that learn from the roads around them. One live map for every bus and train. Roadworks planned with real data, open for anyone to check.",
+   "scene": "vision",
+   "keys": [
+    "learn",
+    "live",
+    "map",
+    "real",
+    "data,"
+   ],
+   "start": 25.86,
+   "end": 36.273,
+   "parts": [
+    [
+     "Signals that learn from the roads around them.",
+     25.86,
+     28.61
+    ],
+    [
+     "One live map for every bus and train.",
+     28.93,
+     31.898
+    ],
+    [
+     "Roadworks planned with real data, open for anyone to check.",
+     32.218,
+     36.273
+    ]
+   ]
+  },
+  {
+   "text": "Intelligence to plan it. A shared, trusted record, so everyone can believe the data.",
+   "scene": "trust",
+   "keys": [
+    "Intelligence",
+    "trusted",
+    "record"
+   ],
+   "start": 36.773,
+   "end": 43.215,
+   "parts": [
+    [
+     "Intelligence to plan it.",
+     36.773,
+     38.629
+    ],
+    [
+     "A shared, trusted record, so everyone can believe the data.",
+     38.949,
+     43.215
+    ]
+   ]
+  },
+  {
+   "text": "No one builds this alone. Not one company. Not one department.",
+   "scene": "alone",
+   "keys": [
+    "alone."
+   ],
+   "start": 43.715,
+   "end": 49.021,
+   "parts": [
+    [
+     "No one builds this alone.",
+     43.715,
+     45.482
+    ],
+    [
+     "Not one company. Not one department.",
+     45.802,
+     49.021
+    ]
+   ]
+  },
+  {
+   "text": "It takes engineers, planners, citizens, and the people who run our cities, working from the same truth.",
+   "scene": "hands",
+   "keys": [
+    "same",
+    "truth."
+   ],
+   "start": 49.521,
+   "end": 56.288,
+   "parts": [
+    [
+     "It takes engineers, planners, citizens, and the people who run our cities, working from the same truth.",
+     49.521,
+     56.288
+    ]
+   ]
+  },
+  {
+   "text": "Rivers become an ocean when they meet.",
+   "scene": "rivers",
+   "keys": [
+    "ocean"
+   ],
+   "start": 56.788,
+   "end": 59.314,
+   "parts": [
+    [
+     "Rivers become an ocean when they meet.",
+     56.788,
+     59.314
+    ]
+   ]
+  },
+  {
+   "text": "Let's give Bengaluru its week back.",
+   "scene": "close",
+   "keys": [
+    "week",
+    "back."
+   ],
+   "start": 59.814,
+   "end": 62.284,
+   "parts": [
+    [
+     "Let's give Bengaluru its week back.",
+     59.814,
+     62.284
+    ]
+   ]
+  }
+ ],
+ "endStart": 62.88
+}
