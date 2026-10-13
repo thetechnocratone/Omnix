@@ -70,10 +70,13 @@ beginner understands it. Reference: `media/2026-10-13_week/explains/ep1/` (token
 Same pipeline as The Brief (draft.json → Speko clips → assemble_voice.py → scenes.js → drive.py →
 music.py → mix.sh) with these differences:
 
-- `draft.json`: `"theme": "night"`, `"series": "EXPLAINS"`, `"dateLabel": "OMNIX EXPLAINS #N"`,
+- THEME: always the bright default theme (cream paper, ink, saffron), same as The Brief. Do NOT use
+  `"theme": "night"`: the owner reviewed the dark look on Ep 1 and does not want it.
+- `draft.json`: `"series": "EXPLAINS"`, `"dateLabel": "OMNIX EXPLAINS #N"`,
   `sourceShort`/`sourceFull` name the data source (or "Not financial advice" if no figures are used).
-- Night theme = dark ink background, cream lines, saffron accent, chrome-ish objects (see ep1/scenes.js
-  helpers `chrome`, `coin`, `person`, `tower`, `glow`). Copy the helpers you need into the new scenes.js.
+- Ep 1 (tokenization) was made in the old dark theme; reuse its teaching structure and helper ideas
+  (`coin`, `person`, `tower`) but redraw for the bright theme: light fills (#EADCC4 / PAPER), INK
+  outlines, saffron highlights (see The Brief ep1/scenes.js for the bright look).
 - Length 55–85 s, 8–10 beats, ~150–190 words. Teaching method:
   1. Everyday hook in India ("Imagine owning a tiny slice of a building in Bengaluru").
   2. How it works today (the problem), shown as a simple flow.
@@ -90,6 +93,8 @@ music.py → mix.sh) with these differences:
   smart contracts · AI agents · how large language models work · humanoid robots · zero-knowledge proofs ·
   staking & proof of stake · DAOs · crypto bridges · quantum computers vs crypto · gas fees ·
   oracles · self-custody vs exchanges · robot learning from demonstration · AI alignment.
+- If `media/explains_log.md` or Metricool already shows an Explains episode scheduled for today,
+  do not make another one: stop and report.
 - Publish via Metricool (blogId 7386926) at 1:00 PM IST on the run day (next free half-hour if taken):
   Instagram REEL (showReelOnFeed true, isAiGenerated true), Facebook REEL with title, YouTube short
   (category EDUCATION, title "<Concept> explained in 60 seconds #Shorts" style). Caption: hook line,
