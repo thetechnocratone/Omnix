@@ -4,6 +4,14 @@ One narrated 35–55s news-explainer reel per weekday on the most important stor
 blockchain, crypto, AI or robotics. Episode 1 (`media/2026-10-13_week/brief/ep1/`,
 `ep1_bunker_mode.mp4`) is the reference for look, pacing and tone.
 
+## 0. When something breaks (all series)
+The owner wants problems fixed, not just reported. If a step fails (render error, Speko/Metricool/GitHub
+error, a broken script after an edit), diagnose it and fix it yourself (repair the script, retry once,
+use the next free slot, pick another verified story) and commit the fix with a clear message. Only if
+you truly cannot fix it: don't publish a lower-quality or unverified episode; tell the owner exactly
+what broke, what you tried, and the one thing they need to do (e.g. top up Speko credit, reconnect an
+account). Always mention any fix you made in the final message.
+
 ## 1. Pick the story
 - Search the last 24–48 h of news (CoinDesk, The Block, Decrypt, Reuters, Bloomberg, The Verge,
   TechCrunch, IEEE Spectrum, The Robot Report, official company/foundation posts).
