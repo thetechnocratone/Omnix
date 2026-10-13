@@ -51,7 +51,7 @@ blockchain, crypto, AI or robotics. Episode 1 (`media/2026-10-13_week/brief/ep1/
 - Watch a contact sheet of the final file before publishing.
 
 ## 5. Publish
-- Commit + push the mp4 (and a cover jpg) to this repo; public URL is
+- `git pull --rebase` first (another scheduled run may have pushed). Commit + push the mp4 (and a cover jpg) to this repo; public URL is
   `https://raw.githubusercontent.com/thetechnocratone/Omnix/main/<path>`.
 - Metricool (blogId 7386926, timezone Asia/Calcutta): one post, providers instagram + facebook + youtube,
   scheduled 4:00 PM IST the same day (later if that slot is taken); instagramData type REEL,
@@ -60,3 +60,39 @@ blockchain, crypto, AI or robotics. Episode 1 (`media/2026-10-13_week/brief/ep1/
 - Caption: hook line + 2–3 short paragraphs + takeaway + "Source: X, date. Not financial advice." +
   "The Brief by Omnix · Built in Bengaluru 🇮🇳" + 6–8 hashtags incl. #TheBrief #Omnix.
 - Append the episode to `media/brief_log.md` (date, story, source URL, file, Metricool post time).
+
+---
+
+# Omnix Explains — twice-weekly explainer (Wed + Sat)
+
+Plain-English explainers of ONE concept from blockchain, crypto, AI or robotics, made so a complete
+beginner understands it. Reference: `media/2026-10-13_week/explains/ep1/` (tokenization, 80 s).
+Same pipeline as The Brief (draft.json → Speko clips → assemble_voice.py → scenes.js → drive.py →
+music.py → mix.sh) with these differences:
+
+- `draft.json`: `"theme": "night"`, `"series": "EXPLAINS"`, `"dateLabel": "OMNIX EXPLAINS #N"`,
+  `sourceShort`/`sourceFull` name the data source (or "Not financial advice" if no figures are used).
+- Night theme = dark ink background, cream lines, saffron accent, chrome-ish objects (see ep1/scenes.js
+  helpers `chrome`, `coin`, `person`, `tower`, `glow`). Copy the helpers you need into the new scenes.js.
+- Length 55–85 s, 8–10 beats, ~150–190 words. Teaching method:
+  1. Everyday hook in India ("Imagine owning a tiny slice of a building in Bengaluru").
+  2. How it works today (the problem), shown as a simple flow.
+  3. The concept in one sentence, then one visual metaphor.
+  4. 2–3 concrete examples or benefits, one per visual.
+  5. One verified real-world number (check it against the original data source on the day).
+  6. The honest catch / limitation.
+  7. One-line takeaway, then a callback to the opening hook.
+- No jargon without an instant plain-English translation. One idea per beat. No financial advice,
+  no price talk, no promises; OmniChain/A.L.K.I./OmniBot are not mentioned except at most a subtle
+  tie-in, and OmniChain is never described as live.
+- Topic backlog (pick the next unused one, or a better one if the week's news makes another concept
+  timely; log it in `media/explains_log.md`): blockchain itself · wallets & private keys · stablecoins ·
+  smart contracts · AI agents · how large language models work · humanoid robots · zero-knowledge proofs ·
+  staking & proof of stake · DAOs · crypto bridges · quantum computers vs crypto · gas fees ·
+  oracles · self-custody vs exchanges · robot learning from demonstration · AI alignment.
+- Publish via Metricool (blogId 7386926) at 1:00 PM IST on the run day (next free half-hour if taken):
+  Instagram REEL (showReelOnFeed true, isAiGenerated true), Facebook REEL with title, YouTube short
+  (category EDUCATION, title "<Concept> explained in 60 seconds #Shorts" style). Caption: hook line,
+  3 short plain-English paragraphs, takeaway, data source + "Not financial advice", "Omnix Explains ·
+  Built in Bengaluru 🇮🇳", 6–8 hashtags incl. #OmnixExplains #Omnix.
+- Before every push: `git pull --rebase` (The Brief task may have pushed the same morning).

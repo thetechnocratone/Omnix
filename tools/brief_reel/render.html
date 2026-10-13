@@ -15,7 +15,9 @@ html,body{margin:0;background:#000}
 <img id="conch" src="assets/conch.png" style="display:none">
 <script>
 const W=1080,H=1920,cv=document.getElementById('c'),x=cv.getContext('2d');
-const INK='#2B2118',SAF='#F19611',MAR='#FCC25F',LIGHT='#F3DDB8',PAPER='#F7EFE1',MUTE='#B9A88E',RED='#C2502E';
+let INK='#2B2118',SAF='#F19611',MAR='#FCC25F',LIGHT='#F3DDB8',PAPER='#F7EFE1',MUTE='#B9A88E',RED='#C2502E',VIG='rgba(120,90,50,0.22)',GRID='rgba(43,33,24,0.035)',RULE='rgba(43,33,24,0.15)',WM=0.07;
+// theme 'night' (Omnix Explains): dark ink background, cream lines, saffron accent
+function applyTheme(th){if(th==='night'){INK='#F2E8D6';PAPER='#15110D';MUTE='#6F6455';LIGHT='#3B3024';RED='#E2704F';VIG='rgba(0,0,0,0.55)';GRID='rgba(255,240,220,0.035)';RULE='rgba(242,232,214,0.18)';WM=0.06}}
 const IMG=id=>document.getElementById(id);
 const cl=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));
 const eo=t=>1-Math.pow(1-cl(t),3), eio=t=>{t=cl(t);return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2};
@@ -38,18 +40,18 @@ const MZ=(()=>{const N=9,r=rng(42),walls=[];const vis=Array(N*N).fill(0);const E
 function txt(s,X,Y,font,col,al='center',a=1){x.save();x.globalAlpha*=a;x.font=font;x.fillStyle=col;x.textAlign=al;x.textBaseline='middle';x.fillText(s,X,Y);x.restore()}
 function bg(t){
  x.fillStyle=PAPER;x.fillRect(0,0,W,H);
- const g=x.createRadialGradient(W/2,H*0.45,200,W/2,H*0.5,1300);g.addColorStop(0,'rgba(255,250,240,0)');g.addColorStop(1,'rgba(120,90,50,0.22)');x.fillStyle=g;x.fillRect(0,0,W,H);
+ const g=x.createRadialGradient(W/2,H*0.45,200,W/2,H*0.5,1300);g.addColorStop(0,'rgba(255,250,240,0)');g.addColorStop(1,VIG);x.fillStyle=g;x.fillRect(0,0,W,H);
  // faint grid
- x.save();x.strokeStyle='rgba(43,33,24,0.035)';x.lineWidth=1;for(let i=0;i<=W;i+=60){x.beginPath();x.moveTo(i,0);x.lineTo(i,H);x.stroke()}for(let j=0;j<=H;j+=60){x.beginPath();x.moveTo(0,j);x.lineTo(W,j);x.stroke()}x.restore();
+ x.save();x.strokeStyle=GRID;x.lineWidth=1;for(let i=0;i<=W;i+=60){x.beginPath();x.moveTo(i,0);x.lineTo(i,H);x.stroke()}for(let j=0;j<=H;j+=60){x.beginPath();x.moveTo(0,j);x.lineTo(W,j);x.stroke()}x.restore();
  // star watermark
- x.save();x.globalAlpha=0.07;x.translate(W/2,1180);x.rotate(t*0.03);x.drawImage(IMG('star'),-560,-560,1120,1120);x.restore();
+ x.save();x.globalAlpha=WM;x.translate(W/2,1180);x.rotate(t*0.03);x.drawImage(IMG('star'),-560,-560,1120,1120);x.restore();
  // conch & lotus corners
  x.save();x.globalAlpha=0.16;x.drawImage(IMG('conch'),W-170,H-300,150,228);x.translate(30,H-190);x.drawImage(IMG('lotus'),0,0,220,118);x.restore();
  x.drawImage(noise,0,0);
 }
 function header(t){
- x.save();txt('OMNIX',70,140,'26px IXB',SAF,'left');txt('·  THE BRIEF',178,140,'22px ISB',INK,'left',0.55);
- txt(CFG.dateLabel||'',W-70,140,'22px ISB',INK,'right',0.55);x.fillStyle='rgba(43,33,24,0.15)';x.fillRect(70,172,W-140,2);x.restore();
+ x.save();txt('OMNIX',70,140,'26px IXB',SAF,'left');txt('·  '+(CFG.series||'THE BRIEF'),178,140,'22px ISB',INK,'left',0.55);
+ txt(CFG.dateLabel||'',W-70,140,'22px ISB',INK,'right',0.55);x.fillStyle=RULE;x.fillRect(70,172,W-140,2);x.restore();
 }
 // ---------- captions ----------
 const KEY=['bunker','mode','A.I.','A.I','quantum','months,','months','years.','not','shortcut','no','such','attack','off-chain','rush.','don\'t','exist','yet.','hit.','real.','maths'];
@@ -97,5 +99,5 @@ function render(t){
  txt(CFG.sourceShort||'',W/2,1800,'26px IM',INK,'center',0.35);
  return cv.toDataURL('image/jpeg',0.9);
 }
-window.render=render;window.setCfg=c=>{CFG=c;CHUNKS=null};
+window.render=render;window.setCfg=c=>{CFG=c;CHUNKS=null;applyTheme(c.theme)};
 </script></body></html>

@@ -30,7 +30,7 @@ for si, s in enumerate(d["segs"]):
 y = np.concatenate(buf)
 with wave.open(os.path.join(ep, "vo.wav"), "wb") as w:
     w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(y, -1, 1) * 32767).astype(np.int16).tobytes())
-out = {k2: d[k2] for k2 in ("dateLabel", "sourceShort", "sourceFull")}
+out = {k2: d[k2] for k2 in ("dateLabel", "sourceShort", "sourceFull", "series", "theme") if k2 in d}
 out.update(segs=segs, endStart=round(t + 0.1, 2))
 json.dump(out, open(os.path.join(ep, "episode.json"), "w"), indent=1)
 print(f"voice {t:.1f}s, {k} parts, endStart {out['endStart']}")

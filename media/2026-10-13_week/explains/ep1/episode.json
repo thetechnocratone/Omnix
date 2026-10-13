@@ -1,0 +1,224 @@
+{
+ "dateLabel": "OMNIX EXPLAINS #1",
+ "sourceShort": "Data: RWA.xyz",
+ "sourceFull": "Data: RWA.xyz (tokenized US Treasuries, 2026) \u00b7 Not financial advice",
+ "series": "EXPLAINS",
+ "theme": "night",
+ "segs": [
+  {
+   "text": "Imagine owning a tiny slice of a building in Bengaluru. Not the whole thing. Just five hundred rupees' worth.",
+   "scene": "slice",
+   "keys": [
+    "tiny",
+    "slice",
+    "five",
+    "hundred"
+   ],
+   "start": 0.25,
+   "end": 7.51,
+   "parts": [
+    [
+     "Imagine owning a tiny slice of a building in Bengaluru.",
+     0.25,
+     4.061
+    ],
+    [
+     "Not the whole thing. Just five hundred rupees' worth.",
+     4.381,
+     7.51
+    ]
+   ]
+  },
+  {
+   "text": "Today, that's almost impossible. Big assets come in big pieces, and buying them means paperwork, middlemen, and days of waiting.",
+   "scene": "old",
+   "keys": [
+    "paperwork,",
+    "middlemen,",
+    "days"
+   ],
+   "start": 8.01,
+   "end": 17.642,
+   "parts": [
+    [
+     "Today, that's almost impossible.",
+     8.01,
+     10.654
+    ],
+    [
+     "Big assets come in big pieces, and buying them means paperwork, middlemen, and days of waiting.",
+     10.974,
+     17.642
+    ]
+   ]
+  },
+  {
+   "text": "Tokenization changes the packaging. Ownership of a real asset is recorded on a blockchain, as digital tokens.",
+   "scene": "tokens",
+   "keys": [
+    "Tokenization",
+    "packaging.",
+    "tokens."
+   ],
+   "start": 18.142,
+   "end": 26.223,
+   "parts": [
+    [
+     "Tokenization changes the packaging.",
+     18.142,
+     20.684
+    ],
+    [
+     "Ownership of a real asset is recorded on a blockchain, as digital tokens.",
+     21.004,
+     26.223
+    ]
+   ]
+  },
+  {
+   "text": "Each token is a share of the real thing. A building, a government bond, gold, even art.",
+   "scene": "assets",
+   "keys": [
+    "share",
+    "real",
+    "thing."
+   ],
+   "start": 26.723,
+   "end": 34.136,
+   "parts": [
+    [
+     "Each token is a share of the real thing.",
+     26.723,
+     29.7
+    ],
+    [
+     "A building, a government bond, gold, even art.",
+     30.02,
+     34.136
+    ]
+   ]
+  },
+  {
+   "text": "Because it lives on a shared ledger, ownership can be split into small pieces, traded at any hour, and settled in minutes instead of days.",
+   "scene": "benefits",
+   "keys": [
+    "small",
+    "pieces,",
+    "any",
+    "hour,",
+    "minutes"
+   ],
+   "start": 34.636,
+   "end": 44.706,
+   "parts": [
+    [
+     "Because it lives on a shared ledger, ownership can be split into small pieces,",
+     34.636,
+     39.608
+    ],
+    [
+     "traded at any hour,",
+     39.928,
+     41.592
+    ],
+    [
+     "and settled in minutes instead of days.",
+     41.912,
+     44.706
+    ]
+   ]
+  },
+  {
+   "text": "This is already happening. More than ten billion dollars of US Treasury bonds have been tokenized.",
+   "scene": "now",
+   "keys": [
+    "already",
+    "ten",
+    "billion",
+    "dollars"
+   ],
+   "start": 45.206,
+   "end": 51.857,
+   "parts": [
+    [
+     "This is already happening.",
+     45.206,
+     47.05
+    ],
+    [
+     "More than ten billion dollars of US Treasury bonds have been tokenized.",
+     47.37,
+     51.857
+    ]
+   ]
+  },
+  {
+   "text": "But a token is only as good as the promise behind it. Someone still has to hold the real asset, and the law has to recognise your claim.",
+   "scene": "caveat",
+   "keys": [
+    "promise",
+    "law"
+   ],
+   "start": 52.357,
+   "end": 61.798,
+   "parts": [
+    [
+     "But a token is only as good as the promise behind it.",
+     52.357,
+     56.229
+    ],
+    [
+     "Someone still has to hold the real asset, and the law has to recognise your claim.",
+     56.549,
+     61.798
+    ]
+   ]
+  },
+  {
+   "text": "Tokenization doesn't make things more valuable. It makes ownership easier to divide, move and verify.",
+   "scene": "lesson",
+   "keys": [
+    "divide,",
+    "move",
+    "verify."
+   ],
+   "start": 62.298,
+   "end": 69.446,
+   "parts": [
+    [
+     "Tokenization doesn't make things more valuable.",
+     62.298,
+     65.235
+    ],
+    [
+     "It makes ownership easier to divide, move and verify.",
+     65.555,
+     69.446
+    ]
+   ]
+  },
+  {
+   "text": "So, that slice of a building in Bengaluru? One day, it could be just a tap away.",
+   "scene": "callback",
+   "keys": [
+    "tap",
+    "away."
+   ],
+   "start": 69.946,
+   "end": 75.601,
+   "parts": [
+    [
+     "So, that slice of a building in Bengaluru?",
+     69.946,
+     72.61
+    ],
+    [
+     "One day, it could be just a tap away.",
+     72.93,
+     75.601
+    ]
+   ]
+  }
+ ],
+ "endStart": 76.2
+}

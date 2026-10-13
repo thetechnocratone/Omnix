@@ -1,0 +1,12 @@
+{"dateLabel":"OMNIX EXPLAINS #1","series":"EXPLAINS","theme":"night","sourceShort":"Data: RWA.xyz","sourceFull":"Data: RWA.xyz (tokenized US Treasuries, 2026) · Not financial advice",
+"segs":[
+{"scene":"slice","keys":["tiny","slice","five","hundred"],"parts":["Imagine owning a tiny slice of a building in Bengaluru.","Not the whole thing. Just five hundred rupees' worth."]},
+{"scene":"old","keys":["paperwork,","middlemen,","days"],"parts":["Today, that's almost impossible.","Big assets come in big pieces, and buying them means paperwork, middlemen, and days of waiting."]},
+{"scene":"tokens","keys":["Tokenization","packaging.","tokens."],"parts":["Tokenization changes the packaging.","Ownership of a real asset is recorded on a blockchain, as digital tokens."]},
+{"scene":"assets","keys":["share","real","thing."],"parts":["Each token is a share of the real thing.","A building, a government bond, gold, even art."]},
+{"scene":"benefits","keys":["small","pieces,","any","hour,","minutes"],"parts":["Because it lives on a shared ledger, ownership can be split into small pieces,","traded at any hour,","and settled in minutes instead of days."]},
+{"scene":"now","keys":["already","ten","billion","dollars"],"parts":["This is already happening.","More than ten billion dollars of US Treasury bonds have been tokenized."]},
+{"scene":"caveat","keys":["promise","law"],"parts":["But a token is only as good as the promise behind it.","Someone still has to hold the real asset, and the law has to recognise your claim."]},
+{"scene":"lesson","keys":["divide,","move","verify."],"parts":["Tokenization doesn't make things more valuable.","It makes ownership easier to divide, move and verify."]},
+{"scene":"callback","keys":["tap","away."],"parts":["So, that slice of a building in Bengaluru?","One day, it could be just a tap away."]}
+]}
