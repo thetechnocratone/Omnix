@@ -12,6 +12,14 @@ you truly cannot fix it: don't publish a lower-quality or unverified episode; te
 what broke, what you tried, and the one thing they need to do (e.g. top up Speko credit, reconnect an
 account). Always mention any fix you made in the final message.
 
+## Visual devices worth reusing (from the owner's reference posts)
+- Everyday-scene metaphor for a system: e.g. a top-down city block where four shops with different signs all
+  pay one landlord (= market structure), drawn as an illustrated map with paper cards pinned on it and thin
+  connecting lines appearing as the narration names each player.
+- Big numbers as hero type: huge figure, unit in smaller italic beside it ("$2.4 billion", "200 people").
+- A grid of many small tiles/portraits to make a count feel human ("200 people").
+Draw these ourselves in the bright theme; never use film clips, real logos or real people's photos.
+
 ## 1. Pick the story
 - Search the last 24–48 h of news (CoinDesk, The Block, Decrypt, Reuters, Bloomberg, The Verge,
   TechCrunch, IEEE Spectrum, The Robot Report, official company/foundation posts).
