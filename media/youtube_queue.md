@@ -18,3 +18,7 @@ Entry format (one block per Short, newest at the bottom):
 ## Done (14 Oct 2026, uploaded from the browser)
 Tokenization, Korea humanoids, crypto bridges, A.L.K.I. alignment, OmniBot one mind, Bengaluru traffic,
 Abundance, Full Stack, Beyond Imagination.
+
+Scheduled in Studio for 14 Oct 2026 (IST): 7:30 PM hardware wallet implant (SDQ0AjZemYk), 8:00 Blockchain explained (Tw3C0jNAPq0),
+8:30 Waste (R2vQECHeEZ0), 9:00 AI memory (YYx72SR6kj0), 9:30 Wallets explained (vcIRW_HZtYo), 10:00 Roads (W5NQe21URwg),
+10:30 Samsung USDC (6rIiOuTcp58), 11:00 Stablecoins explained (mWEuXfvbIa4), 11:30 Metro (-7VtSf9q7YI).
