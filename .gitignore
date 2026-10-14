@@ -1,1 +1,6 @@
-__pycache__/
+# Reel build intermediates (regenerable; only final mp4s, covers and scene sources are kept)
+media/**/vo_parts/
+media/**/*.wav
+media/**/silent.mp4
+media/**/still_*.jpg
+.cover_tmp.html
