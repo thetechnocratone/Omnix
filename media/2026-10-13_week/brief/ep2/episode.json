@@ -1,0 +1,170 @@
+{
+ "dateLabel": "14 OCT 2026",
+ "sourceShort": "Source: Seoul Economic Daily",
+ "sourceFull": "Source: Seoul Economic Daily, 13 Oct 2026",
+ "segs": [
+  {
+   "text": "For decades, factory robots have worked behind a fence. People on one side. Machines on the other.",
+   "scene": "fence",
+   "keys": [
+    "fence."
+   ],
+   "start": 0.25,
+   "end": 7.142,
+   "parts": [
+    [
+     "For decades, factory robots have worked behind a fence.",
+     0.25,
+     4.026
+    ],
+    [
+     "People on one side. Machines on the other.",
+     4.346,
+     7.142
+    ]
+   ]
+  },
+  {
+   "text": "This week, South Korea cleared twenty humanoid robots to work beside people.",
+   "scene": "twenty",
+   "keys": [
+    "twenty",
+    "beside",
+    "people."
+   ],
+   "start": 7.642,
+   "end": 12.72,
+   "parts": [
+    [
+     "This week, South Korea cleared twenty humanoid robots to work beside people.",
+     7.642,
+     12.72
+    ]
+   ]
+  },
+  {
+   "text": "They'll clean chip-packaging components, position car body parts, stack shipyard brackets, and move refrigerated packaging.",
+   "scene": "jobs",
+   "keys": [
+    "chip-packaging",
+    "car",
+    "shipyard",
+    "refrigerated"
+   ],
+   "start": 13.22,
+   "end": 22.79,
+   "parts": [
+    [
+     "They'll clean chip-packaging components,",
+     13.22,
+     15.443
+    ],
+    [
+     "position car body parts,",
+     15.763,
+     17.683
+    ],
+    [
+     "stack shipyard brackets,",
+     18.003,
+     20.318
+    ],
+    [
+     "and move refrigerated packaging.",
+     20.638,
+     22.79
+    ]
+   ]
+  },
+  {
+   "text": "The old safety rules assumed robots that stay in one place. Humanoids walk around.",
+   "scene": "rules",
+   "keys": [
+    "stay",
+    "one",
+    "place.",
+    "walk",
+    "around."
+   ],
+   "start": 23.29,
+   "end": 29.469,
+   "parts": [
+    [
+     "The old safety rules assumed robots that stay in one place.",
+     23.29,
+     27.452
+    ],
+    [
+     "Humanoids walk around.",
+     27.772,
+     29.469
+    ]
+   ]
+  },
+  {
+   "text": "Data from the trial is meant to help rewrite those rules.",
+   "scene": "rewrite",
+   "keys": [
+    "rewrite"
+   ],
+   "start": 29.969,
+   "end": 33.595,
+   "parts": [
+    [
+     "Data from the trial is meant to help rewrite those rules.",
+     29.969,
+     33.595
+    ]
+   ]
+  },
+  {
+   "text": "The caveat: this is permission to test, not proof that they work. What matters is how often a person has to step in.",
+   "scene": "caveat",
+   "keys": [
+    "permission",
+    "proof",
+    "step",
+    "in."
+   ],
+   "start": 34.095,
+   "end": 42.769,
+   "parts": [
+    [
+     "The caveat: this is permission to test, not proof that they work.",
+     34.095,
+     38.958
+    ],
+    [
+     "What matters is how often a person has to step in.",
+     39.278,
+     42.769
+    ]
+   ]
+  },
+  {
+   "text": "The lesson for builders: trust is earned in small, measured trials. That's how the fence comes down.",
+   "scene": "lesson",
+   "keys": [
+    "small,",
+    "measured",
+    "trials.",
+    "fence"
+   ],
+   "start": 43.269,
+   "end": 50.55,
+   "parts": [
+    [
+     "The lesson for builders: trust is earned in small, measured trials.",
+     43.269,
+     48.386
+    ],
+    [
+     "That's how the fence comes down.",
+     48.706,
+     50.55
+    ]
+   ]
+  }
+ ],
+ "endStart": 51.15
+}

@@ -1,0 +1,21 @@
+{
+ "dateLabel": "14 OCT 2026",
+ "sourceShort": "Source: Seoul Economic Daily",
+ "sourceFull": "Source: Seoul Economic Daily, 13 Oct 2026",
+ "segs": [
+  {"scene": "fence", "keys": ["fence."],
+   "parts": ["For decades, factory robots have worked behind a fence.", "People on one side. Machines on the other."]},
+  {"scene": "twenty", "keys": ["twenty", "beside", "people."],
+   "parts": ["This week, South Korea cleared twenty humanoid robots to work beside people."]},
+  {"scene": "jobs", "keys": ["chip-packaging", "car", "shipyard", "refrigerated"],
+   "parts": ["They'll clean chip-packaging components,", "position car body parts,", "stack shipyard brackets,", "and move refrigerated packaging."]},
+  {"scene": "rules", "keys": ["stay", "one", "place.", "walk", "around."],
+   "parts": ["The old safety rules assumed robots that stay in one place.", "Humanoids walk around."]},
+  {"scene": "rewrite", "keys": ["rewrite"],
+   "parts": ["Data from the trial is meant to help rewrite those rules."]},
+  {"scene": "caveat", "keys": ["permission", "proof", "step", "in."],
+   "parts": ["The caveat: this is permission to test, not proof that they work.", "What matters is how often a person has to step in."]},
+  {"scene": "lesson", "keys": ["small,", "measured", "trials.", "fence"],
+   "parts": ["The lesson for builders: trust is earned in small, measured trials.", "That's how the fence comes down."]}
+ ]
+}
