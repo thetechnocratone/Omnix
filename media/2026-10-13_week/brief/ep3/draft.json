@@ -1,0 +1,96 @@
+{
+ "dateLabel": "14 OCT 2026",
+ "sourceShort": "Source: CoinDesk",
+ "sourceFull": "Source: CoinDesk, 12 Oct 2026 \u00b7 Not financial advice",
+ "segs": [
+  {
+   "scene": "box",
+   "keys": [
+    "sealed.",
+    "new.",
+    "keys."
+   ],
+   "parts": [
+    "The box was sealed. The wallet was new.",
+    "And someone already had the keys."
+   ]
+  },
+  {
+   "scene": "implant",
+   "keys": [
+    "implant"
+   ],
+   "parts": [
+    "Last week, Ledger confirmed it found an unauthorised hardware implant",
+    "inside a wallet sold through one of its authorised resellers in Southeast Asia."
+   ]
+  },
+  {
+   "scene": "losses",
+   "keys": [
+    "ninety-three",
+    "million",
+    "three",
+    "hundred"
+   ],
+   "parts": [
+    "On-chain researchers estimate up to ninety-three million dollars was drained,",
+    "from more than three hundred wallets."
+   ]
+  },
+  {
+   "scene": "caveat",
+   "keys": [
+    "hasn't",
+    "one",
+    "seller."
+   ],
+   "parts": [
+    "Ledger hasn't confirmed that number.",
+    "It says its own systems and direct sales were not affected,",
+    "and every confirmed case traces back to that one seller."
+   ]
+  },
+  {
+   "scene": "advice",
+   "keys": [
+    "don't",
+    "fresh"
+   ],
+   "parts": [
+    "If you bought from that reseller recently, don't set the device up.",
+    "If you already did, move to a fresh recovery phrase, on a device straight from the maker."
+   ]
+  },
+  {
+   "scene": "words",
+   "keys": [
+    "ever",
+    "twenty-four",
+    "words."
+   ],
+   "parts": [
+    "And no real company will ever ask for your twenty-four words."
+   ]
+  },
+  {
+   "scene": "path",
+   "keys": [
+    "path"
+   ],
+   "parts": [
+    "Self-custody is only as strong as the path the device took to reach you."
+   ]
+  },
+  {
+   "scene": "close",
+   "keys": [
+    "seal.",
+    "came"
+   ],
+   "parts": [
+    "Check the seal. Then check where it came from."
+   ]
+  }
+ ]
+}

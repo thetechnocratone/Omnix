@@ -1,0 +1,150 @@
+{
+ "dateLabel": "14 OCT 2026",
+ "sourceShort": "Source: Decrypt",
+ "sourceFull": "Source: Decrypt, 8 Oct 2026 \u00b7 Not financial advice",
+ "segs": [
+  {
+   "text": "Eighty-two million phones in America are about to get a digital dollar.",
+   "scene": "phones",
+   "keys": [
+    "Eighty-two",
+    "million",
+    "dollar."
+   ],
+   "start": 0.25,
+   "end": 4.853,
+   "parts": [
+    [
+     "Eighty-two million phones in America are about to get a digital dollar.",
+     0.25,
+     4.853
+    ]
+   ]
+  },
+  {
+   "text": "Samsung Wallet and Samsung Pay will let US users send USDC, a dollar stablecoin, across borders, starting in the last week of October.",
+   "scene": "wallet",
+   "keys": [
+    "USDC,",
+    "borders,"
+   ],
+   "start": 5.353,
+   "end": 15.614,
+   "parts": [
+    [
+     "Samsung Wallet and Samsung Pay will let US users send USDC, a dollar stablecoin, across borders,",
+     5.353,
+     12.995
+    ],
+    [
+     "starting in the last week of October.",
+     13.315,
+     15.614
+    ]
+   ]
+  },
+  {
+   "text": "It runs on the Solana blockchain, but users won't see it. Built-in on and off ramps convert to and from local money.",
+   "scene": "hidden",
+   "keys": [
+    "Solana",
+    "won't",
+    "convert"
+   ],
+   "start": 16.114,
+   "end": 24.495,
+   "parts": [
+    [
+     "It runs on the Solana blockchain, but users won't see it.",
+     16.114,
+     19.766
+    ],
+    [
+     "Built-in on and off ramps convert to and from local money.",
+     20.086,
+     24.495
+    ]
+   ]
+  },
+  {
+   "text": "That's the shift: crypto rails hidden inside an app people already use, not a new app they have to learn.",
+   "scene": "shift",
+   "keys": [
+    "hidden",
+    "already"
+   ],
+   "start": 24.995,
+   "end": 32.47,
+   "parts": [
+    [
+     "That's the shift: crypto rails hidden inside an app people already use,",
+     24.995,
+     30.102
+    ],
+    [
+     "not a new app they have to learn.",
+     30.422,
+     32.47
+    ]
+   ]
+  },
+  {
+   "text": "Still unanswered: what transfers cost, and whether users hold their own keys. Other countries will follow only where local rules allow.",
+   "scene": "caveat",
+   "keys": [
+    "cost,",
+    "keys.",
+    "rules"
+   ],
+   "start": 32.97,
+   "end": 42.607,
+   "parts": [
+    [
+     "Still unanswered: what transfers cost, and whether users hold their own keys.",
+     32.97,
+     38.556
+    ],
+    [
+     "Other countries will follow only where local rules allow.",
+     38.876,
+     42.607
+    ]
+   ]
+  },
+  {
+   "text": "The next wave of blockchain users may never know they're using one.",
+   "scene": "takeaway",
+   "keys": [
+    "never",
+    "know"
+   ],
+   "start": 43.107,
+   "end": 47.098,
+   "parts": [
+    [
+     "The next wave of blockchain users may never know they're using one.",
+     43.107,
+     47.098
+    ]
+   ]
+  },
+  {
+   "text": "Eighty-two million phones. Zero new apps.",
+   "scene": "close",
+   "keys": [
+    "Zero",
+    "apps."
+   ],
+   "start": 47.598,
+   "end": 51.521,
+   "parts": [
+    [
+     "Eighty-two million phones. Zero new apps.",
+     47.598,
+     51.521
+    ]
+   ]
+  }
+ ],
+ "endStart": 52.12
+}

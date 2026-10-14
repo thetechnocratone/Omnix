@@ -1,0 +1,120 @@
+{
+ "series": "EXPLAINS",
+ "dateLabel": "OMNIX EXPLAINS #3",
+ "sourceShort": "Not financial advice",
+ "sourceFull": "Recovery phrase maths: BIP-39 (2^256) \u00b7 Not financial advice",
+ "segs": [
+  {
+   "scene": "hook",
+   "keys": [
+    "isn't",
+    "inside"
+   ],
+   "parts": [
+    "Your crypto isn't inside your wallet."
+   ]
+  },
+  {
+   "scene": "keyring",
+   "keys": [
+    "keyring.",
+    "keys"
+   ],
+   "parts": [
+    "A crypto wallet is more like a keyring.",
+    "The coins live on the blockchain. The wallet holds the keys that prove they're yours."
+   ]
+  },
+  {
+   "scene": "public",
+   "keys": [
+    "public",
+    "UPI",
+    "ID:"
+   ],
+   "parts": [
+    "There are two keys. Your public address is like your UPI ID:",
+    "share it, and people can pay you."
+   ]
+  },
+  {
+   "scene": "private",
+   "keys": [
+    "private",
+    "PIN",
+    "signature"
+   ],
+   "parts": [
+    "Your private key is like your PIN and your signature combined.",
+    "It approves every payment."
+   ]
+  },
+  {
+   "scene": "phrase",
+   "keys": [
+    "twelve",
+    "twenty-four",
+    "recovery",
+    "phrase."
+   ],
+   "parts": [
+    "Most wallets turn that key into twelve or twenty-four simple words,",
+    "called a recovery phrase."
+   ]
+  },
+  {
+   "scene": "number",
+   "keys": [
+    "seventy-eight",
+    "digits."
+   ],
+   "parts": [
+    "Guessing a twenty-four word phrase means searching a number with seventy-eight digits.",
+    "No computer today comes close."
+   ]
+  },
+  {
+   "scene": "catch",
+   "keys": [
+    "forgot-password",
+    "gone."
+   ],
+   "parts": [
+    "The catch: there's no forgot-password button.",
+    "Lose the words, and the funds are gone. Share them, and so are the funds."
+   ]
+  },
+  {
+   "scene": "rules",
+   "keys": [
+    "Never",
+    "never",
+    "ask."
+   ],
+   "parts": [
+    "Never type them into a website. Never photograph them.",
+    "And never give them to anyone who asks. Real support will never ask."
+   ]
+  },
+  {
+   "scene": "takeaway",
+   "keys": [
+    "keys,",
+    "coins."
+   ],
+   "parts": [
+    "Whoever holds the keys, holds the coins."
+   ]
+  },
+  {
+   "scene": "close",
+   "keys": [
+    "keys",
+    "are."
+   ],
+   "parts": [
+    "That's why your crypto isn't in your wallet. Your keys are."
+   ]
+  }
+ ]
+}

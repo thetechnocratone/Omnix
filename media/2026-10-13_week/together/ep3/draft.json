@@ -1,0 +1,136 @@
+{
+ "series": "BUILD TOGETHER",
+ "dateLabel": "#3 \u00b7 ROADS",
+ "signoff": "Built in Bengaluru  \u00b7  Open to collaboration",
+ "sourceShort": "Data: MoRTH (2024)",
+ "sourceFull": "Data: Ministry of Road Transport & Highways, reply to Parliament (2024 figures)",
+ "segs": [
+  {
+   "scene": "toll",
+   "keys": [
+    "two",
+    "thousand",
+    "three",
+    "hundred",
+    "eighty-five"
+   ],
+   "parts": [
+    "In twenty twenty-four, potholes killed two thousand three hundred and eighty-five people on India's roads."
+   ]
+  },
+  {
+   "scene": "perday",
+   "keys": [
+    "six",
+    "people,"
+   ],
+   "parts": [
+    "That's more than six people, every single day."
+   ]
+  },
+  {
+   "scene": "jolt",
+   "keys": [
+    "jolt.",
+    "swerve.",
+    "breath."
+   ],
+   "parts": [
+    "Every Bengalurean knows the moment.",
+    "The sudden jolt. The swerve. The held breath."
+   ]
+  },
+  {
+   "scene": "silos",
+   "keys": [
+    "one",
+    "never",
+    "talk."
+   ],
+   "parts": [
+    "A pothole isn't one failure.",
+    "It's rain, heavy loads, rushed repairs, and roads dug up again and again by crews who never talk."
+   ]
+  },
+  {
+   "scene": "world",
+   "keys": [
+    "water,",
+    "weight",
+    "time."
+   ],
+   "parts": [
+    "And it isn't just Bengaluru.",
+    "Every city on Earth fights the same battle between water, weight and time."
+   ]
+  },
+  {
+   "scene": "connect",
+   "keys": [
+    "report",
+    "damage,"
+   ],
+   "parts": [
+    "What if roads could report their own damage, before it became a hole?"
+   ]
+  },
+  {
+   "scene": "vision",
+   "keys": [
+    "early.",
+    "need,",
+    "check."
+   ],
+   "parts": [
+    "Cracks spotted early.",
+    "Repairs planned by need, not by noise.",
+    "Every job, its cost and its quality, open for anyone to check."
+   ]
+  },
+  {
+   "scene": "stack",
+   "keys": [
+    "A.L.K.I.",
+    "OmniChain",
+    "OmniBot"
+   ],
+   "parts": [
+    "Intelligence like A.L.K.I. could help plan it.",
+    "OmniChain is designed to keep that record honest.",
+    "And OmniBot is being built to take on the heavy, dangerous work."
+   ]
+  },
+  {
+   "scene": "hands",
+   "keys": [
+    "alone.",
+    "same",
+    "truth."
+   ],
+   "parts": [
+    "No department builds this alone.",
+    "It takes engineers, contractors, citizens, and the people who run our cities, working from the same truth."
+   ]
+  },
+  {
+   "scene": "lift",
+   "keys": [
+    "thousand",
+    "hands"
+   ],
+   "parts": [
+    "One hand can't lift a road. A thousand hands can."
+   ]
+  },
+  {
+   "scene": "close",
+   "keys": [
+    "everyone",
+    "home."
+   ],
+   "parts": [
+    "Six lives a day. Let's build roads that bring everyone home."
+   ]
+  }
+ ]
+}

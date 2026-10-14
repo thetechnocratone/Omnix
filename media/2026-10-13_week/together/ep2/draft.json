@@ -1,0 +1,131 @@
+{
+ "series": "BUILD TOGETHER",
+ "dateLabel": "#2 \u00b7 WASTE",
+ "sourceShort": "Data: Deccan Herald; World Bank",
+ "sourceFull": "Data: Deccan Herald (Jul 2025); World Bank, What a Waste 2.0",
+ "segs": [
+  {
+   "scene": "pile",
+   "keys": [
+    "six",
+    "thousand",
+    "tonnes"
+   ],
+   "parts": [
+    "Every day, Bengaluru throws away more than six thousand tonnes of waste."
+   ]
+  },
+  {
+   "scene": "elephants",
+   "keys": [
+    "thousand",
+    "elephants."
+   ],
+   "parts": [
+    "That's heavier than a thousand elephants. Every single day."
+   ]
+  },
+  {
+   "scene": "footpath",
+   "keys": [
+    "walk:"
+   ],
+   "parts": [
+    "And too much of it ends up where we walk:",
+    "on footpaths, in corners, in empty plots."
+   ]
+  },
+  {
+   "scene": "silos",
+   "keys": [
+    "alone,",
+    "blind"
+   ],
+   "parts": [
+    "Garbage isn't one problem.",
+    "It's homes, collectors, trucks, sorting centres and recyclers, each working alone, each blind to the others."
+   ]
+  },
+  {
+   "scene": "world",
+   "keys": [
+    "two",
+    "billion",
+    "three",
+    "point",
+    "four"
+   ],
+   "parts": [
+    "And this isn't just Bengaluru. The world throws away about two billion tonnes a year,",
+    "and that could reach three point four billion by twenty fifty."
+   ]
+  },
+  {
+   "scene": "connect",
+   "keys": [
+    "whole",
+    "chain?"
+   ],
+   "parts": [
+    "What if every link in the chain could see the whole chain?"
+   ]
+  },
+  {
+   "scene": "vision",
+   "keys": [
+    "needs.",
+    "tracked,",
+    "fairly,"
+   ],
+   "parts": [
+    "Pickups planned around what each street actually needs.",
+    "Every load tracked, from doorstep to recycler.",
+    "Collectors paid fairly, and on time."
+   ]
+  },
+  {
+   "scene": "stack",
+   "keys": [
+    "A.L.K.I.",
+    "OmniChain,",
+    "OmniBot"
+   ],
+   "parts": [
+    "A.L.K.I. is being designed to plan systems like this.",
+    "OmniChain, to keep a record no one can quietly edit.",
+    "And OmniBot is being built for the dirty, dangerous work no one should have to do."
+   ]
+  },
+  {
+   "scene": "hands",
+   "keys": [
+    "alone.",
+    "same",
+    "truth."
+   ],
+   "parts": [
+    "No one fixes this alone.",
+    "It takes residents, workers, recyclers, and the people who run our cities, working from the same truth."
+   ]
+  },
+  {
+   "scene": "cycle",
+   "keys": [
+    "no",
+    "waste."
+   ],
+   "parts": [
+    "In nature, there is no waste. Everything returns to the cycle."
+   ]
+  },
+  {
+   "scene": "close",
+   "keys": [
+    "cycle."
+   ],
+   "parts": [
+    "Six thousand tonnes a day. Let's turn it back into a cycle."
+   ]
+  }
+ ]
+}

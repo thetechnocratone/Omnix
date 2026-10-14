@@ -1,0 +1,222 @@
+{
+ "dateLabel": "#4 \u00b7 METRO",
+ "sourceShort": "Data: Deccan Herald; Flyvbjerg",
+ "sourceFull": "Data: Deccan Herald (Apr 2025); Flyvbjerg & Gardner, How Big Things Get Done",
+ "series": "BUILD TOGETHER",
+ "segs": [
+  {
+   "text": "A metro line in Bengaluru was promised for twenty twenty. It's twenty twenty-six, and it still isn't carrying passengers.",
+   "scene": "promise",
+   "keys": [
+    "twenty",
+    "twenty.",
+    "still"
+   ],
+   "start": 0.25,
+   "end": 8.026,
+   "parts": [
+    [
+     "A metro line in Bengaluru was promised for twenty twenty.",
+     0.25,
+     3.791
+    ],
+    [
+     "It's twenty twenty-six, and it still isn't carrying passengers.",
+     4.111,
+     8.026
+    ]
+   ]
+  },
+  {
+   "text": "Meanwhile, barricades, dust and diversions become part of daily life, for years.",
+   "scene": "barricade",
+   "keys": [
+    "barricades,",
+    "years."
+   ],
+   "start": 8.526,
+   "end": 14.712,
+   "parts": [
+    [
+     "Meanwhile, barricades, dust and diversions become part of daily life, for years.",
+     8.526,
+     14.712
+    ]
+   ]
+  },
+  {
+   "text": "Big projects don't stall because of one thing. It's land, permits, contractors, utilities, funding and trains, each waiting on the other.",
+   "scene": "silos",
+   "keys": [
+    "one",
+    "waiting"
+   ],
+   "start": 15.212,
+   "end": 25.009,
+   "parts": [
+    [
+     "Big projects don't stall because of one thing.",
+     15.212,
+     18.176
+    ],
+    [
+     "It's land, permits, contractors, utilities, funding and trains, each waiting on the other.",
+     18.496,
+     25.009
+    ]
+   ]
+  },
+  {
+   "text": "And it isn't just Bengaluru. Studies of thousands of big projects worldwide find that more than nine in ten run over budget, over time, or both.",
+   "scene": "world",
+   "keys": [
+    "nine",
+    "ten"
+   ],
+   "start": 25.509,
+   "end": 35.936,
+   "parts": [
+    [
+     "And it isn't just Bengaluru.",
+     25.509,
+     27.317
+    ],
+    [
+     "Studies of thousands of big projects worldwide find that more than nine in ten run over budget, over time, or both.",
+     27.637,
+     35.936
+    ]
+   ]
+  },
+  {
+   "text": "What if every team could see the same plan, in real time?",
+   "scene": "connect",
+   "keys": [
+    "same",
+    "plan,"
+   ],
+   "start": 36.436,
+   "end": 40.298,
+   "parts": [
+    [
+     "What if every team could see the same plan, in real time?",
+     36.436,
+     40.298
+    ]
+   ]
+  },
+  {
+   "text": "One live schedule that every contractor updates. Delays flagged the day they start, not the year they're discovered. Progress and spending, open for anyone to check.",
+   "scene": "vision",
+   "keys": [
+    "live",
+    "start,",
+    "check."
+   ],
+   "start": 40.798,
+   "end": 52.096,
+   "parts": [
+    [
+     "One live schedule that every contractor updates.",
+     40.798,
+     44.108
+    ],
+    [
+     "Delays flagged the day they start, not the year they're discovered.",
+     44.428,
+     48.426
+    ],
+    [
+     "Progress and spending, open for anyone to check.",
+     48.746,
+     52.096
+    ]
+   ]
+  },
+  {
+   "text": "That's the coordination Omnix is building for. A.L.K.I. to plan and foresee. OmniChain to keep a record no one can quietly edit.",
+   "scene": "stack",
+   "keys": [
+    "A.L.K.I.",
+    "OmniChain"
+   ],
+   "start": 52.596,
+   "end": 62.706,
+   "parts": [
+    [
+     "That's the coordination Omnix is building for.",
+     52.596,
+     55.292
+    ],
+    [
+     "A.L.K.I. to plan and foresee. OmniChain to keep a record no one can quietly edit.",
+     55.612,
+     62.706
+    ]
+   ]
+  },
+  {
+   "text": "No one builds a metro alone. It takes engineers, workers, planners, citizens, and the people who run our cities, working from the same truth.",
+   "scene": "hands",
+   "keys": [
+    "alone.",
+    "same",
+    "truth."
+   ],
+   "start": 63.206,
+   "end": 73.3,
+   "parts": [
+    [
+     "No one builds a metro alone.",
+     63.206,
+     65.313
+    ],
+    [
+     "It takes engineers, workers, planners, citizens, and the people who run our cities, working from the same truth.",
+     65.633,
+     73.3
+    ]
+   ]
+  },
+  {
+   "text": "Planets don't collide, because each one moves in step with the others.",
+   "scene": "orbits",
+   "keys": [
+    "collide,",
+    "step"
+   ],
+   "start": 73.8,
+   "end": 78.315,
+   "parts": [
+    [
+     "Planets don't collide, because each one moves in step with the others.",
+     73.8,
+     78.315
+    ]
+   ]
+  },
+  {
+   "text": "Promised for twenty twenty. Let's make the next promise one we can all watch being kept.",
+   "scene": "close",
+   "keys": [
+    "watch",
+    "kept."
+   ],
+   "start": 78.815,
+   "end": 84.614,
+   "parts": [
+    [
+     "Promised for twenty twenty.",
+     78.815,
+     80.552
+    ],
+    [
+     "Let's make the next promise one we can all watch being kept.",
+     80.872,
+     84.614
+    ]
+   ]
+  }
+ ],
+ "endStart": 85.21
+}

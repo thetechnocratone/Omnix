@@ -1,0 +1,110 @@
+{
+ "series": "EXPLAINS",
+ "dateLabel": "OMNIX EXPLAINS #4",
+ "sourceShort": "Data: DefiLlama \u00b7 Not financial advice",
+ "sourceFull": "Data: DefiLlama (2026) \u00b7 Not financial advice",
+ "segs": [
+  {
+   "scene": "hook",
+   "keys": [
+    "minutes,",
+    "Sunday"
+   ],
+   "parts": [
+    "Imagine sending money to family abroad,",
+    "and it arriving in minutes, on a Sunday night."
+   ]
+  },
+  {
+   "scene": "swing",
+   "keys": [
+    "swing",
+    "ten",
+    "percent"
+   ],
+   "parts": [
+    "Crypto prices swing wildly.",
+    "Nobody wants their rent money to drop ten percent overnight."
+   ]
+  },
+  {
+   "scene": "concept",
+   "keys": [
+    "stablecoin",
+    "one",
+    "dollar."
+   ],
+   "parts": [
+    "A stablecoin is a crypto token designed to stay worth one fixed amount,",
+    "usually one US dollar."
+   ]
+  },
+  {
+   "scene": "reserves",
+   "keys": [
+    "reserves:",
+    "dollar"
+   ],
+   "parts": [
+    "Most are backed by reserves:",
+    "for every token, the issuer says it holds a dollar in cash or short-term government bonds."
+   ]
+  },
+  {
+   "scene": "move",
+   "keys": [
+    "borders",
+    "minutes."
+   ],
+   "parts": [
+    "Because they move on blockchains, they can cross borders at any hour,",
+    "and settle in minutes."
+   ]
+  },
+  {
+   "scene": "number",
+   "keys": [
+    "three",
+    "hundred",
+    "billion"
+   ],
+   "parts": [
+    "Today, more than three hundred billion dollars' worth of stablecoins are in circulation."
+   ]
+  },
+  {
+   "scene": "catch",
+   "keys": [
+    "catch:",
+    "reserves",
+    "peg."
+   ],
+   "parts": [
+    "The catch: a stablecoin is only as good as its reserves and its issuer.",
+    "Some have lost their peg. And the rules differ from country to country."
+   ]
+  },
+  {
+   "scene": "takeaway",
+   "keys": [
+    "isn't",
+    "moves",
+    "fast."
+   ],
+   "parts": [
+    "A stablecoin isn't an investment that grows.",
+    "It's a digital dollar that moves fast."
+   ]
+  },
+  {
+   "scene": "close",
+   "keys": [
+    "Minutes,",
+    "days."
+   ],
+   "parts": [
+    "Sunday night. Minutes, not days."
+   ]
+  }
+ ]
+}

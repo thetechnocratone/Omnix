@@ -1,0 +1,219 @@
+{
+ "dateLabel": "OMNIX EXPLAINS #3",
+ "sourceShort": "Not financial advice",
+ "sourceFull": "Recovery phrase maths: BIP-39 (2^256) \u00b7 Not financial advice",
+ "series": "EXPLAINS",
+ "segs": [
+  {
+   "text": "Your crypto isn't inside your wallet.",
+   "scene": "hook",
+   "keys": [
+    "isn't",
+    "inside"
+   ],
+   "start": 0.25,
+   "end": 2.835,
+   "parts": [
+    [
+     "Your crypto isn't inside your wallet.",
+     0.25,
+     2.835
+    ]
+   ]
+  },
+  {
+   "text": "A crypto wallet is more like a keyring. The coins live on the blockchain. The wallet holds the keys that prove they're yours.",
+   "scene": "keyring",
+   "keys": [
+    "keyring.",
+    "keys"
+   ],
+   "start": 3.335,
+   "end": 11.692,
+   "parts": [
+    [
+     "A crypto wallet is more like a keyring.",
+     3.335,
+     6.088
+    ],
+    [
+     "The coins live on the blockchain. The wallet holds the keys that prove they're yours.",
+     6.408,
+     11.692
+    ]
+   ]
+  },
+  {
+   "text": "There are two keys. Your public address is like your UPI ID: share it, and people can pay you.",
+   "scene": "public",
+   "keys": [
+    "public",
+    "UPI",
+    "ID:"
+   ],
+   "start": 12.192,
+   "end": 19.773,
+   "parts": [
+    [
+     "There are two keys. Your public address is like your UPI ID:",
+     12.192,
+     17.198
+    ],
+    [
+     "share it, and people can pay you.",
+     17.518,
+     19.773
+    ]
+   ]
+  },
+  {
+   "text": "Your private key is like your PIN and your signature combined. It approves every payment.",
+   "scene": "private",
+   "keys": [
+    "private",
+    "PIN",
+    "signature"
+   ],
+   "start": 20.273,
+   "end": 26.144,
+   "parts": [
+    [
+     "Your private key is like your PIN and your signature combined.",
+     20.273,
+     23.981
+    ],
+    [
+     "It approves every payment.",
+     24.301,
+     26.144
+    ]
+   ]
+  },
+  {
+   "text": "Most wallets turn that key into twelve or twenty-four simple words, called a recovery phrase.",
+   "scene": "phrase",
+   "keys": [
+    "twelve",
+    "twenty-four",
+    "recovery",
+    "phrase."
+   ],
+   "start": 26.644,
+   "end": 33.557,
+   "parts": [
+    [
+     "Most wallets turn that key into twelve or twenty-four simple words,",
+     26.644,
+     31.383
+    ],
+    [
+     "called a recovery phrase.",
+     31.703,
+     33.557
+    ]
+   ]
+  },
+  {
+   "text": "Guessing a twenty-four word phrase means searching a number with seventy-eight digits. No computer today comes close.",
+   "scene": "number",
+   "keys": [
+    "seventy-eight",
+    "digits."
+   ],
+   "start": 34.057,
+   "end": 42.201,
+   "parts": [
+    [
+     "Guessing a twenty-four word phrase means searching a number with seventy-eight digits.",
+     34.057,
+     39.385
+    ],
+    [
+     "No computer today comes close.",
+     39.705,
+     42.201
+    ]
+   ]
+  },
+  {
+   "text": "The catch: there's no forgot-password button. Lose the words, and the funds are gone. Share them, and so are the funds.",
+   "scene": "catch",
+   "keys": [
+    "forgot-password",
+    "gone."
+   ],
+   "start": 42.701,
+   "end": 51.114,
+   "parts": [
+    [
+     "The catch: there's no forgot-password button.",
+     42.701,
+     45.994
+    ],
+    [
+     "Lose the words, and the funds are gone. Share them, and so are the funds.",
+     46.314,
+     51.114
+    ]
+   ]
+  },
+  {
+   "text": "Never type them into a website. Never photograph them. And never give them to anyone who asks. Real support will never ask.",
+   "scene": "rules",
+   "keys": [
+    "Never",
+    "never",
+    "ask."
+   ],
+   "start": 51.614,
+   "end": 60.83,
+   "parts": [
+    [
+     "Never type them into a website. Never photograph them.",
+     51.614,
+     55.498
+    ],
+    [
+     "And never give them to anyone who asks. Real support will never ask.",
+     55.818,
+     60.83
+    ]
+   ]
+  },
+  {
+   "text": "Whoever holds the keys, holds the coins.",
+   "scene": "takeaway",
+   "keys": [
+    "keys,",
+    "coins."
+   ],
+   "start": 61.33,
+   "end": 64.211,
+   "parts": [
+    [
+     "Whoever holds the keys, holds the coins.",
+     61.33,
+     64.211
+    ]
+   ]
+  },
+  {
+   "text": "That's why your crypto isn't in your wallet. Your keys are.",
+   "scene": "close",
+   "keys": [
+    "keys",
+    "are."
+   ],
+   "start": 64.711,
+   "end": 68.387,
+   "parts": [
+    [
+     "That's why your crypto isn't in your wallet. Your keys are.",
+     64.711,
+     68.387
+    ]
+   ]
+  }
+ ],
+ "endStart": 68.99
+}

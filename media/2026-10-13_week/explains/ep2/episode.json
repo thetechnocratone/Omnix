@@ -1,0 +1,220 @@
+{
+ "dateLabel": "OMNIX EXPLAINS #2",
+ "sourceShort": "Not financial advice",
+ "sourceFull": "Data: Bitcoin network (since Jan 2009) \u00b7 Not financial advice",
+ "series": "EXPLAINS",
+ "segs": [
+  {
+   "text": "Imagine a notebook shared by everyone in your apartment building.",
+   "scene": "notebook",
+   "keys": [
+    "notebook",
+    "everyone"
+   ],
+   "start": 0.25,
+   "end": 4.194,
+   "parts": [
+    [
+     "Imagine a notebook shared by everyone in your apartment building.",
+     0.25,
+     4.194
+    ]
+   ]
+  },
+  {
+   "text": "Today, most records live with one keeper: a bank, a registry, a company. If that one book is wrong, lost or quietly changed, you just have to trust them.",
+   "scene": "keeper",
+   "keys": [
+    "one",
+    "keeper:",
+    "trust"
+   ],
+   "start": 4.694,
+   "end": 16.781,
+   "parts": [
+    [
+     "Today, most records live with one keeper: a bank, a registry, a company.",
+     4.694,
+     10.44
+    ],
+    [
+     "If that one book is wrong, lost or quietly changed, you just have to trust them.",
+     10.76,
+     16.781
+    ]
+   ]
+  },
+  {
+   "text": "A blockchain is a shared notebook that thousands of computers keep at the same time.",
+   "scene": "shared",
+   "keys": [
+    "blockchain",
+    "thousands"
+   ],
+   "start": 17.281,
+   "end": 22.636,
+   "parts": [
+    [
+     "A blockchain is a shared notebook that thousands of computers keep at the same time.",
+     17.281,
+     22.636
+    ]
+   ]
+  },
+  {
+   "text": "New entries are grouped into pages called blocks. Each page carries a fingerprint of the page before it, like links in a chain.",
+   "scene": "blocks",
+   "keys": [
+    "blocks.",
+    "fingerprint",
+    "chain."
+   ],
+   "start": 23.136,
+   "end": 31.928,
+   "parts": [
+    [
+     "New entries are grouped into pages called blocks.",
+     23.136,
+     26.593
+    ],
+    [
+     "Each page carries a fingerprint of the page before it, like links in a chain.",
+     26.913,
+     31.928
+    ]
+   ]
+  },
+  {
+   "text": "Change one old entry, and its fingerprint changes. Every page after it breaks, and every other copy disagrees.",
+   "scene": "tamper",
+   "keys": [
+    "changes.",
+    "breaks,",
+    "disagrees."
+   ],
+   "start": 32.428,
+   "end": 40.484,
+   "parts": [
+    [
+     "Change one old entry, and its fingerprint changes.",
+     32.428,
+     35.901
+    ],
+    [
+     "Every page after it breaks, and every other copy disagrees.",
+     36.221,
+     40.484
+    ]
+   ]
+  },
+  {
+   "text": "So before a new page is added, the computers must agree it's valid. No single keeper decides.",
+   "scene": "agree",
+   "keys": [
+    "agree",
+    "No"
+   ],
+   "start": 40.984,
+   "end": 47.974,
+   "parts": [
+    [
+     "So before a new page is added, the computers must agree it's valid.",
+     40.984,
+     45.618
+    ],
+    [
+     "No single keeper decides.",
+     45.938,
+     47.974
+    ]
+   ]
+  },
+  {
+   "text": "Bitcoin's chain has added a new block about every ten minutes since January, two thousand nine, with no central keeper.",
+   "scene": "number",
+   "keys": [
+    "ten",
+    "minutes",
+    "two",
+    "thousand",
+    "nine,"
+   ],
+   "start": 48.474,
+   "end": 56.606,
+   "parts": [
+    [
+     "Bitcoin's chain has added a new block about every ten minutes since January, two thousand nine,",
+     48.474,
+     54.645
+    ],
+    [
+     "with no central keeper.",
+     54.965,
+     56.606
+    ]
+   ]
+  },
+  {
+   "text": "The catch: a blockchain only proves what was written. If someone writes a lie, it becomes a permanent, well-recorded lie.",
+   "scene": "catch",
+   "keys": [
+    "catch:",
+    "lie,"
+   ],
+   "start": 57.106,
+   "end": 66.033,
+   "parts": [
+    [
+     "The catch: a blockchain only proves what was written.",
+     57.106,
+     61.118
+    ],
+    [
+     "If someone writes a lie, it becomes a permanent, well-recorded lie.",
+     61.438,
+     66.033
+    ]
+   ]
+  },
+  {
+   "text": "A blockchain doesn't make people honest. It makes records very hard to quietly change.",
+   "scene": "takeaway",
+   "keys": [
+    "honest.",
+    "quietly"
+   ],
+   "start": 66.533,
+   "end": 72.902,
+   "parts": [
+    [
+     "A blockchain doesn't make people honest.",
+     66.533,
+     69.059
+    ],
+    [
+     "It makes records very hard to quietly change.",
+     69.379,
+     72.902
+    ]
+   ]
+  },
+  {
+   "text": "Just like that notebook, when everyone holds a copy.",
+   "scene": "close",
+   "keys": [
+    "everyone",
+    "copy."
+   ],
+   "start": 73.402,
+   "end": 76.801,
+   "parts": [
+    [
+     "Just like that notebook, when everyone holds a copy.",
+     73.402,
+     76.801
+    ]
+   ]
+  }
+ ],
+ "endStart": 77.4
+}

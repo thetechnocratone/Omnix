@@ -1,0 +1,202 @@
+{
+ "dateLabel": "OMNIX EXPLAINS #4",
+ "sourceShort": "Data: DefiLlama \u00b7 Not financial advice",
+ "sourceFull": "Data: DefiLlama (2026) \u00b7 Not financial advice",
+ "series": "EXPLAINS",
+ "segs": [
+  {
+   "text": "Imagine sending money to family abroad, and it arriving in minutes, on a Sunday night.",
+   "scene": "hook",
+   "keys": [
+    "minutes,",
+    "Sunday"
+   ],
+   "start": 0.25,
+   "end": 6.655,
+   "parts": [
+    [
+     "Imagine sending money to family abroad,",
+     0.25,
+     2.846
+    ],
+    [
+     "and it arriving in minutes, on a Sunday night.",
+     3.166,
+     6.655
+    ]
+   ]
+  },
+  {
+   "text": "Crypto prices swing wildly. Nobody wants their rent money to drop ten percent overnight.",
+   "scene": "swing",
+   "keys": [
+    "swing",
+    "ten",
+    "percent"
+   ],
+   "start": 7.155,
+   "end": 13.454,
+   "parts": [
+    [
+     "Crypto prices swing wildly.",
+     7.155,
+     9.424
+    ],
+    [
+     "Nobody wants their rent money to drop ten percent overnight.",
+     9.744,
+     13.454
+    ]
+   ]
+  },
+  {
+   "text": "A stablecoin is a crypto token designed to stay worth one fixed amount, usually one US dollar.",
+   "scene": "concept",
+   "keys": [
+    "stablecoin",
+    "one",
+    "dollar."
+   ],
+   "start": 13.954,
+   "end": 21.15,
+   "parts": [
+    [
+     "A stablecoin is a crypto token designed to stay worth one fixed amount,",
+     13.954,
+     18.852
+    ],
+    [
+     "usually one US dollar.",
+     19.172,
+     21.15
+    ]
+   ]
+  },
+  {
+   "text": "Most are backed by reserves: for every token, the issuer says it holds a dollar in cash or short-term government bonds.",
+   "scene": "reserves",
+   "keys": [
+    "reserves:",
+    "dollar"
+   ],
+   "start": 21.65,
+   "end": 30.203,
+   "parts": [
+    [
+     "Most are backed by reserves:",
+     21.65,
+     23.662
+    ],
+    [
+     "for every token, the issuer says it holds a dollar in cash or short-term government bonds.",
+     23.982,
+     30.203
+    ]
+   ]
+  },
+  {
+   "text": "Because they move on blockchains, they can cross borders at any hour, and settle in minutes.",
+   "scene": "move",
+   "keys": [
+    "borders",
+    "minutes."
+   ],
+   "start": 30.703,
+   "end": 36.915,
+   "parts": [
+    [
+     "Because they move on blockchains, they can cross borders at any hour,",
+     30.703,
+     34.874
+    ],
+    [
+     "and settle in minutes.",
+     35.194,
+     36.915
+    ]
+   ]
+  },
+  {
+   "text": "Today, more than three hundred billion dollars' worth of stablecoins are in circulation.",
+   "scene": "number",
+   "keys": [
+    "three",
+    "hundred",
+    "billion"
+   ],
+   "start": 37.415,
+   "end": 42.843,
+   "parts": [
+    [
+     "Today, more than three hundred billion dollars' worth of stablecoins are in circulation.",
+     37.415,
+     42.843
+    ]
+   ]
+  },
+  {
+   "text": "The catch: a stablecoin is only as good as its reserves and its issuer. Some have lost their peg. And the rules differ from country to country.",
+   "scene": "catch",
+   "keys": [
+    "catch:",
+    "reserves",
+    "peg."
+   ],
+   "start": 43.343,
+   "end": 53.36,
+   "parts": [
+    [
+     "The catch: a stablecoin is only as good as its reserves and its issuer.",
+     43.343,
+     48.628
+    ],
+    [
+     "Some have lost their peg. And the rules differ from country to country.",
+     48.948,
+     53.36
+    ]
+   ]
+  },
+  {
+   "text": "A stablecoin isn't an investment that grows. It's a digital dollar that moves fast.",
+   "scene": "takeaway",
+   "keys": [
+    "isn't",
+    "moves",
+    "fast."
+   ],
+   "start": 53.86,
+   "end": 60.031,
+   "parts": [
+    [
+     "A stablecoin isn't an investment that grows.",
+     53.86,
+     56.886
+    ],
+    [
+     "It's a digital dollar that moves fast.",
+     57.206,
+     60.031
+    ]
+   ]
+  },
+  {
+   "text": "Sunday night. Minutes, not days.",
+   "scene": "close",
+   "keys": [
+    "Minutes,",
+    "days."
+   ],
+   "start": 60.531,
+   "end": 63.686,
+   "parts": [
+    [
+     "Sunday night. Minutes, not days.",
+     60.531,
+     63.686
+    ]
+   ]
+  }
+ ],
+ "endStart": 64.29
+}

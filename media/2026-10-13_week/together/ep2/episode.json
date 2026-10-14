@@ -1,0 +1,241 @@
+{
+ "dateLabel": "#2 \u00b7 WASTE",
+ "sourceShort": "Data: Deccan Herald; World Bank",
+ "sourceFull": "Data: Deccan Herald (Jul 2025); World Bank, What a Waste 2.0",
+ "series": "BUILD TOGETHER",
+ "segs": [
+  {
+   "text": "Every day, Bengaluru throws away more than six thousand tonnes of waste.",
+   "scene": "pile",
+   "keys": [
+    "six",
+    "thousand",
+    "tonnes"
+   ],
+   "start": 0.25,
+   "end": 5.269,
+   "parts": [
+    [
+     "Every day, Bengaluru throws away more than six thousand tonnes of waste.",
+     0.25,
+     5.269
+    ]
+   ]
+  },
+  {
+   "text": "That's heavier than a thousand elephants. Every single day.",
+   "scene": "elephants",
+   "keys": [
+    "thousand",
+    "elephants."
+   ],
+   "start": 5.769,
+   "end": 10.259,
+   "parts": [
+    [
+     "That's heavier than a thousand elephants. Every single day.",
+     5.769,
+     10.259
+    ]
+   ]
+  },
+  {
+   "text": "And too much of it ends up where we walk: on footpaths, in corners, in empty plots.",
+   "scene": "footpath",
+   "keys": [
+    "walk:"
+   ],
+   "start": 10.759,
+   "end": 17.21,
+   "parts": [
+    [
+     "And too much of it ends up where we walk:",
+     10.759,
+     13.42
+    ],
+    [
+     "on footpaths, in corners, in empty plots.",
+     13.74,
+     17.21
+    ]
+   ]
+  },
+  {
+   "text": "Garbage isn't one problem. It's homes, collectors, trucks, sorting centres and recyclers, each working alone, each blind to the others.",
+   "scene": "silos",
+   "keys": [
+    "alone,",
+    "blind"
+   ],
+   "start": 17.71,
+   "end": 28.369,
+   "parts": [
+    [
+     "Garbage isn't one problem.",
+     17.71,
+     19.845
+    ],
+    [
+     "It's homes, collectors, trucks, sorting centres and recyclers, each working alone, each blind to the others.",
+     20.165,
+     28.369
+    ]
+   ]
+  },
+  {
+   "text": "And this isn't just Bengaluru. The world throws away about two billion tonnes a year, and that could reach three point four billion by twenty fifty.",
+   "scene": "world",
+   "keys": [
+    "two",
+    "billion",
+    "three",
+    "point",
+    "four"
+   ],
+   "start": 28.869,
+   "end": 38.595,
+   "parts": [
+    [
+     "And this isn't just Bengaluru. The world throws away about two billion tonnes a year,",
+     28.869,
+     34.243
+    ],
+    [
+     "and that could reach three point four billion by twenty fifty.",
+     34.563,
+     38.595
+    ]
+   ]
+  },
+  {
+   "text": "What if every link in the chain could see the whole chain?",
+   "scene": "connect",
+   "keys": [
+    "whole",
+    "chain?"
+   ],
+   "start": 39.095,
+   "end": 42.682,
+   "parts": [
+    [
+     "What if every link in the chain could see the whole chain?",
+     39.095,
+     42.682
+    ]
+   ]
+  },
+  {
+   "text": "Pickups planned around what each street actually needs. Every load tracked, from doorstep to recycler. Collectors paid fairly, and on time.",
+   "scene": "vision",
+   "keys": [
+    "needs.",
+    "tracked,",
+    "fairly,"
+   ],
+   "start": 43.182,
+   "end": 53.572,
+   "parts": [
+    [
+     "Pickups planned around what each street actually needs.",
+     43.182,
+     46.618
+    ],
+    [
+     "Every load tracked, from doorstep to recycler.",
+     46.938,
+     50.372
+    ],
+    [
+     "Collectors paid fairly, and on time.",
+     50.692,
+     53.572
+    ]
+   ]
+  },
+  {
+   "text": "A.L.K.I. is being designed to plan systems like this. OmniChain, to keep a record no one can quietly edit. And OmniBot is being built for the dirty, dangerous work no one should have to do.",
+   "scene": "stack",
+   "keys": [
+    "A.L.K.I.",
+    "OmniChain,",
+    "OmniBot"
+   ],
+   "start": 54.072,
+   "end": 67.925,
+   "parts": [
+    [
+     "A.L.K.I. is being designed to plan systems like this.",
+     54.072,
+     58.166
+    ],
+    [
+     "OmniChain, to keep a record no one can quietly edit.",
+     58.486,
+     62.442
+    ],
+    [
+     "And OmniBot is being built for the dirty, dangerous work no one should have to do.",
+     62.762,
+     67.925
+    ]
+   ]
+  },
+  {
+   "text": "No one fixes this alone. It takes residents, workers, recyclers, and the people who run our cities, working from the same truth.",
+   "scene": "hands",
+   "keys": [
+    "alone.",
+    "same",
+    "truth."
+   ],
+   "start": 68.425,
+   "end": 77.489,
+   "parts": [
+    [
+     "No one fixes this alone.",
+     68.425,
+     70.291
+    ],
+    [
+     "It takes residents, workers, recyclers, and the people who run our cities, working from the same truth.",
+     70.611,
+     77.489
+    ]
+   ]
+  },
+  {
+   "text": "In nature, there is no waste. Everything returns to the cycle.",
+   "scene": "cycle",
+   "keys": [
+    "no",
+    "waste."
+   ],
+   "start": 77.989,
+   "end": 82.392,
+   "parts": [
+    [
+     "In nature, there is no waste. Everything returns to the cycle.",
+     77.989,
+     82.392
+    ]
+   ]
+  },
+  {
+   "text": "Six thousand tonnes a day. Let's turn it back into a cycle.",
+   "scene": "close",
+   "keys": [
+    "cycle."
+   ],
+   "start": 82.892,
+   "end": 87.65,
+   "parts": [
+    [
+     "Six thousand tonnes a day. Let's turn it back into a cycle.",
+     82.892,
+     87.65
+    ]
+   ]
+  }
+ ],
+ "endStart": 88.25
+}

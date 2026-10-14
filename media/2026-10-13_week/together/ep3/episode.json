@@ -1,0 +1,246 @@
+{
+ "dateLabel": "#3 \u00b7 ROADS",
+ "sourceShort": "Data: MoRTH (2024)",
+ "sourceFull": "Data: Ministry of Road Transport & Highways, reply to Parliament (2024 figures)",
+ "series": "BUILD TOGETHER",
+ "signoff": "Built in Bengaluru  \u00b7  Open to collaboration",
+ "segs": [
+  {
+   "text": "In twenty twenty-four, potholes killed two thousand three hundred and eighty-five people on India's roads.",
+   "scene": "toll",
+   "keys": [
+    "two",
+    "thousand",
+    "three",
+    "hundred",
+    "eighty-five"
+   ],
+   "start": 0.25,
+   "end": 7.11,
+   "parts": [
+    [
+     "In twenty twenty-four, potholes killed two thousand three hundred and eighty-five people on India's roads.",
+     0.25,
+     7.11
+    ]
+   ]
+  },
+  {
+   "text": "That's more than six people, every single day.",
+   "scene": "perday",
+   "keys": [
+    "six",
+    "people,"
+   ],
+   "start": 7.61,
+   "end": 11.158,
+   "parts": [
+    [
+     "That's more than six people, every single day.",
+     7.61,
+     11.158
+    ]
+   ]
+  },
+  {
+   "text": "Every Bengalurean knows the moment. The sudden jolt. The swerve. The held breath.",
+   "scene": "jolt",
+   "keys": [
+    "jolt.",
+    "swerve.",
+    "breath."
+   ],
+   "start": 11.658,
+   "end": 18.33,
+   "parts": [
+    [
+     "Every Bengalurean knows the moment.",
+     11.658,
+     14.019
+    ],
+    [
+     "The sudden jolt. The swerve. The held breath.",
+     14.339,
+     18.33
+    ]
+   ]
+  },
+  {
+   "text": "A pothole isn't one failure. It's rain, heavy loads, rushed repairs, and roads dug up again and again by crews who never talk.",
+   "scene": "silos",
+   "keys": [
+    "one",
+    "never",
+    "talk."
+   ],
+   "start": 18.83,
+   "end": 28.701,
+   "parts": [
+    [
+     "A pothole isn't one failure.",
+     18.83,
+     20.989
+    ],
+    [
+     "It's rain, heavy loads, rushed repairs, and roads dug up again and again by crews who never talk.",
+     21.309,
+     28.701
+    ]
+   ]
+  },
+  {
+   "text": "And it isn't just Bengaluru. Every city on Earth fights the same battle between water, weight and time.",
+   "scene": "world",
+   "keys": [
+    "water,",
+    "weight",
+    "time."
+   ],
+   "start": 29.201,
+   "end": 36.696,
+   "parts": [
+    [
+     "And it isn't just Bengaluru.",
+     29.201,
+     31.123
+    ],
+    [
+     "Every city on Earth fights the same battle between water, weight and time.",
+     31.443,
+     36.696
+    ]
+   ]
+  },
+  {
+   "text": "What if roads could report their own damage, before it became a hole?",
+   "scene": "connect",
+   "keys": [
+    "report",
+    "damage,"
+   ],
+   "start": 37.196,
+   "end": 41.539,
+   "parts": [
+    [
+     "What if roads could report their own damage, before it became a hole?",
+     37.196,
+     41.539
+    ]
+   ]
+  },
+  {
+   "text": "Cracks spotted early. Repairs planned by need, not by noise. Every job, its cost and its quality, open for anyone to check.",
+   "scene": "vision",
+   "keys": [
+    "early.",
+    "need,",
+    "check."
+   ],
+   "start": 42.039,
+   "end": 52.297,
+   "parts": [
+    [
+     "Cracks spotted early.",
+     42.039,
+     43.774
+    ],
+    [
+     "Repairs planned by need, not by noise.",
+     44.094,
+     47.269
+    ],
+    [
+     "Every job, its cost and its quality, open for anyone to check.",
+     47.589,
+     52.297
+    ]
+   ]
+  },
+  {
+   "text": "Intelligence like A.L.K.I. could help plan it. OmniChain is designed to keep that record honest. And OmniBot is being built to take on the heavy, dangerous work.",
+   "scene": "stack",
+   "keys": [
+    "A.L.K.I.",
+    "OmniChain",
+    "OmniBot"
+   ],
+   "start": 52.797,
+   "end": 64.656,
+   "parts": [
+    [
+     "Intelligence like A.L.K.I. could help plan it.",
+     52.797,
+     56.555
+    ],
+    [
+     "OmniChain is designed to keep that record honest.",
+     56.875,
+     60.146
+    ],
+    [
+     "And OmniBot is being built to take on the heavy, dangerous work.",
+     60.466,
+     64.656
+    ]
+   ]
+  },
+  {
+   "text": "No department builds this alone. It takes engineers, contractors, citizens, and the people who run our cities, working from the same truth.",
+   "scene": "hands",
+   "keys": [
+    "alone.",
+    "same",
+    "truth."
+   ],
+   "start": 65.156,
+   "end": 74.562,
+   "parts": [
+    [
+     "No department builds this alone.",
+     65.156,
+     67.278
+    ],
+    [
+     "It takes engineers, contractors, citizens, and the people who run our cities, working from the same truth.",
+     67.598,
+     74.562
+    ]
+   ]
+  },
+  {
+   "text": "One hand can't lift a road. A thousand hands can.",
+   "scene": "lift",
+   "keys": [
+    "thousand",
+    "hands"
+   ],
+   "start": 75.062,
+   "end": 78.829,
+   "parts": [
+    [
+     "One hand can't lift a road. A thousand hands can.",
+     75.062,
+     78.829
+    ]
+   ]
+  },
+  {
+   "text": "Six lives a day. Let's build roads that bring everyone home.",
+   "scene": "close",
+   "keys": [
+    "everyone",
+    "home."
+   ],
+   "start": 79.329,
+   "end": 84.074,
+   "parts": [
+    [
+     "Six lives a day. Let's build roads that bring everyone home.",
+     79.329,
+     84.074
+    ]
+   ]
+  }
+ ],
+ "endStart": 84.67
+}

@@ -1,0 +1,121 @@
+{
+ "series": "EXPLAINS",
+ "dateLabel": "OMNIX EXPLAINS #2",
+ "sourceShort": "Not financial advice",
+ "sourceFull": "Data: Bitcoin network (since Jan 2009) \u00b7 Not financial advice",
+ "segs": [
+  {
+   "scene": "notebook",
+   "keys": [
+    "notebook",
+    "everyone"
+   ],
+   "parts": [
+    "Imagine a notebook shared by everyone in your apartment building."
+   ]
+  },
+  {
+   "scene": "keeper",
+   "keys": [
+    "one",
+    "keeper:",
+    "trust"
+   ],
+   "parts": [
+    "Today, most records live with one keeper: a bank, a registry, a company.",
+    "If that one book is wrong, lost or quietly changed, you just have to trust them."
+   ]
+  },
+  {
+   "scene": "shared",
+   "keys": [
+    "blockchain",
+    "thousands"
+   ],
+   "parts": [
+    "A blockchain is a shared notebook that thousands of computers keep at the same time."
+   ]
+  },
+  {
+   "scene": "blocks",
+   "keys": [
+    "blocks.",
+    "fingerprint",
+    "chain."
+   ],
+   "parts": [
+    "New entries are grouped into pages called blocks.",
+    "Each page carries a fingerprint of the page before it, like links in a chain."
+   ]
+  },
+  {
+   "scene": "tamper",
+   "keys": [
+    "changes.",
+    "breaks,",
+    "disagrees."
+   ],
+   "parts": [
+    "Change one old entry, and its fingerprint changes.",
+    "Every page after it breaks, and every other copy disagrees."
+   ]
+  },
+  {
+   "scene": "agree",
+   "keys": [
+    "agree",
+    "No"
+   ],
+   "parts": [
+    "So before a new page is added, the computers must agree it's valid.",
+    "No single keeper decides."
+   ]
+  },
+  {
+   "scene": "number",
+   "keys": [
+    "ten",
+    "minutes",
+    "two",
+    "thousand",
+    "nine,"
+   ],
+   "parts": [
+    "Bitcoin's chain has added a new block about every ten minutes since January, two thousand nine,",
+    "with no central keeper."
+   ]
+  },
+  {
+   "scene": "catch",
+   "keys": [
+    "catch:",
+    "lie,"
+   ],
+   "parts": [
+    "The catch: a blockchain only proves what was written.",
+    "If someone writes a lie, it becomes a permanent, well-recorded lie."
+   ]
+  },
+  {
+   "scene": "takeaway",
+   "keys": [
+    "honest.",
+    "quietly"
+   ],
+   "parts": [
+    "A blockchain doesn't make people honest.",
+    "It makes records very hard to quietly change."
+   ]
+  },
+  {
+   "scene": "close",
+   "keys": [
+    "everyone",
+    "copy."
+   ],
+   "parts": [
+    "Just like that notebook, when everyone holds a copy."
+   ]
+  }
+ ]
+}

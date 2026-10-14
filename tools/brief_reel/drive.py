@@ -17,6 +17,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 def run(ep, mode, arg):
     cfg = json.load(open(os.path.join(ep, "episode.json")))
     scenes = open(os.path.join(ep, "scenes.js")).read()
+    lib = os.path.join(HERE, "lib.js")
+    if os.path.exists(lib):
+        scenes = open(lib).read() + "\n" + scenes
     with sync_playwright() as p:
         b = p.chromium.launch(args=["--allow-file-access-from-files", "--disable-web-security"])
         pg = b.new_page(viewport={"width": 1080, "height": 1920})

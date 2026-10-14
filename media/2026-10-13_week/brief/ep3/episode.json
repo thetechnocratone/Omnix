@@ -1,0 +1,177 @@
+{
+ "dateLabel": "14 OCT 2026",
+ "sourceShort": "Source: CoinDesk",
+ "sourceFull": "Source: CoinDesk, 12 Oct 2026 \u00b7 Not financial advice",
+ "segs": [
+  {
+   "text": "The box was sealed. The wallet was new. And someone already had the keys.",
+   "scene": "box",
+   "keys": [
+    "sealed.",
+    "new.",
+    "keys."
+   ],
+   "start": 0.25,
+   "end": 5.739,
+   "parts": [
+    [
+     "The box was sealed. The wallet was new.",
+     0.25,
+     3.223
+    ],
+    [
+     "And someone already had the keys.",
+     3.543,
+     5.739
+    ]
+   ]
+  },
+  {
+   "text": "Last week, Ledger confirmed it found an unauthorised hardware implant inside a wallet sold through one of its authorised resellers in Southeast Asia.",
+   "scene": "implant",
+   "keys": [
+    "implant"
+   ],
+   "start": 6.239,
+   "end": 16.042,
+   "parts": [
+    [
+     "Last week, Ledger confirmed it found an unauthorised hardware implant",
+     6.239,
+     10.804
+    ],
+    [
+     "inside a wallet sold through one of its authorised resellers in Southeast Asia.",
+     11.124,
+     16.042
+    ]
+   ]
+  },
+  {
+   "text": "On-chain researchers estimate up to ninety-three million dollars was drained, from more than three hundred wallets.",
+   "scene": "losses",
+   "keys": [
+    "ninety-three",
+    "million",
+    "three",
+    "hundred"
+   ],
+   "start": 16.542,
+   "end": 24.237,
+   "parts": [
+    [
+     "On-chain researchers estimate up to ninety-three million dollars was drained,",
+     16.542,
+     21.444
+    ],
+    [
+     "from more than three hundred wallets.",
+     21.764,
+     24.237
+    ]
+   ]
+  },
+  {
+   "text": "Ledger hasn't confirmed that number. It says its own systems and direct sales were not affected, and every confirmed case traces back to that one seller.",
+   "scene": "caveat",
+   "keys": [
+    "hasn't",
+    "one",
+    "seller."
+   ],
+   "start": 24.737,
+   "end": 35.194,
+   "parts": [
+    [
+     "Ledger hasn't confirmed that number.",
+     24.737,
+     26.825
+    ],
+    [
+     "It says its own systems and direct sales were not affected,",
+     27.145,
+     31.142
+    ],
+    [
+     "and every confirmed case traces back to that one seller.",
+     31.462,
+     35.194
+    ]
+   ]
+  },
+  {
+   "text": "If you bought from that reseller recently, don't set the device up. If you already did, move to a fresh recovery phrase, on a device straight from the maker.",
+   "scene": "advice",
+   "keys": [
+    "don't",
+    "fresh"
+   ],
+   "start": 35.694,
+   "end": 45.466,
+   "parts": [
+    [
+     "If you bought from that reseller recently, don't set the device up.",
+     35.694,
+     39.458
+    ],
+    [
+     "If you already did, move to a fresh recovery phrase, on a device straight from the maker.",
+     39.778,
+     45.466
+    ]
+   ]
+  },
+  {
+   "text": "And no real company will ever ask for your twenty-four words.",
+   "scene": "words",
+   "keys": [
+    "ever",
+    "twenty-four",
+    "words."
+   ],
+   "start": 45.966,
+   "end": 49.709,
+   "parts": [
+    [
+     "And no real company will ever ask for your twenty-four words.",
+     45.966,
+     49.709
+    ]
+   ]
+  },
+  {
+   "text": "Self-custody is only as strong as the path the device took to reach you.",
+   "scene": "path",
+   "keys": [
+    "path"
+   ],
+   "start": 50.209,
+   "end": 54.948,
+   "parts": [
+    [
+     "Self-custody is only as strong as the path the device took to reach you.",
+     50.209,
+     54.948
+    ]
+   ]
+  },
+  {
+   "text": "Check the seal. Then check where it came from.",
+   "scene": "close",
+   "keys": [
+    "seal.",
+    "came"
+   ],
+   "start": 55.448,
+   "end": 58.657,
+   "parts": [
+    [
+     "Check the seal. Then check where it came from.",
+     55.448,
+     58.657
+    ]
+   ]
+  }
+ ],
+ "endStart": 59.26
+}

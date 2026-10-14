@@ -1,0 +1,185 @@
+{
+ "dateLabel": "14 OCT 2026",
+ "sourceShort": "Source: TechCrunch",
+ "sourceFull": "Source: TechCrunch, 12 Oct 2026",
+ "segs": [
+  {
+   "text": "What if your A.I. remembered what you told it three months ago?",
+   "scene": "recall",
+   "keys": [
+    "remembered",
+    "three",
+    "months"
+   ],
+   "start": 0.25,
+   "end": 4.013,
+   "parts": [
+    [
+     "What if your A.I. remembered what you told it three months ago?",
+     0.25,
+     4.013
+    ]
+   ]
+  },
+  {
+   "text": "On Monday, Meta released Muse Wonder, its first frontier A.I. model, along with a bigger version, called Muse Wonder Full.",
+   "scene": "release",
+   "keys": [
+    "Muse",
+    "Wonder,",
+    "frontier"
+   ],
+   "start": 4.513,
+   "end": 14.136,
+   "parts": [
+    [
+     "On Monday, Meta released Muse Wonder, its first frontier A.I. model,",
+     4.513,
+     9.71
+    ],
+    [
+     "along with a bigger version, called Muse Wonder Full.",
+     10.03,
+     14.136
+    ]
+   ]
+  },
+  {
+   "text": "The headline feature is what Meta calls active memory: holding on to what matters to you, over days, weeks and months.",
+   "scene": "memory",
+   "keys": [
+    "active",
+    "memory:"
+   ],
+   "start": 14.636,
+   "end": 23.281,
+   "parts": [
+    [
+     "The headline feature is what Meta calls active memory:",
+     14.636,
+     18.089
+    ],
+    [
+     "holding on to what matters to you, over days, weeks and months.",
+     18.409,
+     23.281
+    ]
+   ]
+  },
+  {
+   "text": "That's the missing piece for A.I. agents. An assistant that forgets everything is stuck on small tasks. One that remembers can take on long-running work.",
+   "scene": "agents",
+   "keys": [
+    "forgets",
+    "remembers"
+   ],
+   "start": 23.781,
+   "end": 34.735,
+   "parts": [
+    [
+     "That's the missing piece for A.I. agents.",
+     23.781,
+     26.55
+    ],
+    [
+     "An assistant that forgets everything is stuck on small tasks.",
+     26.87,
+     30.941
+    ],
+    [
+     "One that remembers can take on long-running work.",
+     31.261,
+     34.735
+    ]
+   ]
+  },
+  {
+   "text": "Wonder is open to developers through Meta's paid API. Wonder Full is limited to subscribers of its coding tool.",
+   "scene": "access",
+   "keys": [
+    "developers",
+    "subscribers"
+   ],
+   "start": 35.235,
+   "end": 42.773,
+   "parts": [
+    [
+     "Wonder is open to developers through Meta's paid API.",
+     35.235,
+     39.059
+    ],
+    [
+     "Wonder Full is limited to subscribers of its coding tool.",
+     39.379,
+     42.773
+    ]
+   ]
+  },
+  {
+   "text": "The catch: the benchmark scores come from Meta's own testing. And a model that remembers you raises a bigger question: who controls that memory?",
+   "scene": "caveat",
+   "keys": [
+    "own",
+    "controls"
+   ],
+   "start": 43.273,
+   "end": 53.617,
+   "parts": [
+    [
+     "The catch: the benchmark scores come from Meta's own testing.",
+     43.273,
+     47.749
+    ],
+    [
+     "And a model that remembers you raises a bigger question: who controls that memory?",
+     48.069,
+     53.617
+    ]
+   ]
+  },
+  {
+   "text": "Memory makes agents useful. Who owns that memory will decide whether they're trusted.",
+   "scene": "takeaway",
+   "keys": [
+    "useful.",
+    "trusted."
+   ],
+   "start": 54.117,
+   "end": 60.132,
+   "parts": [
+    [
+     "Memory makes agents useful.",
+     54.117,
+     56.537
+    ],
+    [
+     "Who owns that memory will decide whether they're trusted.",
+     56.857,
+     60.132
+    ]
+   ]
+  },
+  {
+   "text": "Three months from now, it might remember. Make sure you can choose what it keeps.",
+   "scene": "close",
+   "keys": [
+    "choose"
+   ],
+   "start": 60.632,
+   "end": 65.838,
+   "parts": [
+    [
+     "Three months from now, it might remember.",
+     60.632,
+     63.084
+    ],
+    [
+     "Make sure you can choose what it keeps.",
+     63.404,
+     65.838
+    ]
+   ]
+  }
+ ],
+ "endStart": 66.44
+}

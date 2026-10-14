@@ -1,0 +1,96 @@
+{
+ "dateLabel": "14 OCT 2026",
+ "sourceShort": "Source: TechCrunch",
+ "sourceFull": "Source: TechCrunch, 12 Oct 2026",
+ "segs": [
+  {
+   "scene": "recall",
+   "keys": [
+    "remembered",
+    "three",
+    "months"
+   ],
+   "parts": [
+    "What if your A.I. remembered what you told it three months ago?"
+   ]
+  },
+  {
+   "scene": "release",
+   "keys": [
+    "Muse",
+    "Wonder,",
+    "frontier"
+   ],
+   "parts": [
+    "On Monday, Meta released Muse Wonder, its first frontier A.I. model,",
+    "along with a bigger version, called Muse Wonder Full."
+   ]
+  },
+  {
+   "scene": "memory",
+   "keys": [
+    "active",
+    "memory:"
+   ],
+   "parts": [
+    "The headline feature is what Meta calls active memory:",
+    "holding on to what matters to you, over days, weeks and months."
+   ]
+  },
+  {
+   "scene": "agents",
+   "keys": [
+    "forgets",
+    "remembers"
+   ],
+   "parts": [
+    "That's the missing piece for A.I. agents.",
+    "An assistant that forgets everything is stuck on small tasks.",
+    "One that remembers can take on long-running work."
+   ]
+  },
+  {
+   "scene": "access",
+   "keys": [
+    "developers",
+    "subscribers"
+   ],
+   "parts": [
+    "Wonder is open to developers through Meta's paid API.",
+    "Wonder Full is limited to subscribers of its coding tool."
+   ]
+  },
+  {
+   "scene": "caveat",
+   "keys": [
+    "own",
+    "controls"
+   ],
+   "parts": [
+    "The catch: the benchmark scores come from Meta's own testing.",
+    "And a model that remembers you raises a bigger question: who controls that memory?"
+   ]
+  },
+  {
+   "scene": "takeaway",
+   "keys": [
+    "useful.",
+    "trusted."
+   ],
+   "parts": [
+    "Memory makes agents useful.",
+    "Who owns that memory will decide whether they're trusted."
+   ]
+  },
+  {
+   "scene": "close",
+   "keys": [
+    "choose"
+   ],
+   "parts": [
+    "Three months from now, it might remember.",
+    "Make sure you can choose what it keeps."
+   ]
+  }
+ ]
+}
