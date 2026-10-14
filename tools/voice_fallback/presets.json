@@ -1,0 +1,8 @@
+{
+ "rule": "Speko only. Use Kokoro B only when Speko absolutely cannot be used (owner, 14 Oct 2026).",
+ "fallback_preset": "brief_B",
+ "brief_B": {"voice": "am_fenrir:0.45,am_michael:0.35,am_puck:0.2", "speed": 0.92, "lang": "a"},
+ "brief_A": {"voice": "am_fenrir:0.6,am_puck:0.4", "speed": 0.9, "lang": "a"},
+ "master_ffmpeg_af": "highpass=f=70,equalizer=f=100:t=q:w=1:g=-1.8,equalizer=f=900:t=q:w=1.2:g=-1.4,equalizer=f=1800:t=q:w=1:g=-0.8,equalizer=f=6500:t=q:w=1:g=0.8,highshelf=f=9000:g=-2.5,acompressor=threshold=-20dB:ratio=2.2:attack=8:release=120:makeup=1,loudnorm=I=-21:TP=-1.5:LRA=7",
+ "tuning_notes": "Matched to Speko voice w4dqs2hV4dpYqFQCkK2G (Alok Paul): ~118 Hz median pitch, ~147 wpm, -21 LUFS, spectrum within ~1.5 dB in most bands. Kokoro has American accent only."
+}

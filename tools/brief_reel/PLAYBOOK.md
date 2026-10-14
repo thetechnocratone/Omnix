@@ -49,6 +49,19 @@ Draw these ourselves in the bright theme; never use film clips, real logos or re
   `vo_parts/001.wav`, `002.wav`, … (large tool results are saved to a file — use jq to extract).
 - Then `python3 tools/brief_reel/assemble_voice.py <epdir>` → `vo.wav` + `episode.json` with timings.
 
+### 3b. Voice fallback — ONLY when Speko absolutely cannot be used (owner's rule, 14 Oct 2026)
+Speko is always the voice. Switch only if Speko cannot produce the audio after one retry: out of credit
+(check `credits_balance_get`), auth/account error, or repeated provider failure. Never switch for convenience.
+Fallback = local Kokoro on the owner's Mac, preset **Kokoro B** (see `tools/voice_fallback/presets.json`):
+- Needs the owner's Mac linked (`mcp__remote-devices__device_*` tools present and folder `~/OmnixVoice` granted).
+  Write `~/OmnixVoice/jobs/<epname>.json` = `{"items":[{"name":"001","text":part,"voice":"am_fenrir:0.45,am_michael:0.35,am_puck:0.2","speed":0.92,"lang":"a"}, ...]}`
+  (one item per part, names 001, 002 … in reading order). A background service on the Mac picks it up within
+  ~20 s; wait until `jobs/<epname>.json` has moved to `jobs/done/` (check `engine/log.txt` for FAILED).
+- Stage `~/OmnixVoice/out/001.wav …` with `device_stage_files`, master each with the ffmpeg `-af` chain in
+  `presets.json` (`master_ffmpeg_af`), save as `vo_parts/NNN.wav`, then run assemble_voice.py as usual.
+- Say in the owner message that this episode used the Kokoro fallback voice and why (e.g. Speko credit out).
+- If the Mac is not reachable either: follow section 0 — don't publish; tell the owner to top up Speko.
+
 ## 4. Visuals
 - Write `<epdir>/scenes.js`: one `S.<scene>=(p,lt,d,t)=>{...}` per beat, drawn on the 1080×1920
   canvas `x` (p = 0..1 progress through the beat, lt = seconds into the beat). Reuse helpers from
