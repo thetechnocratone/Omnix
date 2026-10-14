@@ -1,0 +1,99 @@
+{
+ "film": "A.L.K.I.",
+ "title": "A.L.K.I.",
+ "subtitle": "The mind of Omnix",
+ "signoff": "Being built right now in Bengaluru.",
+ "disclaimer": "A.L.K.I. is in the making. Descriptions reflect design intent, not current capability.",
+ "sources": "Vasudhaiva Kutumbakam: Maha Upanishad · Sarve bhavantu sukhinah: traditional Vedic prayer",
+ "segs": [
+  {
+   "scene": "title2",
+   "a": {
+    "lines": [
+     "The printing press asked: who gets to read?",
+     "The internet asked: who gets to connect?",
+     "Our age asks: who, or what, gets to think alongside us?"
+    ]
+   },
+   "keys": [
+    "read",
+    "connect",
+    "think"
+   ],
+   "parts": [
+    "Every era of technology has a defining question.",
+    "For the printing press, it was who gets to read.",
+    "For the internet, it was who gets to connect.",
+    "For our era, it is who, or what, gets to think alongside us."
+   ]
+  },
+  {
+   "scene": "hero",
+   "a": {
+    "icon": "mind",
+    "label": "A.L.K.I.",
+    "sub": "Autonomous Lifeform of Knowledge and Intelligence"
+   },
+   "keys": [
+    "A.L.K.I.",
+    "Autonomous",
+    "Lifeform"
+   ],
+   "parts": [
+    "A.L.K.I. is Omnix's answer.",
+    "The Autonomous Lifeform of Knowledge and Intelligence:",
+    "an artificial superintelligence agent, designed to learn continuously, reason across every domain, and act with purpose, in service of all."
+   ]
+  },
+  {
+   "scene": "sanskrit",
+   "a": {
+    "sa": "वसुधैव कुटुम्बकम्",
+    "tr": "Vasudhaiva Kutumbakam",
+    "en": "The whole world is one family",
+    "src": "Maha Upanishad"
+   },
+   "keys": [
+    "Vasudhaiva",
+    "Kutumbakam",
+    "one",
+    "family."
+   ],
+   "parts": [
+    "Omnix finds its compass in the timeless teachings of the Vedic sages.",
+    "Vasudhaiva Kutumbakam: the whole world is one family.",
+    "Everything conscious, and everything inert."
+   ]
+  },
+  {
+   "scene": "globe",
+   "keys": [
+    "alignment",
+    "target.",
+    "nature",
+    "animal"
+   ],
+   "parts": [
+    "For an intelligence, this is not a slogan. It is an alignment target.",
+    "A system that sees humanity, nature and the animal kingdom as one family has goals that include the wellbeing of all of them,",
+    "not just the convenience of whoever happens to deploy it."
+   ]
+  },
+  {
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "A.L.K.I.",
+    "sub": "Knowledge and intelligence, in service of all"
+   },
+   "keys": [
+    "service",
+    "all."
+   ],
+   "parts": [
+    "A.L.K.I. Knowledge and intelligence, in service of all."
+   ]
+  }
+ ],
+ "reel": true
+}

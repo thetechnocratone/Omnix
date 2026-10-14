@@ -1,0 +1,179 @@
+{
+ "film": "BEYOND IMAGINATION",
+ "title": "Beyond Imagination",
+ "subtitle": "A new era of peace, joy and abundance",
+ "signoff": "Built in Bharat, for the whole world.",
+ "disclaimer": "This film describes the vision and intent of Omnix.",
+ "sources": "Asato ma sadgamaya: Brihadaranyaka Upanishad \u00b7 Vasudhaiva Kutumbakam: Maha Upanishad",
+ "segs": [
+  {
+   "text": "Think about an ordinary day. The alarm. The commute. The work that has to be done, whether you love it or not. The bills. The worries. The tiredness at night. And tomorrow, it begins again.",
+   "scene": "day",
+   "a": {},
+   "keys": [
+    "alarm.",
+    "again."
+   ],
+   "chapter": null,
+   "start": 0.6,
+   "end": 14.185,
+   "parts": [
+    [
+     "Think about an ordinary day.",
+     0.6,
+     2.22
+    ],
+    [
+     "The alarm. The commute. The work that has to be done, whether you love it or not.",
+     2.72,
+     7.78
+    ],
+    [
+     "The bills. The worries. The tiredness at night. And tomorrow, it begins again.",
+     8.3,
+     14.185
+    ]
+   ]
+  },
+  {
+   "text": "Most of us spend most of our lives just keeping up. Somewhere along the way, we stop asking what all of this is for.",
+   "scene": "quote",
+   "a": {
+    "text": "When did we last ask\nwhat all of this is for?"
+   },
+   "keys": [
+    "for?"
+   ],
+   "chapter": null,
+   "start": 14.735,
+   "end": 22.773,
+   "parts": [
+    [
+     "Most of us spend most of our lives just keeping up.",
+     14.735,
+     17.935
+    ],
+    [
+     "Somewhere along the way, we stop asking what all of this is for.",
+     18.615,
+     22.773
+    ]
+   ]
+  },
+  {
+   "text": "Thousands of years ago, the sages of India never stopped asking. Their prayer was simple: lead me from the untrue to the truth. Lead me from darkness to light. Lead me from death to the eternal.",
+   "scene": "sanskrit",
+   "a": {
+    "sa": "\u0905\u0938\u0924\u094b \u092e\u093e \u0938\u0926\u094d\u0917\u092e\u092f \u0964 \u0924\u092e\u0938\u094b \u092e\u093e \u091c\u094d\u092f\u094b\u0924\u093f\u0930\u094d\u0917\u092e\u092f \u0964",
+    "tr": "Asato ma sadgamaya, tamaso ma jyotirgamaya",
+    "en": "Lead me from the untrue to the true, from darkness to light",
+    "src": "Brihadaranyaka Upanishad"
+   },
+   "keys": [
+    "truth.",
+    "light."
+   ],
+   "chapter": null,
+   "start": 23.323,
+   "end": 37.765,
+   "parts": [
+    [
+     "Thousands of years ago, the sages of India never stopped asking.",
+     23.323,
+     27.523
+    ],
+    [
+     "Their prayer was simple: lead me from the untrue to the truth. Lead me from darkness to light. Lead me from death to the eternal.",
+     28.083,
+     37.765
+    ]
+   ]
+  },
+  {
+   "text": "Our vision is a world where no one has to do anything. Everyone is free to choose. Free to pursue what they love, without being burdened by anything.",
+   "scene": "quote",
+   "a": {
+    "text": "A world where no one\nhas to do anything.\nEveryone is free to choose."
+   },
+   "keys": [
+    "has",
+    "free"
+   ],
+   "chapter": null,
+   "start": 38.315,
+   "end": 48.517,
+   "parts": [
+    [
+     "Our vision is a world where no one has to do anything.",
+     38.315,
+     41.815
+    ],
+    [
+     "Everyone is free to choose. Free to pursue what they love, without being burdened by anything.",
+     42.335,
+     48.517
+    ]
+   ]
+  },
+  {
+   "text": "And above all, to turn inward, and answer the call every human heart carries. The call to find the ultimate truth. The eternal light. Lasting peace, and bliss. Technology cannot walk that path for us. But it can clear the way.",
+   "scene": "path",
+   "a": {
+    "light": true
+   },
+   "keys": [
+    "truth,",
+    "light,",
+    "bliss."
+   ],
+   "chapter": null,
+   "start": 49.067,
+   "end": 67.354,
+   "parts": [
+    [
+     "And above all, to turn inward, and answer the call every human heart carries.",
+     49.067,
+     54.987
+    ],
+    [
+     "The call to find the ultimate truth. The eternal light. Lasting peace, and bliss.",
+     55.647,
+     62.107
+    ],
+    [
+     "Technology cannot walk that path for us. But it can clear the way.",
+     62.927,
+     67.354
+    ]
+   ]
+  },
+  {
+   "text": "Omnix. Beyond imagination.",
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "Omnix",
+    "sub": "Beyond imagination"
+   },
+   "keys": [
+    "Beyond",
+    "imagination."
+   ],
+   "chapter": null,
+   "start": 67.904,
+   "end": 70.666,
+   "parts": [
+    [
+     "Omnix. Beyond imagination.",
+     67.904,
+     70.666
+    ]
+   ]
+  }
+ ],
+ "endStart": 71.27,
+ "total": 75.77,
+ "intro": 0.6,
+ "outro": 4.0,
+ "vertical": true
+}

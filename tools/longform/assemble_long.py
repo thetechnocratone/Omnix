@@ -8,8 +8,10 @@ Writes FILM_DIR/vo.wav and FILM_DIR/episode.json.
 import json, sys, os, subprocess, wave
 import numpy as np
 ep = sys.argv[1]; SR = 24000
-TITLE, CHAP, GAP = 5.0, 3.4, 0.75
 d = json.load(open(os.path.join(ep, "draft.json")))
+REEL = d.get("reel", False)
+TITLE, CHAP, GAP = (0.6, 3.4, 0.55) if REEL else (5.0, 3.4, 0.75)
+OUTRO = 4.0 if REEL else 8.0
 
 def load(fn):
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", fn, "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"],
@@ -58,7 +60,8 @@ for si, s in enumerate(d["segs"]):
     segs.append({"text": " ".join(s["parts"]), "scene": s["scene"], "a": s.get("a", {}), "keys": s.get("keys", []),
                  "chapter": s.get("chapter"), "start": round(t, 3), "end": round(t + L, 3), "parts": parts})
     buf.append(a); t += L
-buf.append(np.zeros(int(1.2 * SR))); t += 1.2
+tail = 0.6 if REEL else 1.2
+buf.append(np.zeros(int(tail * SR))); t += tail
 y = np.concatenate(buf)
 with wave.open(os.path.join(ep, "vo.wav"), "wb") as w:
     w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(y, -1, 1) * 32767).astype(np.int16).tobytes())
@@ -66,6 +69,6 @@ out = {k: d[k] for k in ("film", "title", "subtitle", "signoff", "disclaimer", "
 n = 0
 for s in segs:
     if s["chapter"]: n += 1; s["chapterNo"] = n
-out.update(segs=segs, endStart=round(t, 2), total=round(t + 9, 2))
+out.update(segs=segs, endStart=round(t, 2), total=round(t + OUTRO + 0.5, 2), intro=TITLE, outro=OUTRO, vertical=REEL)
 json.dump(out, open(os.path.join(ep, "episode.json"), "w"), indent=1)
 print(f"voice ends {t:.1f}s, total {t+9:.1f}s, {len(segs)} segs")

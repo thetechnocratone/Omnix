@@ -24,25 +24,25 @@ def page(p, cfg):
 
 def run(ep, mode, args):
     cfg = json.load(open(os.path.join(ep, "episode.json")))
-    total = cfg["endStart"] + 8.0
+    total = cfg["endStart"] + cfg.get("outro", 8.0); R = "renderV" if cfg.get("vertical") else "render"
     with sync_playwright() as p:
         b, pg, errs = page(p, cfg)
         if mode in ("stills", "sheet"):
             ts = [float(v) for v in args] if mode == "stills" else [i * float(args[0]) for i in range(int(total / float(args[0])) + 1)]
             os.makedirs(os.path.join(ep, "stills"), exist_ok=True); files = []
             for t in ts:
-                d = pg.evaluate(f"render({t})"); fn = os.path.join(ep, "stills", f"still_{t:06.1f}.jpg")
+                d = pg.evaluate(f"{R}({t})"); fn = os.path.join(ep, "stills", f"still_{t:06.1f}.jpg")
                 open(fn, "wb").write(base64.b64decode(d.split(",")[1])); files.append(fn)
             if mode == "sheet":
                 subprocess.run(["ffmpeg", "-v", "error", "-y", "-pattern_type", "glob", "-i", os.path.join(ep, "stills", "still_*.jpg"),
-                                "-vf", "scale=480:-1,tile=6x" + str((len(files) + 5) // 6), "-frames:v", "1", os.path.join(ep, "sheet.jpg")], check=True)
+                                "-vf", "scale=270:-1,tile=8x" + str((len(files) + 7) // 8), "-frames:v", "1", os.path.join(ep, "sheet.jpg")], check=True)
         else:
             out = args[0]; fps = int(args[1]) if len(args) > 1 else 30
             n = int(total * fps)
             ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "image2pipe", "-framerate", str(fps), "-i", "-",
                                    "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "20", "-preset", "veryfast", out], stdin=subprocess.PIPE)
             for i in range(n):
-                d = pg.evaluate(f"render({i/fps})")
+                d = pg.evaluate(f"{R}({i/fps})")
                 ff.stdin.write(base64.b64decode(d.split(",")[1]))
                 if i % 900 == 0: print(f"{ep}: frame {i}/{n}", flush=True)
             ff.stdin.close(); ff.wait()

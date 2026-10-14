@@ -1,0 +1,113 @@
+{
+ "film": "THE FULL STACK",
+ "title": "The Network. The Mind. The Machine.",
+ "subtitle": "How the Omnix stack works as one system",
+ "signoff": "The build is on.",
+ "disclaimer": "OmniChain, A.L.K.I. and OmniBot are in the making. The scenario shown is illustrative. Nishq is a utility asset; nothing here is financial advice.",
+ "sources": "",
+ "segs": [
+  {
+   "scene": "triad",
+   "keys": [
+    "trust",
+    "ledger.",
+    "body"
+   ],
+   "parts": [
+    "Intelligence without trust is hard to rely on.",
+    "Trust without intelligence is merely a ledger.",
+    "And intelligence and trust without a body cannot lift, build, tend or heal."
+   ]
+  },
+  {
+   "scene": "scenario",
+   "a": {
+    "step": 0
+   },
+   "keys": [
+    "Bengaluru",
+    "leak"
+   ],
+   "parts": [
+    "Here's how the three layers could work together.",
+    "Picture a neighbourhood in Bengaluru, years from now. Somewhere underground, a water pipe is starting to leak."
+   ]
+  },
+  {
+   "scene": "scenario",
+   "a": {
+    "step": 1
+   },
+   "keys": [
+    "A.L.K.I.",
+    "notices",
+    "plan"
+   ],
+   "parts": [
+    "A.L.K.I. notices it first: pressure readings drifting, a pattern it has learned to recognise.",
+    "It makes a plan. Which pipe, which crew, which parts, and the least disruptive hour to do the work."
+   ]
+  },
+  {
+   "scene": "scenario",
+   "a": {
+    "step": 2
+   },
+   "keys": [
+    "OmniBots",
+    "fix"
+   ],
+   "parts": [
+    "Two OmniBots are dispatched.",
+    "They walk the same footpaths, open the same access covers, and use the same tools a human crew would. No road redesigned for them."
+   ]
+  },
+  {
+   "scene": "scenario",
+   "a": {
+    "step": 3
+   },
+   "keys": [
+    "recorded",
+    "Nishq",
+    "verify"
+   ],
+   "parts": [
+    "Every step is recorded on OmniChain: the alert, the decision, the repair, and the parts used.",
+    "The service is settled in Nishq, automatically.",
+    "And anyone responsible for that water supply can verify exactly what happened, and when."
+   ]
+  },
+  {
+   "scene": "quote",
+   "a": {
+    "text": "A leak fixed before\nanyone noticed it."
+   },
+   "keys": [
+    "before",
+    "anyone",
+    "noticed"
+   ],
+   "parts": [
+    "The result is a leak fixed before anyone noticed it, and not a drop of trust lost."
+   ]
+  },
+  {
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "Omnix",
+    "sub": "The network. The mind. The machine."
+   },
+   "keys": [
+    "network.",
+    "mind.",
+    "machine."
+   ],
+   "parts": [
+    "Omnix. The network. The mind. The machine."
+   ]
+  }
+ ],
+ "reel": true
+}

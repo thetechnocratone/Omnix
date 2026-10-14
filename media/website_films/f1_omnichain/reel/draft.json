@@ -1,0 +1,111 @@
+{
+ "film": "OMNICHAIN & NISHQ",
+ "title": "OmniChain & Nishq",
+ "subtitle": "A ledger built for what's coming",
+ "signoff": "The whitepaper's out. The build is on.",
+ "disclaimer": "Nishq is a utility asset of the OmniChain network. Nothing here is financial advice or an offer of investment. Parameters described are from a draft whitepaper and may change.",
+ "sources": "Sources: CoinDesk (8 Oct 2026) · Chainalysis (2022) · NIST FIPS 204 (2024) · Gidney, arXiv 2505.15917 (2025) · FIRST CVE forecast (2026)",
+ "segs": [
+  {
+   "scene": "bunker",
+   "keys": [
+    "bunker",
+    "mode",
+    "shortcut"
+   ],
+   "parts": [
+    "Last week, an Ethereum researcher asked crypto holders to start planning for something he called bunker mode.",
+    "His worry: that A.I. could find a shortcut through the maths that protects every wallet.",
+    "No such attack has been shown.",
+    "But the question it raises is exactly the right one."
+   ]
+  },
+  {
+   "scene": "hero",
+   "a": {
+    "icon": "shield",
+    "label": "Ready for adversaries that don't exist yet"
+   },
+   "keys": [
+    "adversaries",
+    "yet"
+   ],
+   "parts": [
+    "What would it take to build a blockchain that is ready for adversaries that don't exist yet?"
+   ]
+  },
+  {
+   "scene": "shield",
+   "a": {
+    "core": "coin",
+    "label": "Nishq, guarded by A.L.K.I."
+   },
+   "keys": [
+    "defenders",
+    "natively",
+    "guarded",
+    "A.L.K.I."
+   ],
+   "parts": [
+    "If attackers have A.I., defenders need it too.",
+    "That's why Nishq is being designed to be natively guarded by Omnix's own intelligence, A.L.K.I."
+   ]
+  },
+  {
+   "scene": "icons",
+   "a": {
+    "items": [
+     [
+      "eye",
+      "Watch",
+      "around the clock"
+     ],
+     [
+      "magnifier",
+      "Search",
+      "its own code first"
+     ],
+     [
+      "warn",
+      "Spot",
+      "patterns as they begin"
+     ],
+     [
+      "link",
+      "Respond",
+      "openly, on-chain"
+     ]
+    ],
+    "connect": true
+   },
+   "keys": [
+    "watches",
+    "weaknesses",
+    "patterns",
+    "respond"
+   ],
+   "parts": [
+    "The aim is an autonomous guardian that watches the network around the clock,",
+    "searches its own code for weaknesses before anyone else can,",
+    "spots unusual patterns the moment they begin,",
+    "and helps the community respond, openly and on-chain."
+   ]
+  },
+  {
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "OmniChain",
+    "sub": "The trust layer for an intelligent world"
+   },
+   "keys": [
+    "trust",
+    "layer"
+   ],
+   "parts": [
+    "OmniChain. The trust layer for an intelligent world."
+   ]
+  }
+ ],
+ "reel": true
+}

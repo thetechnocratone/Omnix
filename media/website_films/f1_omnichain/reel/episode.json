@@ -1,0 +1,184 @@
+{
+ "film": "OMNICHAIN & NISHQ",
+ "title": "OmniChain & Nishq",
+ "subtitle": "A ledger built for what's coming",
+ "signoff": "The whitepaper's out. The build is on.",
+ "disclaimer": "Nishq is a utility asset of the OmniChain network. Nothing here is financial advice or an offer of investment. Parameters described are from a draft whitepaper and may change.",
+ "sources": "Sources: CoinDesk (8 Oct 2026) \u00b7 Chainalysis (2022) \u00b7 NIST FIPS 204 (2024) \u00b7 Gidney, arXiv 2505.15917 (2025) \u00b7 FIRST CVE forecast (2026)",
+ "segs": [
+  {
+   "text": "Last week, an Ethereum researcher asked crypto holders to start planning for something he called bunker mode. His worry: that A.I. could find a shortcut through the maths that protects every wallet. No such attack has been shown. But the question it raises is exactly the right one.",
+   "scene": "bunker",
+   "a": {},
+   "keys": [
+    "bunker",
+    "mode",
+    "shortcut"
+   ],
+   "chapter": null,
+   "start": 0.6,
+   "end": 18.543,
+   "parts": [
+    [
+     "Last week, an Ethereum researcher asked crypto holders to start planning for something he called bunker mode.",
+     0.6,
+     7.1
+    ],
+    [
+     "His worry: that A.I. could find a shortcut through the maths that protects every wallet.",
+     7.66,
+     12.86
+    ],
+    [
+     "No such attack has been shown.",
+     13.46,
+     14.98
+    ],
+    [
+     "But the question it raises is exactly the right one.",
+     15.48,
+     18.543
+    ]
+   ]
+  },
+  {
+   "text": "What would it take to build a blockchain that is ready for adversaries that don't exist yet?",
+   "scene": "hero",
+   "a": {
+    "icon": "shield",
+    "label": "Ready for adversaries that don't exist yet"
+   },
+   "keys": [
+    "adversaries",
+    "yet"
+   ],
+   "chapter": null,
+   "start": 19.093,
+   "end": 24.359,
+   "parts": [
+    [
+     "What would it take to build a blockchain that is ready for adversaries that don't exist yet?",
+     19.093,
+     24.359
+    ]
+   ]
+  },
+  {
+   "text": "If attackers have A.I., defenders need it too. That's why Nishq is being designed to be natively guarded by Omnix's own intelligence, A.L.K.I.",
+   "scene": "shield",
+   "a": {
+    "core": "coin",
+    "label": "Nishq, guarded by A.L.K.I."
+   },
+   "keys": [
+    "defenders",
+    "natively",
+    "guarded",
+    "A.L.K.I."
+   ],
+   "chapter": null,
+   "start": 24.909,
+   "end": 34.134,
+   "parts": [
+    [
+     "If attackers have A.I., defenders need it too.",
+     24.909,
+     27.929
+    ],
+    [
+     "That's why Nishq is being designed to be natively guarded by Omnix's own intelligence, A.L.K.I.",
+     28.389,
+     34.134
+    ]
+   ]
+  },
+  {
+   "text": "The aim is an autonomous guardian that watches the network around the clock, searches its own code for weaknesses before anyone else can, spots unusual patterns the moment they begin, and helps the community respond, openly and on-chain.",
+   "scene": "icons",
+   "a": {
+    "items": [
+     [
+      "eye",
+      "Watch",
+      "around the clock"
+     ],
+     [
+      "magnifier",
+      "Search",
+      "its own code first"
+     ],
+     [
+      "warn",
+      "Spot",
+      "patterns as they begin"
+     ],
+     [
+      "link",
+      "Respond",
+      "openly, on-chain"
+     ]
+    ],
+    "connect": true
+   },
+   "keys": [
+    "watches",
+    "weaknesses",
+    "patterns",
+    "respond"
+   ],
+   "chapter": null,
+   "start": 34.684,
+   "end": 50.407,
+   "parts": [
+    [
+     "The aim is an autonomous guardian that watches the network around the clock,",
+     34.684,
+     39.144
+    ],
+    [
+     "searches its own code for weaknesses before anyone else can,",
+     39.584,
+     43.184
+    ],
+    [
+     "spots unusual patterns the moment they begin,",
+     43.644,
+     46.384
+    ],
+    [
+     "and helps the community respond, openly and on-chain.",
+     46.704,
+     50.407
+    ]
+   ]
+  },
+  {
+   "text": "OmniChain. The trust layer for an intelligent world.",
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "OmniChain",
+    "sub": "The trust layer for an intelligent world"
+   },
+   "keys": [
+    "trust",
+    "layer"
+   ],
+   "chapter": null,
+   "start": 50.957,
+   "end": 54.545,
+   "parts": [
+    [
+     "OmniChain. The trust layer for an intelligent world.",
+     50.957,
+     54.545
+    ]
+   ]
+  }
+ ],
+ "endStart": 55.14,
+ "total": 59.64,
+ "intro": 0.6,
+ "outro": 4.0,
+ "vertical": true
+}

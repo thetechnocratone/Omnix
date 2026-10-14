@@ -1,0 +1,202 @@
+{
+ "film": "THE FULL STACK",
+ "title": "The Network. The Mind. The Machine.",
+ "subtitle": "How the Omnix stack works as one system",
+ "signoff": "The build is on.",
+ "disclaimer": "OmniChain, A.L.K.I. and OmniBot are in the making. The scenario shown is illustrative. Nishq is a utility asset; nothing here is financial advice.",
+ "sources": "",
+ "segs": [
+  {
+   "text": "Intelligence without trust is hard to rely on. Trust without intelligence is merely a ledger. And intelligence and trust without a body cannot lift, build, tend or heal.",
+   "scene": "triad",
+   "a": {},
+   "keys": [
+    "trust",
+    "ledger.",
+    "body"
+   ],
+   "chapter": null,
+   "start": 0.6,
+   "end": 13.825,
+   "parts": [
+    [
+     "Intelligence without trust is hard to rely on.",
+     0.6,
+     3.76
+    ],
+    [
+     "Trust without intelligence is merely a ledger.",
+     4.32,
+     7.22
+    ],
+    [
+     "And intelligence and trust without a body cannot lift, build, tend or heal.",
+     7.88,
+     13.825
+    ]
+   ]
+  },
+  {
+   "text": "Here's how the three layers could work together. Picture a neighbourhood in Bengaluru, years from now. Somewhere underground, a water pipe is starting to leak.",
+   "scene": "scenario",
+   "a": {
+    "step": 0
+   },
+   "keys": [
+    "Bengaluru",
+    "leak"
+   ],
+   "chapter": null,
+   "start": 14.375,
+   "end": 23.963,
+   "parts": [
+    [
+     "Here's how the three layers could work together.",
+     14.375,
+     16.475
+    ],
+    [
+     "Picture a neighbourhood in Bengaluru, years from now. Somewhere underground, a water pipe is starting to leak.",
+     17.075,
+     23.963
+    ]
+   ]
+  },
+  {
+   "text": "A.L.K.I. notices it first: pressure readings drifting, a pattern it has learned to recognise. It makes a plan. Which pipe, which crew, which parts, and the least disruptive hour to do the work.",
+   "scene": "scenario",
+   "a": {
+    "step": 1
+   },
+   "keys": [
+    "A.L.K.I.",
+    "notices",
+    "plan"
+   ],
+   "chapter": null,
+   "start": 24.513,
+   "end": 37.288,
+   "parts": [
+    [
+     "A.L.K.I. notices it first: pressure readings drifting, a pattern it has learned to recognise.",
+     24.513,
+     30.173
+    ],
+    [
+     "It makes a plan. Which pipe, which crew, which parts, and the least disruptive hour to do the work.",
+     30.713,
+     37.288
+    ]
+   ]
+  },
+  {
+   "text": "Two OmniBots are dispatched. They walk the same footpaths, open the same access covers, and use the same tools a human crew would. No road redesigned for them.",
+   "scene": "scenario",
+   "a": {
+    "step": 2
+   },
+   "keys": [
+    "OmniBots",
+    "fix"
+   ],
+   "chapter": null,
+   "start": 37.838,
+   "end": 48.047,
+   "parts": [
+    [
+     "Two OmniBots are dispatched.",
+     37.838,
+     39.518
+    ],
+    [
+     "They walk the same footpaths, open the same access covers, and use the same tools a human crew would. No road redesigned for them.",
+     40.018,
+     48.047
+    ]
+   ]
+  },
+  {
+   "text": "Every step is recorded on OmniChain: the alert, the decision, the repair, and the parts used. The service is settled in Nishq, automatically. And anyone responsible for that water supply can verify exactly what happened, and when.",
+   "scene": "scenario",
+   "a": {
+    "step": 3
+   },
+   "keys": [
+    "recorded",
+    "Nishq",
+    "verify"
+   ],
+   "chapter": null,
+   "start": 48.597,
+   "end": 63.813,
+   "parts": [
+    [
+     "Every step is recorded on OmniChain: the alert, the decision, the repair, and the parts used.",
+     48.597,
+     54.917
+    ],
+    [
+     "The service is settled in Nishq, automatically.",
+     55.477,
+     58.177
+    ],
+    [
+     "And anyone responsible for that water supply can verify exactly what happened, and when.",
+     58.557,
+     63.813
+    ]
+   ]
+  },
+  {
+   "text": "The result is a leak fixed before anyone noticed it, and not a drop of trust lost.",
+   "scene": "quote",
+   "a": {
+    "text": "A leak fixed before\nanyone noticed it."
+   },
+   "keys": [
+    "before",
+    "anyone",
+    "noticed"
+   ],
+   "chapter": null,
+   "start": 64.363,
+   "end": 70.036,
+   "parts": [
+    [
+     "The result is a leak fixed before anyone noticed it, and not a drop of trust lost.",
+     64.363,
+     70.036
+    ]
+   ]
+  },
+  {
+   "text": "Omnix. The network. The mind. The machine.",
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "Omnix",
+    "sub": "The network. The mind. The machine."
+   },
+   "keys": [
+    "network.",
+    "mind.",
+    "machine."
+   ],
+   "chapter": null,
+   "start": 70.586,
+   "end": 74.46,
+   "parts": [
+    [
+     "Omnix. The network. The mind. The machine.",
+     70.586,
+     74.46
+    ]
+   ]
+  }
+ ],
+ "endStart": 75.06,
+ "total": 79.56,
+ "intro": 0.6,
+ "outro": 4.0,
+ "vertical": true
+}

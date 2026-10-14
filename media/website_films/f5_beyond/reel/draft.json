@@ -1,0 +1,98 @@
+{
+ "film": "BEYOND IMAGINATION",
+ "title": "Beyond Imagination",
+ "subtitle": "A new era of peace, joy and abundance",
+ "signoff": "Built in Bharat, for the whole world.",
+ "disclaimer": "This film describes the vision and intent of Omnix.",
+ "sources": "Asato ma sadgamaya: Brihadaranyaka Upanishad · Vasudhaiva Kutumbakam: Maha Upanishad",
+ "segs": [
+  {
+   "scene": "day",
+   "keys": [
+    "alarm.",
+    "again."
+   ],
+   "parts": [
+    "Think about an ordinary day.",
+    "The alarm. The commute. The work that has to be done, whether you love it or not.",
+    "The bills. The worries. The tiredness at night. And tomorrow, it begins again."
+   ]
+  },
+  {
+   "scene": "quote",
+   "a": {
+    "text": "When did we last ask\nwhat all of this is for?"
+   },
+   "keys": [
+    "for?"
+   ],
+   "parts": [
+    "Most of us spend most of our lives just keeping up.",
+    "Somewhere along the way, we stop asking what all of this is for."
+   ]
+  },
+  {
+   "scene": "sanskrit",
+   "a": {
+    "sa": "असतो मा सद्गमय । तमसो मा ज्योतिर्गमय ।",
+    "tr": "Asato ma sadgamaya, tamaso ma jyotirgamaya",
+    "en": "Lead me from the untrue to the true, from darkness to light",
+    "src": "Brihadaranyaka Upanishad"
+   },
+   "keys": [
+    "truth.",
+    "light."
+   ],
+   "parts": [
+    "Thousands of years ago, the sages of India never stopped asking.",
+    "Their prayer was simple: lead me from the untrue to the truth. Lead me from darkness to light. Lead me from death to the eternal."
+   ]
+  },
+  {
+   "scene": "quote",
+   "a": {
+    "text": "A world where no one\nhas to do anything.\nEveryone is free to choose."
+   },
+   "keys": [
+    "has",
+    "free"
+   ],
+   "parts": [
+    "Our vision is a world where no one has to do anything.",
+    "Everyone is free to choose. Free to pursue what they love, without being burdened by anything."
+   ]
+  },
+  {
+   "scene": "path",
+   "a": {
+    "light": true
+   },
+   "keys": [
+    "truth,",
+    "light,",
+    "bliss."
+   ],
+   "parts": [
+    "And above all, to turn inward, and answer the call every human heart carries.",
+    "The call to find the ultimate truth. The eternal light. Lasting peace, and bliss.",
+    "Technology cannot walk that path for us. But it can clear the way."
+   ]
+  },
+  {
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "Omnix",
+    "sub": "Beyond imagination"
+   },
+   "keys": [
+    "Beyond",
+    "imagination."
+   ],
+   "parts": [
+    "Omnix. Beyond imagination."
+   ]
+  }
+ ],
+ "reel": true
+}

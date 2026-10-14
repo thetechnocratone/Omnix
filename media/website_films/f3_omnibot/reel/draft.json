@@ -1,0 +1,93 @@
+{
+ "film": "OMNIBOT",
+ "title": "OmniBot",
+ "subtitle": "Intelligence with hands",
+ "signoff": "In the making, in Bengaluru.",
+ "disclaimer": "OmniBot is in the making. Descriptions reflect design intent, not current capability.",
+ "sources": "",
+ "segs": [
+  {
+   "scene": "hands",
+   "keys": [
+    "hands."
+   ],
+   "parts": [
+    "For all the brilliance of modern software, most of the world's work still happens with hands.",
+    "Crops are harvested. Buildings are raised. Patients are lifted. Meals are served. Homes are kept."
+   ]
+  },
+  {
+   "scene": "hero",
+   "a": {
+    "icon": "robot",
+    "label": "OmniBot",
+    "sub": "Humanoid robots, powered by A.L.K.I."
+   },
+   "keys": [
+    "touch",
+    "OmniBot",
+    "real",
+    "world."
+   ],
+   "parts": [
+    "Intelligence that lives only on a screen cannot touch any of it.",
+    "OmniBot is Omnix's answer: humanoid robots, powered by A.L.K.I., carrying intelligence out of the screen and into the real world."
+   ]
+  },
+  {
+   "scene": "split",
+   "a": {
+    "before": [
+     "clock",
+     "gear",
+     "truck"
+    ],
+    "after": [
+     "book",
+     "heart",
+     "sun"
+    ],
+    "lb": "Work to survive",
+    "la": "Free to pursue what matters"
+   },
+   "keys": [
+    "freedom.",
+    "survive."
+   ],
+   "parts": [
+    "The deepest reason to build OmniBot is not efficiency. It is freedom.",
+    "Imagine a world where the labour needed to feed, house, heal and care for everyone is done by capable machines, working in service of people.",
+    "A world where no one has to do anything, merely to survive."
+   ]
+  },
+  {
+   "scene": "path",
+   "keys": [
+    "create,",
+    "learn,",
+    "love,",
+    "purpose"
+   ],
+   "parts": [
+    "Then people would be free to create, to learn, to love, to explore.",
+    "Free to ask the oldest question there is: what is a human life for?",
+    "Free to rise above the mundane, and pursue the true purpose of this human existence."
+   ]
+  },
+  {
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "OmniBot",
+    "sub": "Intelligence with hands"
+   },
+   "keys": [
+    "hands."
+   ],
+   "parts": [
+    "OmniBot. Intelligence, with hands."
+   ]
+  }
+ ],
+ "reel": true
+}

@@ -1,0 +1,180 @@
+{
+ "film": "A.L.K.I.",
+ "title": "A.L.K.I.",
+ "subtitle": "The mind of Omnix",
+ "signoff": "Being built right now in Bengaluru.",
+ "disclaimer": "A.L.K.I. is in the making. Descriptions reflect design intent, not current capability.",
+ "sources": "Vasudhaiva Kutumbakam: Maha Upanishad \u00b7 Sarve bhavantu sukhinah: traditional Vedic prayer",
+ "segs": [
+  {
+   "text": "Every era of technology has a defining question. For the printing press, it was who gets to read. For the internet, it was who gets to connect. For our era, it is who, or what, gets to think alongside us.",
+   "scene": "title2",
+   "a": {
+    "lines": [
+     "The printing press asked: who gets to read?",
+     "The internet asked: who gets to connect?",
+     "Our age asks: who, or what, gets to think alongside us?"
+    ]
+   },
+   "keys": [
+    "read",
+    "connect",
+    "think"
+   ],
+   "chapter": null,
+   "start": 0.6,
+   "end": 16.329,
+   "parts": [
+    [
+     "Every era of technology has a defining question.",
+     0.6,
+     3.8
+    ],
+    [
+     "For the printing press, it was who gets to read.",
+     4.4,
+     7.26
+    ],
+    [
+     "For the internet, it was who gets to connect.",
+     7.82,
+     10.48
+    ],
+    [
+     "For our era, it is who, or what, gets to think alongside us.",
+     11.08,
+     16.329
+    ]
+   ]
+  },
+  {
+   "text": "A.L.K.I. is Omnix's answer. The Autonomous Lifeform of Knowledge and Intelligence: an artificial superintelligence agent, designed to learn continuously, reason across every domain, and act with purpose, in service of all.",
+   "scene": "hero",
+   "a": {
+    "icon": "mind",
+    "label": "A.L.K.I.",
+    "sub": "Autonomous Lifeform of Knowledge and Intelligence"
+   },
+   "keys": [
+    "A.L.K.I.",
+    "Autonomous",
+    "Lifeform"
+   ],
+   "chapter": null,
+   "start": 16.879,
+   "end": 32.616,
+   "parts": [
+    [
+     "A.L.K.I. is Omnix's answer.",
+     16.879,
+     18.779
+    ],
+    [
+     "The Autonomous Lifeform of Knowledge and Intelligence:",
+     19.399,
+     22.399
+    ],
+    [
+     "an artificial superintelligence agent, designed to learn continuously, reason across every domain, and act with purpose, in service of all.",
+     22.839,
+     32.616
+    ]
+   ]
+  },
+  {
+   "text": "Omnix finds its compass in the timeless teachings of the Vedic sages. Vasudhaiva Kutumbakam: the whole world is one family. Everything conscious, and everything inert.",
+   "scene": "sanskrit",
+   "a": {
+    "sa": "\u0935\u0938\u0941\u0927\u0948\u0935 \u0915\u0941\u091f\u0941\u092e\u094d\u092c\u0915\u092e\u094d",
+    "tr": "Vasudhaiva Kutumbakam",
+    "en": "The whole world is one family",
+    "src": "Maha Upanishad"
+   },
+   "keys": [
+    "Vasudhaiva",
+    "Kutumbakam",
+    "one",
+    "family."
+   ],
+   "chapter": null,
+   "start": 33.166,
+   "end": 45.661,
+   "parts": [
+    [
+     "Omnix finds its compass in the timeless teachings of the Vedic sages.",
+     33.166,
+     37.626
+    ],
+    [
+     "Vasudhaiva Kutumbakam: the whole world is one family.",
+     38.246,
+     42.286
+    ],
+    [
+     "Everything conscious, and everything inert.",
+     42.806,
+     45.661
+    ]
+   ]
+  },
+  {
+   "text": "For an intelligence, this is not a slogan. It is an alignment target. A system that sees humanity, nature and the animal kingdom as one family has goals that include the wellbeing of all of them, not just the convenience of whoever happens to deploy it.",
+   "scene": "globe",
+   "a": {},
+   "keys": [
+    "alignment",
+    "target.",
+    "nature",
+    "animal"
+   ],
+   "chapter": null,
+   "start": 46.211,
+   "end": 63.4,
+   "parts": [
+    [
+     "For an intelligence, this is not a slogan. It is an alignment target.",
+     46.211,
+     50.911
+    ],
+    [
+     "A system that sees humanity, nature and the animal kingdom as one family has goals that include the wellbeing of all of them,",
+     51.531,
+     59.851
+    ],
+    [
+     "not just the convenience of whoever happens to deploy it.",
+     60.271,
+     63.4
+    ]
+   ]
+  },
+  {
+   "text": "A.L.K.I. Knowledge and intelligence, in service of all.",
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "A.L.K.I.",
+    "sub": "Knowledge and intelligence, in service of all"
+   },
+   "keys": [
+    "service",
+    "all."
+   ],
+   "chapter": null,
+   "start": 63.95,
+   "end": 68.47,
+   "parts": [
+    [
+     "A.L.K.I. Knowledge and intelligence, in service of all.",
+     63.95,
+     68.47
+    ]
+   ]
+  }
+ ],
+ "endStart": 69.07,
+ "total": 73.57,
+ "intro": 0.6,
+ "outro": 4.0,
+ "vertical": true
+}

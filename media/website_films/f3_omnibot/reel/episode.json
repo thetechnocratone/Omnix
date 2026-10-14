@@ -1,0 +1,163 @@
+{
+ "film": "OMNIBOT",
+ "title": "OmniBot",
+ "subtitle": "Intelligence with hands",
+ "signoff": "In the making, in Bengaluru.",
+ "disclaimer": "OmniBot is in the making. Descriptions reflect design intent, not current capability.",
+ "sources": "",
+ "segs": [
+  {
+   "text": "For all the brilliance of modern software, most of the world's work still happens with hands. Crops are harvested. Buildings are raised. Patients are lifted. Meals are served. Homes are kept.",
+   "scene": "hands",
+   "a": {},
+   "keys": [
+    "hands."
+   ],
+   "chapter": null,
+   "start": 0.6,
+   "end": 14.471,
+   "parts": [
+    [
+     "For all the brilliance of modern software, most of the world's work still happens with hands.",
+     0.6,
+     6.48
+    ],
+    [
+     "Crops are harvested. Buildings are raised. Patients are lifted. Meals are served. Homes are kept.",
+     7.08,
+     14.471
+    ]
+   ]
+  },
+  {
+   "text": "Intelligence that lives only on a screen cannot touch any of it. OmniBot is Omnix's answer: humanoid robots, powered by A.L.K.I., carrying intelligence out of the screen and into the real world.",
+   "scene": "hero",
+   "a": {
+    "icon": "robot",
+    "label": "OmniBot",
+    "sub": "Humanoid robots, powered by A.L.K.I."
+   },
+   "keys": [
+    "touch",
+    "OmniBot",
+    "real",
+    "world."
+   ],
+   "chapter": null,
+   "start": 15.021,
+   "end": 28.426,
+   "parts": [
+    [
+     "Intelligence that lives only on a screen cannot touch any of it.",
+     15.021,
+     19.021
+    ],
+    [
+     "OmniBot is Omnix's answer: humanoid robots, powered by A.L.K.I., carrying intelligence out of the screen and into the real world.",
+     19.521,
+     28.426
+    ]
+   ]
+  },
+  {
+   "text": "The deepest reason to build OmniBot is not efficiency. It is freedom. Imagine a world where the labour needed to feed, house, heal and care for everyone is done by capable machines, working in service of people. A world where no one has to do anything, merely to survive.",
+   "scene": "split",
+   "a": {
+    "before": [
+     "clock",
+     "gear",
+     "truck"
+    ],
+    "after": [
+     "book",
+     "heart",
+     "sun"
+    ],
+    "lb": "Work to survive",
+    "la": "Free to pursue what matters"
+   },
+   "keys": [
+    "freedom.",
+    "survive."
+   ],
+   "chapter": null,
+   "start": 28.976,
+   "end": 48.421,
+   "parts": [
+    [
+     "The deepest reason to build OmniBot is not efficiency. It is freedom.",
+     28.976,
+     34.036
+    ],
+    [
+     "Imagine a world where the labour needed to feed, house, heal and care for everyone is done by capable machines, working in service of people.",
+     34.656,
+     44.096
+    ],
+    [
+     "A world where no one has to do anything, merely to survive.",
+     44.676,
+     48.421
+    ]
+   ]
+  },
+  {
+   "text": "Then people would be free to create, to learn, to love, to explore. Free to ask the oldest question there is: what is a human life for? Free to rise above the mundane, and pursue the true purpose of this human existence.",
+   "scene": "path",
+   "a": {},
+   "keys": [
+    "create,",
+    "learn,",
+    "love,",
+    "purpose"
+   ],
+   "chapter": null,
+   "start": 48.971,
+   "end": 64.889,
+   "parts": [
+    [
+     "Then people would be free to create, to learn, to love, to explore.",
+     48.971,
+     54.111
+    ],
+    [
+     "Free to ask the oldest question there is: what is a human life for?",
+     54.651,
+     59.091
+    ],
+    [
+     "Free to rise above the mundane, and pursue the true purpose of this human existence.",
+     59.611,
+     64.889
+    ]
+   ]
+  },
+  {
+   "text": "OmniBot. Intelligence, with hands.",
+   "scene": "hero",
+   "a": {
+    "icon": "logo",
+    "label": "OmniBot",
+    "sub": "Intelligence with hands"
+   },
+   "keys": [
+    "hands."
+   ],
+   "chapter": null,
+   "start": 65.439,
+   "end": 68.673,
+   "parts": [
+    [
+     "OmniBot. Intelligence, with hands.",
+     65.439,
+     68.673
+    ]
+   ]
+  }
+ ],
+ "endStart": 69.27,
+ "total": 73.77,
+ "intro": 0.6,
+ "outro": 4.0,
+ "vertical": true
+}
