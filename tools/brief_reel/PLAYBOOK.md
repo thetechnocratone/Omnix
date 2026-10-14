@@ -20,6 +20,19 @@ account). Always mention any fix you made in the final message.
 - A grid of many small tiles/portraits to make a count feel human ("200 people").
 Draw these ourselves in the bright theme; never use film clips, real logos or real people's photos.
 
+## Covers / thumbnails (all reels on YouTube, Instagram and Facebook)
+Every reel gets a designed 9:16 cover, EXCEPT tweet-format/statement-card reels (they are their own cover).
+- Make it with `tools/reel_cover.py <spec.json>` (spec format in the script header; examples in
+  `media/covers_src/`). Save next to the video as `<name>_thumb.jpg` (1080x1920).
+- Bright cream/saffron theme only. Top row: Omnix logo + series label (THE BRIEF / OMNIX EXPLAINS /
+  BUILD TOGETHER / ...). A 3-7 word headline that teases the hook with one saffron-highlighted word;
+  one clear illustration we draw ourselves in SVG (thick ink outlines, saffron accents, no real logos,
+  photos or people); a dark pill tag; a tiny source/disclaimer line when the reel has one.
+- Look at the render before using it (text fits, nothing overlaps, readable at phone-grid size).
+- Metricool: pass the raw GitHub URL as `videoThumbnailUrl` for Instagram + Facebook reels (not
+  `videoCoverMilliseconds`). Metricool must NOT carry YouTube (its free plan's YouTube limit is used up).
+- YouTube: upload through YouTube Studio in the browser (custom thumbnails work there), using the same cover.
+
 ## 1. Pick the story
 - Search the last 24–48 h of news (CoinDesk, The Block, Decrypt, Reuters, Bloomberg, The Verge,
   TechCrunch, IEEE Spectrum, The Robot Report, official company/foundation posts).
