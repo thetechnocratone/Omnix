@@ -1,0 +1,92 @@
+{
+ "dateLabel": "15 OCT 2026",
+ "sourceShort": "Source: Google DeepMind, Reuters",
+ "sourceFull": "Source: Google DeepMind & Reuters, 13 Oct 2026",
+ "segs": [
+  {
+   "scene": "hook",
+   "keys": [
+    "seven",
+    "One",
+    "video"
+   ],
+   "parts": [
+    "A humanoid robot just sank seven bean bags in a row.",
+    "Its teacher? One video of a person playing."
+   ]
+  },
+  {
+   "scene": "launch",
+   "keys": [
+    "Gemini",
+    "Argon,"
+   ],
+   "parts": [
+    "Google just released Gemini 4 Argon, its newest frontier AI model."
+   ]
+  },
+  {
+   "scene": "watch",
+   "keys": [
+    "watched",
+    "simulation"
+   ],
+   "parts": [
+    "In an internal test, Argon watched a person play cornhole,",
+    "mapped the scene, and wrote its own physics simulation to practise in."
+   ]
+  },
+  {
+   "scene": "transfer",
+   "keys": [
+    "real",
+    "seven",
+    "straight"
+   ],
+   "parts": [
+    "Then the skill moved onto a real humanoid, Apptronik's Apollo.",
+    "After a few warm-up throws: seven straight shots."
+   ]
+  },
+  {
+   "scene": "hours",
+   "keys": [
+    "weeks",
+    "hours."
+   ],
+   "parts": [
+    "Google says that turns weeks of simulation work into hours."
+   ]
+  },
+  {
+   "scene": "caveat",
+   "keys": [
+    "own",
+    "independent"
+   ],
+   "parts": [
+    "The catch: it's Google's own demo of one simple game, not an independent test."
+   ]
+  },
+  {
+   "scene": "takeaway",
+   "keys": [
+    "video,",
+    "code."
+   ],
+   "parts": [
+    "For builders: the next robot skill may start as a video, not as code."
+   ]
+  },
+  {
+   "scene": "close",
+   "keys": [
+    "One",
+    "Seven"
+   ],
+   "parts": [
+    "One video. Seven straight shots."
+   ]
+  }
+ ]
+}

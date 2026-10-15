@@ -1,0 +1,161 @@
+{
+ "dateLabel": "15 OCT 2026",
+ "sourceShort": "Source: Google DeepMind, Reuters",
+ "sourceFull": "Source: Google DeepMind & Reuters, 13 Oct 2026",
+ "segs": [
+  {
+   "text": "A humanoid robot just sank seven bean bags in a row. Its teacher? One video of a person playing.",
+   "scene": "hook",
+   "keys": [
+    "seven",
+    "One",
+    "video"
+   ],
+   "start": 0.25,
+   "end": 7.773,
+   "parts": [
+    [
+     "A humanoid robot just sank seven bean bags in a row.",
+     0.25,
+     4.207
+    ],
+    [
+     "Its teacher? One video of a person playing.",
+     4.527,
+     7.773
+    ]
+   ]
+  },
+  {
+   "text": "Google just released Gemini 4 Argon, its newest frontier AI model.",
+   "scene": "launch",
+   "keys": [
+    "Gemini",
+    "Argon,"
+   ],
+   "start": 8.273,
+   "end": 13.478,
+   "parts": [
+    [
+     "Google just released Gemini 4 Argon, its newest frontier AI model.",
+     8.273,
+     13.478
+    ]
+   ]
+  },
+  {
+   "text": "In an internal test, Argon watched a person play cornhole, mapped the scene, and wrote its own physics simulation to practise in.",
+   "scene": "watch",
+   "keys": [
+    "watched",
+    "simulation"
+   ],
+   "start": 13.978,
+   "end": 22.228,
+   "parts": [
+    [
+     "In an internal test, Argon watched a person play cornhole,",
+     13.978,
+     17.837
+    ],
+    [
+     "mapped the scene, and wrote its own physics simulation to practise in.",
+     18.157,
+     22.228
+    ]
+   ]
+  },
+  {
+   "text": "Then the skill moved onto a real humanoid, Apptronik's Apollo. After a few warm-up throws: seven straight shots.",
+   "scene": "transfer",
+   "keys": [
+    "real",
+    "seven",
+    "straight"
+   ],
+   "start": 22.728,
+   "end": 30.839,
+   "parts": [
+    [
+     "Then the skill moved onto a real humanoid, Apptronik's Apollo.",
+     22.728,
+     26.983
+    ],
+    [
+     "After a few warm-up throws: seven straight shots.",
+     27.303,
+     30.839
+    ]
+   ]
+  },
+  {
+   "text": "Google says that turns weeks of simulation work into hours.",
+   "scene": "hours",
+   "keys": [
+    "weeks",
+    "hours."
+   ],
+   "start": 31.339,
+   "end": 35.686,
+   "parts": [
+    [
+     "Google says that turns weeks of simulation work into hours.",
+     31.339,
+     35.686
+    ]
+   ]
+  },
+  {
+   "text": "The catch: it's Google's own demo of one simple game, not an independent test.",
+   "scene": "caveat",
+   "keys": [
+    "own",
+    "independent"
+   ],
+   "start": 36.186,
+   "end": 42.251,
+   "parts": [
+    [
+     "The catch: it's Google's own demo of one simple game, not an independent test.",
+     36.186,
+     42.251
+    ]
+   ]
+  },
+  {
+   "text": "For builders: the next robot skill may start as a video, not as code.",
+   "scene": "takeaway",
+   "keys": [
+    "video,",
+    "code."
+   ],
+   "start": 42.751,
+   "end": 47.689,
+   "parts": [
+    [
+     "For builders: the next robot skill may start as a video, not as code.",
+     42.751,
+     47.689
+    ]
+   ]
+  },
+  {
+   "text": "One video. Seven straight shots.",
+   "scene": "close",
+   "keys": [
+    "One",
+    "Seven"
+   ],
+   "start": 48.189,
+   "end": 51.111,
+   "parts": [
+    [
+     "One video. Seven straight shots.",
+     48.189,
+     51.111
+    ]
+   ]
+  }
+ ],
+ "endStart": 51.71
+}
