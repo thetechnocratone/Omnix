@@ -23,7 +23,7 @@ Scheduled in Studio for 14 Oct 2026 (IST): 7:30 PM hardware wallet implant (SDQ0
 8:30 Waste (R2vQECHeEZ0), 9:00 AI memory (YYx72SR6kj0), 9:30 Wallets explained (vcIRW_HZtYo), 10:00 Roads (W5NQe21URwg),
 10:30 Samsung USDC (6rIiOuTcp58), 11:00 Stablecoins explained (mWEuXfvbIa4), 11:30 Metro (-7VtSf9q7YI).
 
-### 2026-10-15 16:00 IST · The Brief · status: pending
+### 2026-10-15 16:00 IST · The Brief · status: scheduled 1rYUB6MDQyk
 - video: https://raw.githubusercontent.com/thetechnocratone/Omnix/main/media/2026-10-13_week/brief/ep6_robot_learns_from_video.mp4
 - cover: https://raw.githubusercontent.com/thetechnocratone/Omnix/main/media/2026-10-13_week/brief/ep6_robot_learns_from_video_thumb.jpg
 - title: This robot learned cornhole from one video #Shorts
