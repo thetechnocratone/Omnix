@@ -16,6 +16,8 @@ import subprocess
 import tempfile
 
 import numpy as np
+import sys as _s; _s.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from omnix_header import header as header_img
 from PIL import Image, ImageDraw, ImageFont
 from scipy.io import wavfile
 
@@ -86,7 +88,7 @@ def music(seconds, path, sr=44100):
 
 
 def render(card, out_dir, seconds=12.0, music_path=None):
-    header = Image.open(SRC).convert("RGB").crop((100, 475, 700, 615))
+    header = header_img(1.0, BG)  # verified (blue tick) header, see tools/omnix_header.py
     header = header.resize((int(header.width * 1.2), int(header.height * 1.2)))
     logo = Image.open(SRC).convert("RGB").crop((106, 481, 232, 607)).resize((220, 220))
     l1, l2 = card["l1"], card["l2"]

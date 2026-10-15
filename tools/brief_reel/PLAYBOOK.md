@@ -12,6 +12,12 @@ you truly cannot fix it: don't publish a lower-quality or unverified episode; te
 what broke, what you tried, and the one thing they need to do (e.g. top up Speko credit, reconnect an
 account). Always mention any fix you made in the final message.
 
+## Verified tick (all series, from 15 Oct 2026)
+Omnix (@omnixteam) has the blue verified tick on both X and Instagram. Every tweet-style card or reel,
+and any design that shows the account header or handle, must show the blue tick next to "Omnix".
+Use `tools/omnix_header.py` (`header()`), which `statement_card.py` and `card_reel.py` already use.
+Never make a tweet-style design without the tick.
+
 ## Visual devices worth reusing (from the owner's reference posts)
 - Everyday-scene metaphor for a system: e.g. a top-down city block where four shops with different signs all
   pay one landlord (= market structure), drawn as an illustrated map with paper cards pinned on it and thin

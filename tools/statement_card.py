@@ -1,6 +1,6 @@
 """Render Omnix statement cards in the house template.
 
-Cream background, sun logo + @omnixteam header, a black line, then an orange twist line,
+Cream background, sun logo + 'Omnix' + blue verified tick + @omnixteam header, a black line, then an orange twist line,
 theomnix.org bottom-left and an orange tag bottom-right. 1080x1350 (4:5).
 
 Usage:
@@ -17,6 +17,8 @@ import json
 import os
 import sys
 
+import sys as _s; _s.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from omnix_header import header as header_img
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -35,7 +37,7 @@ X, LH = 110, 80
 
 
 def render(card, out_dir):
-    header = Image.open(SRC).convert("RGB").crop((100, 475, 700, 615))
+    header = header_img(1.0, BG)  # verified (blue tick) header, see tools/omnix_header.py
     l1, l2 = card["l1"], card["l2"]
     for t in l1 + l2:
         if SEMI.getlength(t) > 1080 - 2 * X:
