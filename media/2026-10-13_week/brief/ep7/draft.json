@@ -1,0 +1,98 @@
+{
+ "dateLabel": "16 OCT 2026",
+ "sourceShort": "Source: Chainalysis, CoinDesk",
+ "sourceFull": "Source: Chainalysis via CoinDesk & Fortune, 14 Oct 2026",
+ "segs": [
+  {
+   "scene": "hook",
+   "keys": [
+    "Eighteen",
+    "minutes.",
+    "spends"
+   ],
+   "parts": [
+    "Eighteen minutes.",
+    "That's how fast a typical AI agent now spends after its wallet is funded."
+   ]
+  },
+  {
+   "scene": "count",
+   "keys": [
+    "138",
+    "million",
+    "x402,"
+   ],
+   "parts": [
+    "Chainalysis counts over 138 million AI-agent payments on x402, a standard Coinbase started."
+   ]
+  },
+  {
+   "scene": "wallet",
+   "keys": [
+    "stablecoins,",
+    "no",
+    "human"
+   ],
+   "parts": [
+    "Developers fund agents with stablecoins, usually USDC.",
+    "Then the agent pays with no human approving each purchase."
+   ]
+  },
+  {
+   "scene": "buys",
+   "keys": [
+    "computing",
+    "data,",
+    "code"
+   ],
+   "parts": [
+    "It buys computing power, live web data, and code checks."
+   ]
+  },
+  {
+   "scene": "small",
+   "keys": [
+    "87",
+    "ten",
+    "cents."
+   ],
+   "parts": [
+    "Over 87 percent of payments are under ten cents."
+   ]
+  },
+  {
+   "scene": "caveat",
+   "keys": [
+    "tiny,",
+    "real",
+    "demand."
+   ],
+   "parts": [
+    "The catch: the amounts are tiny, and a payment count doesn't prove real demand."
+   ]
+  },
+  {
+   "scene": "takeaway",
+   "keys": [
+    "few",
+    "cents,",
+    "customer."
+   ],
+   "parts": [
+    "For builders: if a machine can't pay you a few cents, it can't be your customer."
+   ]
+  },
+  {
+   "scene": "close",
+   "keys": [
+    "seventy-three",
+    "days.",
+    "eighteen",
+    "minutes."
+   ],
+   "parts": [
+    "Late last year: seventy-three days. Now: eighteen minutes."
+   ]
+  }
+ ]
+}

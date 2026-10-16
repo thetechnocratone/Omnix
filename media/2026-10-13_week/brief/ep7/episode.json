@@ -1,0 +1,163 @@
+{
+ "dateLabel": "16 OCT 2026",
+ "sourceShort": "Source: Chainalysis, CoinDesk",
+ "sourceFull": "Source: Chainalysis via CoinDesk & Fortune, 14 Oct 2026",
+ "segs": [
+  {
+   "text": "Eighteen minutes. That's how fast a typical AI agent now spends after its wallet is funded.",
+   "scene": "hook",
+   "keys": [
+    "Eighteen",
+    "minutes.",
+    "spends"
+   ],
+   "start": 0.25,
+   "end": 6.841,
+   "parts": [
+    [
+     "Eighteen minutes.",
+     0.25,
+     1.47
+    ],
+    [
+     "That's how fast a typical AI agent now spends after its wallet is funded.",
+     1.79,
+     6.841
+    ]
+   ]
+  },
+  {
+   "text": "Chainalysis counts over 138 million AI-agent payments on x402, a standard Coinbase started.",
+   "scene": "count",
+   "keys": [
+    "138",
+    "million",
+    "x402,"
+   ],
+   "start": 7.341,
+   "end": 15.46,
+   "parts": [
+    [
+     "Chainalysis counts over 138 million AI-agent payments on x402, a standard Coinbase started.",
+     7.341,
+     15.46
+    ]
+   ]
+  },
+  {
+   "text": "Developers fund agents with stablecoins, usually USDC. Then the agent pays with no human approving each purchase.",
+   "scene": "wallet",
+   "keys": [
+    "stablecoins,",
+    "no",
+    "human"
+   ],
+   "start": 15.96,
+   "end": 24.939,
+   "parts": [
+    [
+     "Developers fund agents with stablecoins, usually USDC.",
+     15.96,
+     20.418
+    ],
+    [
+     "Then the agent pays with no human approving each purchase.",
+     20.738,
+     24.939
+    ]
+   ]
+  },
+  {
+   "text": "It buys computing power, live web data, and code checks.",
+   "scene": "buys",
+   "keys": [
+    "computing",
+    "data,",
+    "code"
+   ],
+   "start": 25.439,
+   "end": 29.525,
+   "parts": [
+    [
+     "It buys computing power, live web data, and code checks.",
+     25.439,
+     29.525
+    ]
+   ]
+  },
+  {
+   "text": "Over 87 percent of payments are under ten cents.",
+   "scene": "small",
+   "keys": [
+    "87",
+    "ten",
+    "cents."
+   ],
+   "start": 30.025,
+   "end": 33.895,
+   "parts": [
+    [
+     "Over 87 percent of payments are under ten cents.",
+     30.025,
+     33.895
+    ]
+   ]
+  },
+  {
+   "text": "The catch: the amounts are tiny, and a payment count doesn't prove real demand.",
+   "scene": "caveat",
+   "keys": [
+    "tiny,",
+    "real",
+    "demand."
+   ],
+   "start": 34.395,
+   "end": 39.9,
+   "parts": [
+    [
+     "The catch: the amounts are tiny, and a payment count doesn't prove real demand.",
+     34.395,
+     39.9
+    ]
+   ]
+  },
+  {
+   "text": "For builders: if a machine can't pay you a few cents, it can't be your customer.",
+   "scene": "takeaway",
+   "keys": [
+    "few",
+    "cents,",
+    "customer."
+   ],
+   "start": 40.4,
+   "end": 45.645,
+   "parts": [
+    [
+     "For builders: if a machine can't pay you a few cents, it can't be your customer.",
+     40.4,
+     45.645
+    ]
+   ]
+  },
+  {
+   "text": "Late last year: seventy-three days. Now: eighteen minutes.",
+   "scene": "close",
+   "keys": [
+    "seventy-three",
+    "days.",
+    "eighteen",
+    "minutes."
+   ],
+   "start": 46.145,
+   "end": 51.2,
+   "parts": [
+    [
+     "Late last year: seventy-three days. Now: eighteen minutes.",
+     46.145,
+     51.2
+    ]
+   ]
+  }
+ ],
+ "endStart": 51.8
+}
