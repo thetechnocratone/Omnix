@@ -33,3 +33,15 @@ Scheduled in Studio for 14 Oct 2026 (IST): 7:30 PM hardware wallet implant (SDQ0
   Sources: Google DeepMind, 13 Oct 2026: https://developers.googleblog.com/gemini-4-argon-for-robotics/ · Reuters, 13 Oct 2026: https://www.reuters.com/business/google-launches-flagship-ai-model-gemini-4-argon-developers-businesses-2026-10-13/
   The Brief by Omnix · Built in Bengaluru
   #TheBrief #Omnix #Robotics #HumanoidRobots #PhysicalAI
+
+### 2026-10-16 16:00 IST · The Brief · status: pending
+- video: https://raw.githubusercontent.com/thetechnocratone/Omnix/main/media/2026-10-13_week/brief/ep7_agents_pay_in_minutes.mp4
+- cover: https://raw.githubusercontent.com/thetechnocratone/Omnix/main/media/2026-10-13_week/brief/ep7_agents_pay_in_minutes_thumb.jpg
+- title: AI agents now spend in 18 minutes #Shorts
+- tags: AI agents, x402, stablecoins, USDC, agentic commerce, Chainalysis, crypto news, AI news, The Brief, Omnix
+- description:
+  18 minutes: that's how fast a typical AI agent now makes its first payment after its wallet is funded. Late last year it was 73 days. A new Chainalysis report counts more than 138 million payments by AI agents over x402, a payment standard Coinbase started. Developers fund agents with stablecoins, usually USDC, and the agent pays without a human approving each purchase: computing power, live web data, code checks. More than 87% of payments are under 10 cents. The catch: the dollar amounts are still tiny, and a payment count alone doesn't prove real demand.
+  Sources: CoinDesk, 14 Oct 2026: https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models · Fortune, 14 Oct 2026: https://fortune.com/2026/10/14/ai-agents-shopping-spree-payments-base-blockchain-138-million-chainalysis/
+  Not financial advice.
+  The Brief by Omnix · Built in Bengaluru
+  #TheBrief #Omnix #AIAgents #Stablecoins #Crypto
