@@ -34,7 +34,7 @@ Scheduled in Studio for 14 Oct 2026 (IST): 7:30 PM hardware wallet implant (SDQ0
   The Brief by Omnix · Built in Bengaluru
   #TheBrief #Omnix #Robotics #HumanoidRobots #PhysicalAI
 
-### 2026-10-16 16:00 IST · The Brief · status: pending
+### 2026-10-16 16:00 IST · The Brief · status: scheduled via Buffer (post 6ad19459a82f34dbe1431e74; no custom cover, set it in YouTube Studio if wanted)
 - video: https://raw.githubusercontent.com/thetechnocratone/Omnix/main/media/2026-10-13_week/brief/ep7_agents_pay_in_minutes.mp4
 - cover: https://raw.githubusercontent.com/thetechnocratone/Omnix/main/media/2026-10-13_week/brief/ep7_agents_pay_in_minutes_thumb.jpg
 - title: AI agents now spend in 18 minutes #Shorts
