@@ -135,3 +135,10 @@ Style notes per series:
     No acronyms or jargon on screen unless translated in the same breath; never more than one new term per reel.
   - Niche depth goes in the caption and LinkedIn copy, not the reel.
 - **18 Oct 2026 · Formats chosen.** Loop → tweet reels, Story → Brief, Documentary → Explains, POV → Build Together.
+- **19 Oct 2026 · First full day in the new formats (learnings from production).**
+  - POV works best with a *character* narrator (a smoke puff, a coin, a parcel) and a diary device ("DAY 1 / DAY 2 / ABOUT ME / MY JOB / WHAT I'M SCARED OF"). Each card = one sentence a 12-year-old gets.
+  - Show scale with a side-by-side (a hair vs a dot "to scale"), not a number alone.
+  - Endings with people: a row of raised hands in mixed skin tones reads instantly as "together"; a single clump of shapes does not.
+  - Covers: big two-line question/claim in the top third, one illustration, three-word summary chips at the bottom; keep everything inside y≈300–1550 so the 4:5 grid crop and IG UI never cut it.
+  - Trend-jacking without names: "2026: cars can fly / Also 2026: enter the OTP" rides the flying-car moment with zero brand or person named, and lands on our real point (trust/identity).
+  - Pipeline: chain renders with until-loops on a "DONE" line in the previous task's output; the final `-preset slow` encode takes ~5 min on 2 CPUs, so don't render stills at the same time if timing matters.
