@@ -1,7 +1,7 @@
 // Build Together ep 5 · POV style — "POV: you're the smoke in Delhi's air."
 'use strict';
-const D = 32.0;
-const B = { d1: 2.8, d2: 6.0, d3: 9.4, size: 12.8, lungs: 15.8, scared: 19.0, list: 19.8, omnix: 24.6, alone: 27.4, back: 30.4 };
+const D = 49.3;
+const B = { d1: 3.7, d2: 7.3, d3: 14.2, size: 19.3, lungs: 24.8, scared: 29.1, list: 30.8, omnix: 40.4, alone: 42.8, many: 45.0, back: 47.3 };
 window.COMP = { dur: D, draw(t) { draw(t); } };
 const MONO = 'mono';
 function typed(s, t0, t, cps = 34) { return s.slice(0, Math.max(0, Math.floor((t - t0) * cps))); }
@@ -55,7 +55,7 @@ function draw(t) {
     const v = lerp(24, 7, E.cubicIO(inv(B.d2 + 0.8, B.d3 - 0.6, t)));
     at(W / 2 - 150, 1180, 0.85, 0, () => gauge(v, 30, 'WIND · km/h', ''));
     at(W / 2 + 300, 1000, 0.9, 0, () => puff({ t, smirk: v < 10, blink: (t % 2) < 0.1 }));
-    if (v < 10) txt('below 10 km/h: I stay put', W / 2, 1360, { size: 36, w: 700, color: C.mute }); });
+    if (v < 10) txt('below 10 km/h: I stay put', W / 2, 1440, { size: 36, w: 700, color: C.mute }); });
   // ===== day 3: Delhi, worst start to October in 3 years
   const s3 = inv(B.d3 - 0.1, B.d3 + 0.1, t) * (1 - inv(B.size - 0.15, B.size, t));
   if (s3 > 0) alpha(s3, () => { diary('DAY 3', 'Delhi. Worst start\nto October in 3 years.', B.d3, t);
@@ -79,7 +79,7 @@ function draw(t) {
   // ===== what I'm scared of
   const s6 = inv(B.scared - 0.1, B.scared + 0.1, t) * (1 - inv(B.alone - 0.15, B.alone, t));
   if (s6 > 0) alpha(s6, () => { txt("WHAT I'M SCARED OF", 120, 470, { size: 38, w: 700, fam: MONO, align: 'left', color: C.safDeep });
-    [['Sensors on every street', B.list], ['Forecasts that warn you days ahead', B.list + 1.0], ['Farmers paid for cleaner options', B.list + 2.0], ['One shared record of who cut what,', B.list + 3.0], ['that nobody can quietly edit', B.list + 3.4]].forEach(([s, st], i) => {
+    [['Sensors on every street', 30.8], ['Forecasts that warn you days ahead', 33.0], ['Farmers paid for cleaner options', 35.5], ['One shared record of who cut what,', 38.0], ['that nobody can quietly edit', 40.3]].forEach(([s, st], i) => {
       if (t < st) return; const sp = spring(t - st, 3, 0.5); at(120, 570 + i * 96 + (i === 4 ? -14 : 0), 1, 0, () => alpha(sp, () => { if (i < 4) { rr(0, -40, 40, 40, 8); fillStroke(C.white, C.ink, 4); line([[8, -20], [18, -8], [34, -32]], '#3F6B32', 6); }
         txt(s, i < 4 ? 64 : 64, 0, { size: i === 4 ? 36 : 42, w: i === 4 ? 600 : 800, align: 'left', it: i === 4, color: i === 4 ? C.mute : C.ink }); })); });
     at(860, 1210, 0.85, Math.sin(t * 12) * 0.05, () => puff({ t, blink: false }));
@@ -92,8 +92,8 @@ function draw(t) {
     save(() => { x.beginPath(); x.rect(0, 0, W, 1200); x.clip(); circ(W / 2, 1200 - p * 160, 260); fillStroke('rgba(240,138,18,0.32)', null, 0); });
     hands(10, p); line([[80, 1200], [1000, 1200]], C.ink, 4);
     txt('Nobody beats me alone.', W / 2, 560, { size: 74, w: 800, a: inv(B.alone, B.alone + 0.3, t) });
-    txt('Many hands. One sky.', W / 2, 680, { size: 74, w: 800, color: C.safDeep, a: inv(B.alone + 1.2, B.alone + 1.5, t) });
-    at(W / 2, 880 - p * 300, 0.6, 0, () => puff({ t, a: 1 - p })); });
+    txt('Many hands. One sky.', W / 2, 680, { size: 74, w: 800, color: C.safDeep, a: inv(B.many, B.many + 0.3, t) });
+    at(W / 2 + E.cubicIO(p) * 700, 900 - p * 120, 0.6, 0, () => puff({ t, a: 1 - p })); });
   // header + source
   img('logo', 104, 150, 58); txt('BUILD TOGETHER', 146, 162, { size: 30, w: 800, align: 'left', ls: 5 });
   txt('Data: CREA analysis of CPCB data via PTI (7 Oct 2026); particle size: US EPA', 75, 214, { size: 21, w: 600, align: 'left', color: C.mute });
