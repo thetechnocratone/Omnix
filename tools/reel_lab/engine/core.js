@@ -9,7 +9,7 @@ const C = {
 let cv, x;               // main canvas + context
 const IMGS = {};
 const FONT = {
-  sans: 'Mont', serif: 'ISerif', mono: 'JBMono', frau: 'Fraunces'
+  sans: 'Mont', serif: 'ISerif', mono: 'JBMono', frau: 'Fraunces', inter: 'Inter'
 };
 
 // ---------- maths ----------
@@ -253,7 +253,7 @@ window.__boot = async function (assets) {
   cv = document.getElementById('c'); x = cv.getContext('2d');
   makeGrain();
   await Promise.all(Object.entries(assets || {}).map(([k, v]) => loadImg(k, v)));
-  for (const f of ['800 80px Mont', '700 80px Mont', '600 80px Mont', '500 80px Mont', 'italic 700 80px Mont', '400 80px ISerif', 'italic 400 80px ISerif', '500 40px JBMono', '700 40px JBMono', '600 80px Fraunces'])
+  for (const f of ['800 80px Mont', '700 80px Mont', '600 80px Mont', '500 80px Mont', 'italic 700 80px Mont', '400 80px ISerif', 'italic 400 80px ISerif', '500 40px JBMono', '700 40px JBMono', '600 80px Fraunces', '400 80px Inter', '500 80px Inter', '600 80px Inter', '700 80px Inter'])
     await document.fonts.load(f);
   if (window.COMP && COMP.init) await COMP.init();
   window.__ready = true;
