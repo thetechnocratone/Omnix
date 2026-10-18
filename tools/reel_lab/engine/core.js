@@ -278,3 +278,37 @@ window.__frameN = function (t, n = 1, shutter = 1 / 60) {
   ax.globalAlpha = 1; return ACC.toDataURL('image/jpeg', 0.93);
 };
 window.__events = () => (COMP.events || []);
+
+// ---------- shared caption styles ----------
+// Story style: speech-bubble sticker, 1–4 words, key words in deep saffron
+function capSticker(t, G, KEYS, Y = 1420, size = 64) {
+  const k = activeGroup(G, WORDS, t); if (k < 0) return;
+  const [a, b] = G[k]; const gap = 15;
+  const ws = []; for (let i = a; i <= b; i++) ws.push({ i, s: WORDS[i][0], w: tw(WORDS[i][0], size, 800) });
+  const tot = ws.reduce((s, w) => s + w.w, 0) + gap * (ws.length - 1);
+  const lines = tot > 860 ? [ws.slice(0, Math.ceil(ws.length / 2)), ws.slice(Math.ceil(ws.length / 2))] : [ws];
+  const sp = spring(t - WORDS[a][1] + 0.05, 2.6, 0.55);
+  const bw = Math.max(...lines.map(L => L.reduce((s, w) => s + w.w, 0) + gap * (L.length - 1))) + 70, bh = lines.length * (size + 24) + 40;
+  at(W / 2, Y, 0.9 + 0.1 * sp, (1 - sp) * 0.03, () => {
+    save(() => { x.fillStyle = 'rgba(31,26,21,0.18)'; rr(-bw / 2 + 8, -bh / 2 + 10, bw, bh, 34); x.fill(); });
+    rr(-bw / 2, -bh / 2, bw, bh, 34); fillStroke(C.white, C.ink, 6);
+    lines.forEach((L, li) => { const lw = L.reduce((s, w) => s + w.w, 0) + gap * (L.length - 1); let cx = -lw / 2;
+      L.forEach(w => { const on = t >= WORDS[w.i][1] - 0.05; const key = KEYS.has(w.s);
+        txt(w.s, cx + w.w / 2, -bh / 2 + 20 + size + li * (size + 24), { size, w: 800, color: on ? (key ? C.safDeep : C.ink) : 'rgba(31,26,21,0.22)' }); cx += w.w + gap; }); });
+  });
+}
+// a neutral grey "test AI" helper (not the Omnix robot)
+ILL.testbot = (o = {}) => {
+  save(() => { x.translate(0, o.bob || 0);
+    line([[-24, 110], [-28, 150]], C.ink, 11); line([[24, 110], [28, 150]], C.ink, 11);
+    save(() => { x.translate(-62, 40); x.rotate(0.3 - (o.armL || 0) * 2.2); line([[0, 0], [0, 56]], C.ink, 11); circ(0, 62, 11); fillStroke('#BFC4C6', C.ink, 5); });
+    save(() => { x.translate(62, 40); x.rotate(-0.3 + (o.arm || 0) * 2.3); line([[0, 0], [0, 56]], C.ink, 11); circ(0, 62, 11); fillStroke('#BFC4C6', C.ink, 5); if (o.hold) at(0, 92, 1, 0, o.hold); });
+    rr(-58, 14, 116, 100, 26); fillStroke('#D9DDDF', C.ink, 7);
+    txt(o.tag || 'TEST AI', 0, 74, { size: 20, w: 800, ls: 2, color: '#5D6669' });
+    rr(-74, -104, 148, 112, 36); fillStroke('#D9DDDF', C.ink, 7);
+    rr(-54, -86, 108, 72, 20); fillStroke('#2F3537', null, 0);
+    const bl = o.blink ? 0.15 : 1; x.fillStyle = o.eye || '#9FD6E8';
+    for (const s of [-1, 1]) { x.beginPath(); x.ellipse(s * 23 + (o.look || 0) * 9, -50, 9, 13 * bl, 0, 0, Math.PI * 2); x.fill(); }
+    line([[0, -104], [0, -132]], C.ink, 6); circ(0, -140, 11); fillStroke('#9FD6E8', C.ink, 4);
+  });
+};

@@ -9,3 +9,8 @@ media/**/frames/
 media/**/stills/
 media/**/vo_raw.wav
 media/**/silent.mp4
+media/**/sheet.jpg
+media/**/render.log
+media/**/words_raw.json
+media/**/*.wav
+media/**/mix.mp4
