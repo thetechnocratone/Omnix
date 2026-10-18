@@ -1,5 +1,7 @@
 # The Brief by Omnix — daily episode playbook
 
+> **From 19 Oct 2026 the look, formats and daily workflow are in `tools/reel_lab/PLAYBOOK_V2.md`** (Loop for tweet reels, Story for The Brief, Documentary for Omnix Explains, POV for Build Together; posting via Buffer + Meta Business Suite). The hard rules, voice settings and logs below still apply; where this file and v2 disagree on style, schedule or posting, v2 wins.
+
 One narrated 35–55s news-explainer reel per weekday on the most important story in
 blockchain, crypto, AI or robotics. Episode 1 (`media/2026-10-13_week/brief/ep1/`,
 `ep1_bunker_mode.mp4`) is the reference for look, pacing and tone.
