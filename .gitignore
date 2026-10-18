@@ -5,3 +5,7 @@ media/**/silent.mp4
 media/**/still_*.jpg
 .cover_tmp.html
 __pycache__/
+media/**/frames/
+media/**/stills/
+media/**/vo_raw.wav
+media/**/silent.mp4

@@ -22,6 +22,8 @@ physics idea behind a viral moment, a chip breakthrough.
 
 ## 1. Picking the day's four topics (do this properly every day)
 
+**Mass appeal first.** Our audience is everyday people curious about the future, not specialists. Every topic must pass: "Would a non-tech friend stop scrolling for this, and understand it by the end?"
+
 Research the last 24–72 h before choosing. Sources: Techmeme, CoinDesk, The Block, Decrypt, Cointelegraph,
 Reuters, Bloomberg, The Verge, TechCrunch, IEEE Spectrum, The Robot Report, aiweekly.co, Hacker News front
 page, official company/lab posts, and what is being memed on X / Instagram / YouTube right now.
@@ -120,3 +122,16 @@ Style notes per series:
 - Numbers verified and sourced? Caveat stated? Omnix wording rules followed?
 - Music and SFX in one room, voice clear above them, −14 LUFS? Ending loops or calls back?
 - Would someone send it to a friend? If not, rewrite the closing line.
+
+## Learnings log (newest first; add to this every day)
+
+- **18 Oct 2026 · Write for everyday people, not insiders.** The owner rejected a slate built for crypto insiders
+  (a cryptography-standards mystery). Optimise for understanding, engagement, reach and followers:
+  - Pick topics a 14-year-old or your parents would find interesting. The test: can you say why it matters in
+    one sentence with no technical words? If not, pick another story or find the human angle.
+  - Prefer stories with a human-scale hook: something you can picture (a car that jumps, an AI that picks a lock,
+    smoke you breathe, an SMS code), money in your pocket, your safety, your city.
+  - Explain with everyday objects and Indian life (a toll gate, pocket money, a darshini, an OTP, auto fares).
+    No acronyms or jargon on screen unless translated in the same breath; never more than one new term per reel.
+  - Niche depth goes in the caption and LinkedIn copy, not the reel.
+- **18 Oct 2026 · Formats chosen.** Loop → tweet reels, Story → Brief, Documentary → Explains, POV → Build Together.
