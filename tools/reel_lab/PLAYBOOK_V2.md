@@ -152,3 +152,4 @@ Style notes per series:
   - Hold the full post ~4 s, then crossfade to an end card: glowing logo, "theomnix.org", product line in orange ("<Product> · coming soon").
   - ~12–13 s total. Music only, no voice, no SFX: warm, slow, low-passed felt piano + pad + sub (spectral centroid ~400 Hz), mixed to -14 LUFS.
   - Writing: one plain-English truth everyone gets + one useful turn (an action or a reframe). Tie to a trending story without naming people or brands.
+- **18 Oct 2026 · Custom thumbnails through Buffer.** Buffer only picks a frame from the video on X/LinkedIn. To use a designed cover: prepend it for 0.1 s (3 frames, audio delayed to match), upload that copy, and set thumbnailOffset 0. Name the copy `<reel>_cover.mp4`.
