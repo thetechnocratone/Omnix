@@ -6,7 +6,7 @@ window.COMP = { dur: D, draw(t) { draw(t); } };
 
 function tick(X0, Y0, r = 18) { save(() => { x.translate(X0, Y0); x.beginPath(); for (let i = 0; i < 16; i++) { const a = i / 16 * Math.PI * 2, rr2 = i % 2 ? r * 0.82 : r; x.lineTo(Math.cos(a) * rr2, Math.sin(a) * rr2); } x.closePath(); x.fillStyle = '#1D9BF0'; x.fill();
   line([[-r * 0.38, 0], [-r * 0.08, r * 0.3], [r * 0.42, -r * 0.3]], '#fff', r * 0.2); }); }
-function header() { img('logo', 120, 210, 84); txt('Omnix', 180, 206, { size: 44, w: 800, align: 'left' }); tick(180 + tw('Omnix', 44, 800) + 30, 192, 19); txt('@omnixteam', 180, 250, { size: 32, w: 500, align: 'left', color: C.mute }); }
+function header() { img('logo', 120, 210, 84); txt('Omnix', 180, 206, { size: 44, w: 800, align: 'left' }); txt('@omnixteam', 180, 250, { size: 32, w: 500, align: 'left', color: C.mute }); }
 function car(o = {}) { save(() => {
   x.beginPath(); x.moveTo(-200, 30); x.lineTo(-190, -10); x.quadraticCurveTo(-120, -30, -70, -60); x.quadraticCurveTo(10, -95, 90, -55); x.quadraticCurveTo(170, -40, 205, -5); x.lineTo(210, 30); x.closePath(); fillStroke('#E9E2D6', C.ink, 7);
   x.beginPath(); x.moveTo(-60, -55); x.quadraticCurveTo(10, -85, 80, -52); x.lineTo(-60, -52); fillStroke('#2F3537', C.ink, 4);
