@@ -17,7 +17,15 @@ function title(X, Y, size, lh) {
 function lockup(X, Y, s, size) { logoSquare(X, Y, s); T('TrueChain', X + s + s * 0.28, Y + s / 2 + size * 0.36, { size, fam: 'H' }); }
 window.COMP = { dur: 1, draw() {
   x.fillStyle = K.bg; x.fillRect(0, 0, W, H);
-  if (W > H) {                       // YouTube 16:9
+  if (W === H) {                     // Instagram / feed 1:1
+    save(() => { x.beginPath(); x.rect(0, 0, W, 390); x.clip(); grid(132, 40, 72, 3, 7, [1, 3]); });
+    x.fillStyle = K.hair; x.fillRect(0, 390, W, 2);
+    logoSquare(W - M - 84, 432, 84);
+    title(M - 4, 510, 94, 92);
+    x.fillStyle = K.amber; x.fillRect(M, 738, 110, 9);
+    ['A blockchain-based solution', 'to build trust into every order'].forEach((l, i) => T(l, M, 812 + i * 52, { size: 42, w: 600, color: K.ink2 }));
+    T('A product of Omnix', M, 990, { size: 36, w: 600, color: K.ink });
+  } else if (W > H) {                // YouTube 16:9
     save(() => { x.beginPath(); x.rect(980, 0, W - 980, H); x.clip(); grid(170, 900, 110, 5, 7, [2, 2]); });
     x.fillStyle = K.hair; x.fillRect(980, 0, 2, H);
     logoSquare(M, 110, 96);
