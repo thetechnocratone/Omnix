@@ -256,7 +256,7 @@ function hud(t) {
 function loadImg(n, src) { return new Promise(r => { const i = new Image(); i.onload = () => r(); i.onerror = () => r(); i.src = src; IM[n] = i; }); }
 function tint(img, color) { const c = document.createElement('canvas'); c.width = img.width; c.height = img.height; const g = c.getContext('2d'); g.drawImage(img, 0, 0); g.globalCompositeOperation = 'source-in'; g.fillStyle = color; g.fillRect(0, 0, c.width, c.height); return c; }
 window.__boot = async function () {
-  const q = new URLSearchParams(location.search); if (q.get('fmt') === 'square') { W = 1080; H = 1080; M = 80; }
+  const q = new URLSearchParams(location.search); if (q.get('fmt') === 'square') { W = 1080; H = 1080; M = 80; } else if (q.get('fmt') === 'tall') { W = 1080; H = 1920; M = 80; }
   cv = document.getElementById('c'); cv.width = W; cv.height = H; x = cv.getContext('2d');
   await loadImg('mark', 'assets/mark.png'); IM.markC = tint(IM.mark, K.bg); IM.markA = tint(IM.mark, K.amber);
   for (const f of ['800 80px PJS', '700 80px PJS', '400 40px Manrope', '500 40px Manrope', '600 40px Manrope', '700 40px Manrope']) await document.fonts.load(f);
