@@ -443,9 +443,10 @@ const S8 = (() => {
       save(() => { x.beginPath(); x.rect(LX + s + 14, LY - 30, W, s + 60); x.clip(); const sl = ein(t, tEC + 0.3, 0.9); alpha(sl, () => T('TrueChain', LX + s + 34 - (1 - sl) * 70, LY + s / 2 + 44, { size: 120, fam: 'H' })); });
       headline('every item, a record you can check.', W / 2, 520, t, tEC + 0.5, { size: 80, align: 'center', lines: ['every item, a record you can check.'] });
       body('A product of Omnix', W / 2, 620, t, tEC + 1.0, { size: 40, align: 'center', color: K.ink2, maxW: 1600 });
-      body('theomnix.org/truechain   ·   theomnichain@gmail.com', W / 2, 690, t, tEC + 1.2, { size: 40, align: 'center', color: K.ink, w: 600, maxW: 1600 });
+      body('theomnix.org/truechain   ·   connect@theomnix.org', W / 2, 690, t, tEC + 1.2, { size: 40, align: 'center', color: K.ink, w: 600, maxW: 1600 });
+      body('+91 95906 08091', W / 2, 746, t, tEC + 1.35, { size: 40, align: 'center', color: K.ink, w: 600, maxW: 1600 });
       const pa = ein(t, tEC + 1.6, 0.6); const pw = tw('Book a 90-day pilot', 38, 700, 'B') + 64;
-      alpha(pa, () => { rr(W / 2 - pw / 2, 760 + (1 - pa) * 12, pw, 74, 37); x.fillStyle = K.amber; x.fill(); T('Book a 90-day pilot', W / 2, 810 + (1 - pa) * 12, { size: 38, w: 700, align: 'center' }); });
+      alpha(pa, () => { rr(W / 2 - pw / 2, 800 + (1 - pa) * 12, pw, 74, 37); x.fillStyle = K.amber; x.fill(); T('Book a 90-day pilot', W / 2, 850 + (1 - pa) * 12, { size: 38, w: 700, align: 'center' }); });
     }
   }
   return { draw };

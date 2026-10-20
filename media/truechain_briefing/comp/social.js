@@ -107,9 +107,10 @@ const SOC = (() => {
     headline('you can check.', W / 2, 512, t, tE + 1.0, { size: 64, align: 'center', lines: ['you can check.'] });
     body('A product of Omnix', W / 2, 596, t, tE + 1.3, { size: 36, align: 'center', color: K.ink2, maxW: 1000 });
     body('theomnix.org/truechain', W / 2, 650, t, tE + 1.4, { size: 38, align: 'center', color: K.ink, w: 600, maxW: 1000 });
-    body('theomnichain@gmail.com', W / 2, 700, t, tE + 1.5, { size: 38, align: 'center', color: K.ink, w: 600, maxW: 1000 });
+    body('connect@theomnix.org', W / 2, 700, t, tE + 1.5, { size: 38, align: 'center', color: K.ink, w: 600, maxW: 1000 });
+    body('+91 95906 08091', W / 2, 750, t, tE + 1.6, { size: 38, align: 'center', color: K.ink, w: 600, maxW: 1000 });
     const pa = ein(t, tE + 1.8, 0.6), pw = tw('Book a 90-day pilot', 36, 700, 'B') + 60;
-    alpha(pa, () => { rr(W / 2 - pw / 2, 742 + (1 - pa) * 12, pw, 68, 34); x.fillStyle = K.amber; x.fill(); T('Book a 90-day pilot', W / 2, 789 + (1 - pa) * 12, { size: 36, w: 700, align: 'center' }); });
+    alpha(pa, () => { rr(W / 2 - pw / 2, 784 + (1 - pa) * 12, pw, 68, 34); x.fillStyle = K.amber; x.fill(); T('Book a 90-day pilot', W / 2, 831 + (1 - pa) * 12, { size: 36, w: 700, align: 'center' }); });
   }
   function srcS(s, t, t0, t1) { const v = win(t, t0 + 0.3, t1, 0.6, 0.35); alpha(v.a, () => T(s, M, 850, { size: 22, w: 500, color: K.ink2 })); }
   // burned-in captions: Manrope Medium 40px, ink on a 90% cream pill, bottom centre, max 2 lines
