@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:PJS;src:url(fonts/plus-jakarta-sans-latin-800-normal.woff2);font-weight:800}
+@font-face{font-family:Manrope;src:url(fonts/manrope-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:Manrope;src:url(fonts/manrope-latin-600-normal.woff2);font-weight:600}
+html,body{margin:0;width:1920px;height:1080px;background:#FBF9F4;overflow:hidden}
+.p{position:absolute;inset:0;padding:120px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between}
+.top{display:flex;justify-content:space-between;align-items:center}
+.brand{display:flex;align-items:center;gap:28px;font:800 84px/1 PJS;letter-spacing:-1.7px;color:#1C1A17}
+.sq{width:116px;height:116px;border-radius:28px;background:#F5A10C;display:grid;place-items:center}
+.sq img{width:84px;height:84px}
+.eb{font:600 34px/1 Manrope;letter-spacing:4px;color:#5C5650;text-transform:uppercase}
+h1{font:800 170px/1.0 PJS;letter-spacing:-3.4px;color:#1C1A17;margin:0}
+.foot{display:flex;justify-content:space-between;align-items:flex-end;font:500 38px/1 Manrope;color:#5C5650}
+.bar{position:absolute;left:0;right:0;bottom:0;height:10px;background:#F5A10C}
+.pill{font:600 38px/1 Manrope;color:#1C1A17;border:2px solid #F5A10C;background:#FFF6E0;border-radius:999px;padding:18px 30px}
+</style></head><body><div class="p">
+<div class="top"><div class="brand"><div class="sq"><img id="m" src="assets/mark.png"></div>TrueChain</div><div class="eb">Briefing for marketplaces</div></div>
+<h1>every item, a record<br>you can check.</h1>
+<div class="foot"><span>A product of Omnix · theomnix.org/truechain</span><span class="pill">4:40 board briefing</span></div>
+</div><div class="bar"></div>
+<script>/* tint the white mark to cream */const i=document.getElementById('m');i.onload=()=>{const c=document.createElement('canvas');c.width=i.naturalWidth;c.height=i.naturalHeight;const g=c.getContext('2d');g.drawImage(i,0,0);g.globalCompositeOperation='source-in';g.fillStyle='#FBF9F4';g.fillRect(0,0,c.width,c.height);i.onload=null;i.src=c.toDataURL()}</script>
+</body></html>

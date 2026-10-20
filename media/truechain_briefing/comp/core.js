@@ -228,7 +228,7 @@ function recordCard(X, Y, w, entries, t, o = {}) {
     x.beginPath(); x.roundRect(X, Y, w, head, [20, 20, 0, 0]); x.fillStyle = '#FFF4DD'; x.fill();
     logoSquare(X + 26, Y + 22, 40);
     T('record', X + 82, Y + 56, { size: 38, fam: 'H' });
-    T(o.id || 'TC-7Q4F-92KD', X + w - 26, Y + 54, { size: 30, w: 600, color: K.ink2, align: 'right', ls: 1.5 });
+    T(o.id || 'TC-7Q4F-92KD', X + w - 26, Y + 55, { size: 36, w: 600, color: K.ink2, align: 'right', ls: 1 });
     x.fillStyle = K.hair; x.fillRect(X, Y + head, w, 1.5);
     let yy = Y + head;
     entries.forEach((e, i) => {
@@ -239,7 +239,7 @@ function recordCard(X, Y, w, entries, t, o = {}) {
         x.beginPath(); x.arc(X + 50, cy, 17, 0, 7); x.fillStyle = K.amber; x.fill();
         x.strokeStyle = '#fff'; x.lineWidth = 4; x.lineCap = 'round'; x.lineJoin = 'round'; x.beginPath(); x.moveTo(X + 42, cy); x.lineTo(X + 48, cy + 7); x.lineTo(X + 59, cy - 6); x.stroke();
         T(e.title, X + 86, cy + 4, { size: 38, w: 700 });
-        T(e.meta, X + 86, cy + 46, { size: 30, w: 500, color: K.ink2 });
+        T(e.meta, X + 86, cy + 50, { size: 36, w: 500, color: K.ink2 });
         if (i < entries.length - 1 && t > (entries[i + 1].t || 1e9)) { x.fillStyle = K.amber; x.fillRect(X + 48.5, cy + 19, 3, rowH - 38); }
       });
       yy += rowH * p;

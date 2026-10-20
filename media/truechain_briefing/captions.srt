@@ -1,7 +1,7 @@
 1
 00:00:03,600 --> 00:00:07,260
-Every day, millions of parcels
-leave your warehouses.
+Every day, millions of
+parcels leave your warehouses.
 
 2
 00:00:07,270 --> 00:00:10,210
@@ -41,8 +41,8 @@ That is what an online order looks like.
 
 10
 00:00:49,600 --> 00:00:53,990
-Fashion, footwear, watches and
-jewellery are hit hardest.
+Fashion, footwear, watches
+and jewellery are hit hardest.
 
 11
 00:00:54,000 --> 00:00:56,390
@@ -69,189 +69,201 @@ word against another's.
 
 16
 00:01:20,800 --> 00:01:24,100
-The cost that matters most
-is harder to measure.
+The cost that matters
+most is harder to measure.
 
 17
-00:01:24,110 --> 00:01:29,309
-About two in three shoppers say they would
-lose trust in a marketplace after buying
+00:01:24,110 --> 00:01:27,846
+About two in three shoppers
+say they would lose trust in a
 
 18
-00:01:29,159 --> 00:01:29,750
-a fake.
+00:01:27,696 --> 00:01:29,750
+marketplace after buying a fake.
 
 19
 00:01:32,200 --> 00:01:33,780
 Run your own numbers.
 
 20
-00:01:33,790 --> 00:01:39,606
-If just one percent of sales on ten billion
-dollars are fakes, that could cost about
+00:01:33,790 --> 00:01:36,914
+If just one percent of
+sales on ten billion
 
 21
+00:01:36,764 --> 00:01:39,606
+dollars are fakes, that could cost about
+
+22
 00:01:39,456 --> 00:01:43,170
 fifty million dollars a year,
 before you count reputation.
 
-22
+23
 00:01:48,000 --> 00:01:53,090
 TrueChain gives every high-value item
 its own record, one you can check.
 
-23
+24
 00:01:56,000 --> 00:01:58,130
 The record starts at the factory.
 
-24
+25
 00:01:58,140 --> 00:02:00,350
 The brand registers the item.
 
-25
+26
 00:02:00,360 --> 00:02:05,060
 Suppliers and assemblers add parts,
 inspections and certificates.
 
-26
+27
 00:02:05,070 --> 00:02:07,870
 Distributors and retailers log the sale.
 
-27
+28
 00:02:10,200 --> 00:02:12,660
 Every entry is signed and dated.
 
-28
-00:02:12,670 --> 00:02:17,950
-It is held on a shared ledger, and a
-summary is published each day where no one,
-
 29
+00:02:12,670 --> 00:02:15,269
+It is held on a shared ledger, and a
+
+30
+00:02:15,119 --> 00:02:17,950
+summary is published
+each day where no one,
+
+31
 00:02:17,960 --> 00:02:20,470
 including us, can quietly change it.
 
-30
+32
 00:02:23,000 --> 00:02:27,850
 Anyone can scan a QR code and read
 that history, with no sign-in needed.
 
-31
+33
 00:02:35,600 --> 00:02:38,490
 Your marketplace uses it at three moments.
 
-32
+34
 00:02:39,600 --> 00:02:45,740
 Before listing: if the record isn't found,
 or can't be trusted, the listing stops.
 
-33
+35
 00:02:45,750 --> 00:02:50,590
 If the brand has flagged the item as
 stolen or recalled, it goes on hold.
 
-34
-00:02:52,600 --> 00:02:58,255
-At the seller: the record shows which retailer
+36
+00:02:52,600 --> 00:02:55,783
+At the seller: the record
+shows which retailer
+
+37
+00:02:55,633 --> 00:02:58,255
 made the first sale, so you can review
 
-35
+38
 00:02:58,105 --> 00:02:59,730
 sellers who don't match it.
 
-36
-00:03:02,000 --> 00:03:07,682
-In a dispute: your support team has a
-record to look at, not two people arguing
+39
+00:03:02,000 --> 00:03:06,344
+In a dispute: your support team
+has a record to look at, not
 
-37
-00:03:07,532 --> 00:03:08,530
-over photos.
+40
+00:03:06,194 --> 00:03:08,530
+two people arguing over photos.
 
-38
+41
 00:03:10,600 --> 00:03:12,530
 The buyer gets a plain answer:
 
-39
+42
 00:03:12,540 --> 00:03:17,990
 record verified, attention needed,
 not found, or could not be trusted.
 
-40
+43
 00:03:23,400 --> 00:03:24,770
 We'll be straight with you.
 
-41
+44
 00:03:24,780 --> 00:03:28,360
 TrueChain doesn't promise
 that an item is genuine.
 
-42
+45
 00:03:28,370 --> 00:03:31,880
 It proves that a record exists,
 and hasn't been altered.
 
-43
+46
 00:03:31,890 --> 00:03:35,700
 It's only as strong as
 the brands that join.
 
-44
+47
 00:03:35,710 --> 00:03:39,250
-And today, it covers the first
-retail sale, not resale.
+And today, it covers the
+first retail sale, not resale.
 
-45
+48
 00:03:41,000 --> 00:03:44,730
 That's why we suggest proving
 it together, not on our word.
 
-46
+49
 00:03:48,000 --> 00:03:51,040
 The value appears in
 numbers you already track:
 
-47
+50
 00:03:51,050 --> 00:03:56,876
 fewer disputes over fakes, fewer returns
 and refunds, stolen goods held before they
 
-48
+51
 00:03:56,726 --> 00:04:01,466
 sell, higher conversion on high-value
 listings, and better terms with the brands
 
-49
+52
 00:04:01,316 --> 00:04:02,250
 you want to keep.
 
-50
+53
 00:04:05,000 --> 00:04:08,560
 Today, TrueChain is in
 pilot with luxury watches.
 
-51
+54
 00:04:08,570 --> 00:04:11,510
 Nothing in the design
 is limited to watches.
 
-52
+55
 00:04:15,800 --> 00:04:17,280
 Here's what we propose:
 
-53
+56
 00:04:17,290 --> 00:04:20,580
 two brands, one category, ninety days.
 
-54
+57
 00:04:20,590 --> 00:04:24,910
 We agree the targets before we start,
 then read the results together.
 
-55
+58
 00:04:27,600 --> 00:04:30,160
 Every item, a record you can check.
 
-56
+59
 00:04:30,170 --> 00:04:32,770
 Let's build trust into every order.
 

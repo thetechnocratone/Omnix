@@ -1,0 +1,73 @@
+1
+00:00:00,600 --> 00:00:04,260
+Every day, millions of
+parcels leave your warehouses.
+
+2
+00:00:04,270 --> 00:00:07,210
+Most hold exactly what
+the customer ordered.
+
+3
+00:00:07,600 --> 00:00:12,510
+Some don't. And the customer only
+finds out after the parcel is opened.
+
+4
+00:00:13,600 --> 00:00:21,090
+Counterfeit and pirated goods worth 467
+billion dollars crossed borders in 2021.
+
+5
+00:00:21,100 --> 00:00:24,470
+That is 2.3 percent of world imports.
+
+6
+00:00:25,400 --> 00:00:28,700
+The cost that matters
+most is harder to measure.
+
+7
+00:00:28,710 --> 00:00:32,446
+About two in three shoppers
+say they would lose trust in a
+
+8
+00:00:32,296 --> 00:00:34,350
+marketplace after buying a fake.
+
+9
+00:00:35,600 --> 00:00:40,690
+TrueChain gives every high-value item
+its own record, one you can check.
+
+10
+00:00:41,200 --> 00:00:43,330
+The record starts at the factory.
+
+11
+00:00:43,340 --> 00:00:45,550
+The brand registers the item.
+
+12
+00:00:45,560 --> 00:00:50,260
+Suppliers and assemblers add parts,
+inspections and certificates.
+
+13
+00:00:50,270 --> 00:00:53,070
+Distributors and retailers log the sale.
+
+14
+00:00:53,600 --> 00:00:58,450
+Anyone can scan a QR code and read
+that history, with no sign-in needed.
+
+15
+00:00:59,200 --> 00:01:01,760
+Every item, a record you can check.
+
+16
+00:01:01,770 --> 00:01:04,370
+Let's build trust into every order.
+

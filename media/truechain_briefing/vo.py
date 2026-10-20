@@ -109,12 +109,20 @@ def cues(words, maxc=42):
         cur.append(w); text = " ".join(x[0] for x in cur)
         if len(text) > maxc * 2 - 6 or (re.search(r"[.?:]$", w[0]) and len(text) > 18): flush()
     flush(); out = []
-    for c in cs:
-        text = " ".join(x[0] for x in c)
-        if len(text) > maxc:  # balance two lines
-            best = min(range(1, len(c)), key=lambda k: abs(len(" ".join(x[0] for x in c[:k])) - len(text) / 2))
-            text = " ".join(x[0] for x in c[:best]) + "\n" + " ".join(x[0] for x in c[best:])
-        out.append([c[0][1], c[-1][2], text])
+    for i in range(1, len(cs)):   # no orphan tails: pull words forward when a sentence spills 1-2 words
+        if len(cs[i]) <= 2 and not re.search(r"[.?:,]$", cs[i - 1][-1][0]):
+            cs[i] = cs[i - 1][-3:] + cs[i]; cs[i - 1] = cs[i - 1][:-3]
+    J = lambda ws: " ".join(x[0] for x in ws)
+    def lay(c):   # best two-line layout: minimise the longer line
+        if len(J(c)) <= maxc: return J(c)
+        k = min(range(1, len(c)), key=lambda k: max(len(J(c[:k])), len(J(c[k:]))))
+        return J(c[:k]) + "\n" + J(c[k:]) if max(len(J(c[:k])), len(J(c[k:]))) <= maxc else None
+    def emit(c):
+        t = lay(c)
+        if t is None and len(c) > 1:   # too long for two lines: split the cue at a balanced word boundary
+            k = min(range(1, len(c)), key=lambda k: abs(len(J(c[:k])) - len(J(c[k:])))); emit(c[:k]); emit(c[k:]); return
+        out.append([c[0][1], c[-1][2], t or J(c)])
+    for c in cs: emit(c)
     return out
 
 

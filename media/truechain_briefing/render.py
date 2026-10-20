@@ -14,7 +14,7 @@ def page(p, fmt):
     pg = b.new_page(viewport={"width": w, "height": h})
     pg.on("pageerror", lambda e: print("PAGEERROR", e, flush=True))
     pg.on("console", lambda m: print("console:", m.text) if m.type in ("error", "warning") else None)
-    pg.goto(f"file://{HERE}/comp/index.html?fmt={fmt}")
+    pg.goto(f"file://{HERE}/comp/" + ("social.html" if fmt == "square" else "index.html") + f"?fmt={fmt}")
     pg.wait_for_function("window.__ready===true", timeout=60000)
     return b, pg
 
