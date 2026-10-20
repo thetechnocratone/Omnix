@@ -1,0 +1,168 @@
+<title>TrueChain Briefing Storyboard</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: a single reading column of scene sheets, frame left / notes right, stacking on phones */
+:root {
+  --bg: #FBF9F4; --card: #F8EDDC; --muted: #F3EEE7; --ink: #1C1A17; --ink2: #5C5650; --hair: #E6DFD3; --amber: #F5A10C; --amber-ink: #8A5A00; --amber-bg: #FFF6E0;
+  --display: "Plus Jakarta Sans", "Manrope", system-ui, sans-serif; --body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #1A1815; --card: #26221D; --muted: #221F1B; --ink: #F3EEE6; --ink2: #B5ADA2; --hair: #3A352E; --amber: #F5A10C; --amber-ink: #FFC75A; --amber-bg: #33280F; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #1A1815; --card: #26221D; --muted: #221F1B; --ink: #F3EEE6; --ink2: #B5ADA2; --hair: #3A352E; --amber: #F5A10C; --amber-ink: #FFC75A; --amber-bg: #33280F; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 500 16px/1.55 var(--body); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 48px 80px }
+.wrap { max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px }
+header { display: flex; flex-direction: column; gap: 14px; max-width: 820px }
+.brand { display: flex; align-items: center; gap: 12px; font: 800 22px/1 var(--display); letter-spacing: -0.02em }
+.sq { width: 30px; height: 30px; border-radius: 8px; background: var(--amber) }
+.eyebrow { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink2); font-weight: 600 }
+h1 { font: 800 clamp(34px, 5vw, 56px)/1.04 var(--display); letter-spacing: -0.02em; margin: 0; text-wrap: balance }
+h2 { font: 800 28px/1.1 var(--display); letter-spacing: -0.02em; margin: 0; text-wrap: balance }
+p { margin: 0 }
+.lede { color: var(--ink2); font-size: 18px; max-width: 65ch }
+.facts { display: flex; flex-wrap: wrap; gap: 8px }
+.chip { border: 1px solid var(--hair); border-radius: 999px; padding: 5px 12px; font-size: 14px; color: var(--ink2); background: var(--bg); font-variant-numeric: tabular-nums }
+.animatic { display: flex; flex-direction: column; gap: 14px; background: var(--card); border: 1px solid var(--hair); border-radius: 20px; padding: 22px }
+.animatic video { width: 100%; max-width: 100%; aspect-ratio: 16/9; border-radius: 12px; background: #000; display: block }
+.scene { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 28px; align-items: start; padding-top: 28px; border-top: 1px solid var(--hair) }
+.scene figure { margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0 }
+.scene img { width: 100%; max-width: 100%; aspect-ratio: 16/9; border-radius: 14px; border: 1px solid var(--hair); display: block }
+.cap { font-size: 13px; color: var(--ink2); font-variant-numeric: tabular-nums }
+.notes { display: flex; flex-direction: column; gap: 14px; min-width: 0 }
+.tc { font-size: 14px; color: var(--ink2); font-variant-numeric: tabular-nums; font-weight: 600; letter-spacing: .04em }
+dl { margin: 0; display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 8px 14px; font-size: 15px }
+dt { color: var(--ink2); font-weight: 600 }
+dd { margin: 0 }
+.carry { background: var(--amber-bg); border: 1px solid var(--amber); color: var(--ink); border-radius: 12px; padding: 10px 14px; font-size: 15px }
+.carry b { color: var(--amber-ink) }
+.decide { background: var(--muted); border: 1px solid var(--hair); border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 14px }
+.decide ol { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 10px; max-width: 75ch }
+.small { font-size: 14px; color: var(--ink2); max-width: 75ch }
+@media (max-width: 760px) { .scene { grid-template-columns: 1fr } dl { grid-template-columns: 78px minmax(0, 1fr) } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand"><span class="sq" aria-hidden="true"></span>TrueChain</div>
+    <span class="eyebrow">Executive briefing video · for approval</span>
+    <h1>every item, a record you can check.</h1>
+    <p class="lede">Storyboard for the 4:40 board briefing, one frame per scene, rendered from the real motion engine with the real voiceover timings. Scenes 1 and 2 are fully animated in the animatic below. Scenes 3 to 8 are built and will be polished to the same level after you approve.</p>
+    <div class="facts">
+      <span class="chip">Runtime 4:40</span><span class="chip">1920 × 1080 · 30 fps</span><span class="chip">VO: usual Omnix voice, 3:20 of speech</span><span class="chip">Mix −16 LUFS · −1.3 dBTP</span><span class="chip">Music −25 LUFS under voice</span>
+    </div>
+  </header>
+
+  <section class="animatic" aria-labelledby="anim-h">
+    <h2 id="anim-h">animatic: scenes 1 and 2.</h2>
+    <video src="animatic_s1-2.mp4" controls playsinline preload="metadata" poster="s1.jpg"></video>
+    <p class="small">0:00 to 1:00 with voice, music and sound design. Scenes 1 and 2 run 60 seconds in your script's timings, so the animatic covers both in full rather than cutting to 30 seconds.</p>
+  </section>
+
+  <article class="scene">
+    <figure><img src="s1.jpg" alt="Grey parcel on cream beside the headline some don't." loading="lazy"><figcaption class="cap">Frame at 0:14</figcaption></figure>
+    <div class="notes">
+      <span class="tc">SCENE 1 · COLD OPEN · 0:00–0:20</span>
+      <h2>some don't.</h2>
+      <dl>
+        <dt>Picture</dt><dd>Black fades to cream on a single soft tone. One amber parcel drops and lands with a soft thud. The camera pushes into its shipping label until it fills the frame, then pulls straight back through it to reveal a slow conveyor grid of amber parcels. One parcel turns grey, the rest fall away, and its lid lifts.</dd>
+        <dt>On screen</dt><dd>"millions of parcels leave every day." / "most hold exactly what was ordered." / "some don't."</dd>
+        <dt>Sound</dt><dd>Near silence, then sparse felt piano. Thud, a muted low tone on the grey parcel, a paper rustle on the lid.</dd>
+      </dl>
+      <p class="carry"><b>Carries into 2:</b> the grey parcel's face flattens into the amber line that the US$467 bn counter rises out of.</p>
+    </div>
+  </article>
+
+  <article class="scene">
+    <figure><img src="s2.jpg" alt="Bar chart of counterfeit trade: 2016 509, 2019 464, 2021 467 US$ billion" loading="lazy"><figcaption class="cap">Frame at 0:38</figcaption></figure>
+    <div class="notes">
+      <span class="tc">SCENE 2 · THE SCALE · 0:20–1:00</span>
+      <h2>fakes are big business.</h2>
+      <dl>
+        <dt>Picture</dt><dd>US$467 bn counts up as the number is spoken. The line becomes the 2021 bar and 467 flies to its label while 2016 and 2019 grow beside it. The bars merge into a shipping container, which breaks into 200 small parcels next to 80%. The parcels then gather into three category cards: apparel, footwear, watches and jewellery.</dd>
+        <dt>On screen</dt><dd>US$467 bn · 2.3% of world imports · 509 / 464 / 467 · 80% · 62% of seized fakes were clothing, footwear or leather goods.</dd>
+        <dt>Sources</dt><dd>OECD and EUIPO 2025, 2021 and 2019 · OECD, Misuse of E-commerce, 2021 · OECD and EUIPO via trade press (62%).</dd>
+      </dl>
+      <p class="carry"><b>Carries into 3:</b> the category cards clear to the amber rule that underlines US$1 bn+.</p>
+    </div>
+  </article>
+
+  <article class="scene">
+    <figure><img src="s3.jpg" alt="Sizing table with the 1% row highlighted at about US$50 m a year, tagged Illustration, not a finding." loading="lazy"><figcaption class="cap">Frame at 1:38</figcaption></figure>
+    <div class="notes">
+      <span class="tc">SCENE 3 · THE COST · 1:00–1:45</span>
+      <h2>run your own numbers.</h2>
+      <dl>
+        <dt>Beats</dt><dd>US$1 bn+ (defence alone) → four cost cards: returns, refunds, reverse pickups, word against word → 64% with "Stated intention in vendor surveys, not measured churn." → the sizing table, 1% row lit at ≈ US$50 m / year.</dd>
+        <dt>Compliance</dt><dd>The marketplace is named only in the voiceover and the source line. The table carries "Illustration, not a finding."</dd>
+      </dl>
+    </div>
+  </article>
+
+  <article class="scene">
+    <figure><img src="s4.jpg" alt="Amber record card with four signed, dated entries inside a ring of four ledger nodes, with a daily summary stamp" loading="lazy"><figcaption class="cap">Frame at 2:17</figcaption></figure>
+    <div class="notes">
+      <span class="tc">SCENE 4 · TRUECHAIN · 1:45–2:35</span>
+      <h2>every item, a record you can check.</h2>
+      <dl>
+        <dt>Beats</dt><dd>Logo reveal with a soft chime → the lockup flies into the header of the amber record card → factory, assembly, shipping, retail light up as each signed, timestamped entry lands → four ledger nodes ring the card and the "daily summary" stamp drops → a phone scans the watch QR and the record opens.</dd>
+        <dt>Motif</dt><dd>The same record card returns in scenes 5 and 7.</dd>
+      </dl>
+    </div>
+  </article>
+
+  <article class="scene">
+    <figure><img src="s5.jpg" alt="Three columns: listing held, seller linked to retail sale, record panel; four verdict pills below" loading="lazy"><figcaption class="cap">Frame at 3:19</figcaption></figure>
+    <div class="notes">
+      <span class="tc">SCENE 5 · THE FIT · 2:35–3:22</span>
+      <h2>before listing. at the seller. in a dispute.</h2>
+      <dl>
+        <dt>Beats</dt><dd>Each column comes into focus as it is spoken: a generic listing card goes to "listing held" (muted tone) → the seller account links to the first-sale entry → the chat thread is replaced by one record panel → the four verdict pills, each with its text label.</dd>
+        <dt>Compliance</dt><dd>Generic marketplace UI only. "Partner interface and listing badge: to agree in a pilot."</dd>
+      </dl>
+    </div>
+  </article>
+
+  <article class="scene">
+    <figure><img src="s6.jpg" alt="Muted card titled limits, said plainly, with three numbered limits" loading="lazy"><figcaption class="cap">Frame at 3:38</figcaption></figure>
+    <div class="notes">
+      <span class="tc">SCENE 6 · HONEST LIMITS · 3:22–3:47</span>
+      <h2>limits, said plainly.</h2>
+      <dl>
+        <dt>Beats</dt><dd>Music drops almost to silence. Three lines build: the record proves it exists and is unaltered, not the item itself · only as strong as the brands that join · first retail sale, not resale. The card slides away to "let's prove it together, not on our word."</dd>
+      </dl>
+    </div>
+  </article>
+
+  <article class="scene">
+    <figure><img src="s7.jpg" alt="Five value rows, each with a metric chip such as complaints per 10,000 orders" loading="lazy"><figcaption class="cap">Frame at 4:03</figcaption></figure>
+    <div class="notes">
+      <span class="tc">SCENE 7 · THE VALUE · 3:47–4:15</span>
+      <h2>where the value shows up.</h2>
+      <dl>
+        <dt>Beats</dt><dd>Five gains build, each with the number that would prove it. Tag: "None of these gains has been measured with a marketplace yet." The watch then becomes a row of handbag, sneaker and laptop under "in pilot with luxury watches."</dd>
+      </dl>
+    </div>
+  </article>
+
+  <article class="scene">
+    <figure><img src="s8.jpg" alt="End card: TrueChain logo, every item, a record you can check, A product of Omnix, web and email, Book a 90-day pilot" loading="lazy"><figcaption class="cap">Frame at 4:38</figcaption></figure>
+    <div class="notes">
+      <span class="tc">SCENE 8 · THE ASK · 4:15–4:40</span>
+      <h2>a 90-day pilot.</h2>
+      <dl>
+        <dt>Beats</dt><dd>Pilot card: scope 2 brands · 1 category · 90 days, targets fixed together before we start, results read together. The end card lands at 4:27 and holds 12.6 s (well over the 4 s minimum) as the final chord rings out.</dd>
+      </dl>
+    </div>
+  </article>
+
+  <section class="decide" aria-labelledby="dec-h">
+    <h2 id="dec-h">four things to confirm.</h2>
+    <ol>
+      <li><b>Logo.</b> The amber rounded square from the deck now carries your chain-and-tick mark in cream. If you'd rather keep the deck's plain square, I'll switch it.</li>
+      <li><b>Music licence.</b> Instead of Artlist or Epidemic, the score and sound design are composed in code for this film: felt piano and pads at 92 BPM. That means no licence, no Content ID claims, and Omnix owns it outright.</li>
+      <li><b>B-roll.</b> None is used yet; every frame is motion graphics. Real watch-dial or conveyor footage needs a stock source (the 15% limit applies) or your own clips.</li>
+      <li><b>Animatic length.</b> Scenes 1 and 2 run 60 s in your script, so the animatic is 60 s rather than 30.</li>
+    </ol>
+  </section>
+</div>
