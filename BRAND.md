@@ -213,7 +213,7 @@ what the algorithms reward.
 - **Pinned comment:** carries the fine print, the key source and the deeper detail.
 - **Meet the builders:** an occasional, quiet line ("Built in Bengaluru · Open to collaboration", "Our DMs are
   open.") on roughly every other Build Together or Solved reel, never as a pitch. Contact route: Instagram DM
-  first, email second.
+  first, email (connect@theomnix.org) second.
 
 ## 10. "Solved together" rules (problem reels: Solved by Omnix, Build Together)
 
