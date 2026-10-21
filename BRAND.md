@@ -155,6 +155,7 @@ python3 -c "from PIL import Image, ImageStat; s=ImageStat.Stat(Image.open('frame
 - Change something every 1 to 3 s, and never go longer than 2.5 s without new visual information.
 - Never leave a dead static frame. Never cut on a metronome.
 - Each style sets its own cut rhythm (see the style library).
+- Pacing is a floor, not the goal: every reel must also pass the virality standard (section 14).
 
 ## 7. Text and language
 
@@ -264,12 +265,75 @@ Extra styles to pick from when a story suits them. All are built in the bright t
 | Phone-native post | A post card builds line by line, then scroll, reactions, a vote | Flat UI | Reactions to a viral post | Generic UI components, no real platform logos |
 | Documentary (slow) | Slow push-ins, lower thirds, parallax stills | Soft grain | Serious, slower topics | Layered vector scenes with slow dolly keyframes |
 
+More styles, added Oct 2026. The library is a starting point, not a limit: pick or invent the style that makes
+the story most visual, and never repeat a style on the same day.
+
+| Style | Camera and layout | Texture | Best for | Remotion build note |
+|---|---|---|---|---|
+| Isometric diorama | A tiny 3D world the camera orbits and dives into; scenes are rooms of one model | Clay-matte, soft shadows | Systems, cities, "how it works" | `@remotion/three` with orthographic camera, or CSS 3D transforms |
+| Paper-cut stop-motion | Hand-moved cutouts at 10–12 fps on a lightbox, hands-off feel | Torn edges, paper fibre, cast shadows | Stories, culture, emotion | Stepped frames, `feTurbulence` edges, per-layer drop shadows |
+| Split-screen versus | Two worlds side by side that diverge, swap or merge | Matching palettes, one detail differs | Real vs AI, before vs after, myth vs fact | Two synced compositions, a sliding divider, match cuts across it |
+| Data sculpture | Numbers become physical objects that stack, pour, topple in space | Matte 3D, saffron light | Big statistics, scale | `@remotion/three` instancing, or layered 2.5D blocks |
+| Screen-POV | The viewer's own phone or laptop: notifications pile up, apps open, a call rings | Generic UI, finger taps, screen glare | Scams, apps, everyday tech | Generic UI components, simulated thumb and scroll physics |
+| Mixed-media collage | Type, cutouts, scribbles and UI layered and animated together | Halftone, marker, tape | Opinion, culture, fast news | Layered SVG with stepped jitter and marker draw-ons |
+
 - Everything is built from code, typography and vector or 3D shapes. Never stock footage or real photos.
 - "Documentary" and "Vox" mean the look and the editing grammar, not the content.
 
 ## 13. Kickoff line for Claude
 
 > Read BRAND.md first, then tools/reel_lab/PLAYBOOK_V2.md. Build the reel I paste below in the style named,
+> to the virality standard (section 14),
 > obeying the frame 0 rule (including the 8-frame hold and the blank-frame guard), the safe zones, the
 > seamless-loop ending, the engagement rules and the "solved together" rules. Bright theme only; OmniChain is
 > in the making, never live. Export a frame 0 still and a final MP4.
+
+## 14. Virality standard (the production-value floor)
+
+Every reel is built for virality, engagement, rewatchability and shareability. A reel that is one static layout
+with elements popping onto it is low effort and is not shipped. This applies to every series, including tweet reels,
+and to every production prompt Claude writes in a daily scripts doc.
+
+**Motion and camera**
+- Motion starts the moment the 8-frame hold ends; the camera moves out of the frame 0 poster, never sits still.
+- The camera is always doing something: push-ins, orbits, whip pans, dives through objects, match cuts,
+  parallax with at least three depth layers. No layout is held still for more than about 1.5 s.
+- A clear visual change on every beat (a cut, a camera move, a scale or perspective jump, a new world). Aim for
+  6 or more visual changes per 10 seconds; fewer than 4 fails.
+- Every scene has depth and texture: shadows, light, grain, paper or material. No flat empty backgrounds.
+
+**Style**
+- Each reel uses the style (section 12, or a new one) that makes its story most visual. No two reels on the same
+  day share a style.
+- Objects act, they don't just appear: things fall, stack, break, pour, fly, transform into the next scene.
+
+**Rewatch hooks** (at least two per reel)
+- A hidden detail or easter egg that rewards a second look.
+- A loop where the last line runs straight back into the first.
+- A reveal that changes the meaning of the opening.
+- A moment fast or dense enough that people pause or replay to catch it (never the key fact).
+
+**Share and comment triggers** (built into the content, not tacked on)
+- A number or fact people will want to repeat.
+- A relatable POV or "this is so us" moment.
+- A natural "send this to…" moment when the story suits it.
+- A question that takes a side (A or B, myth or fact), not a neutral poll.
+
+**Sound drives the edit**
+- Hits, risers, whooshes and impacts on every cut and action; transitions land on the beat.
+- A clear build and release; the drop or warm lift lands on the turn of the story.
+
+**Tweet reels move too.** The card keeps the locked look (section 12), but the reel is never just text fading
+in: the camera pushes and drifts, the orange line lands with an impact, and the story is staged around the card
+(the post gets quoted, replies and reactions pile in, a counter climbs, the key line is struck or highlighted).
+
+**Virality scorecard.** Score every production prompt before writing it and every reel before delivering it.
+All must be yes, or the reel is reworked before it is sent:
+1. Is something compelling happening in the first second, with motion right after the hold?
+2. Are there 6 or more visual changes per 10 seconds, with no still layout longer than about 1.5 s?
+3. Is the camera moving through real depth, not a flat layout?
+4. Are there at least two rewatch hooks?
+5. Is there a built-in share trigger and a comment trigger?
+6. Does the sound design hit every cut and action?
+7. Would someone send this to a friend without being asked?
+
