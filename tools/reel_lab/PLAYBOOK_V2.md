@@ -1,5 +1,7 @@
 # Omnix reels — Playbook v2 (from 19 Oct 2026)
 
+> **Brand rules live in [`BRAND.md`](../../BRAND.md)** at the repo root (look, colours, fonts, frame 0 rule, endings, engagement, accuracy). Read it first; it wins on any brand rule. This file is the daily workflow.
+
 This replaces the "how it looks" parts of `tools/brief_reel/PLAYBOOK.md`. The hard rules, voice settings and
 logs from that file still apply. The engine that makes these reels lives in `tools/reel_lab/` (see its README).
 The four styles were chosen by the owner on 18 Oct 2026 after comparing four re-cuts of Brief ep 7
