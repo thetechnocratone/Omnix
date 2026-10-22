@@ -197,3 +197,14 @@ That's the part we're building at Omnix. What's the most outdated "security step
 Title: 2026: Cars Can Fly. Also 2026: Enter the OTP 🙃 #Shorts
 Description: We can launch a car into the air and still prove it's really us with a text message. Trust needs an upgrade too.
 Tags: flying car, otp, tech humor, funny tech, 2026, digital identity, cybersecurity, omnix, shorts
+
+---
+
+## 23 Oct (v2 rebuilds) · scheduled in Buffer (X + LinkedIn), media at commit cd20603
+| Slot (IST) | Reel | X post | LinkedIn post |
+|---|---|---|---|
+| 09:00 | tweet/tweet6_is_it_ai_v2.mp4 | 6ada76e67471a7ac6dc88c5e | 6ada76eb7471a7ac6dc88e9a |
+| 13:00 | brief/brief12_ai_agents_maps_v2.mp4 | 6ada76f7793513d242f324bb | 6ada76fc1ef43d26398661fc |
+| 18:00 | explains/explains9_faceage_v2.mp4 | 6ada76ffaa18e1c19382dd0a | 6ada77031ef43d2639866307 |
+| 21:00 | solved/solved4_digital_arrest_v2.mp4 | 6ada77077471a7ac6dc89482 | 6ada770c7471a7ac6dc895bb |
+Covers: frame 0 of each reel (thumbnailOffset 0), also saved as *_cover.jpg beside each file.
